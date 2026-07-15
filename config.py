@@ -4,7 +4,7 @@ Pas COINS en TIMEFRAMES hier aan - de rest van de code hoeft niet gewijzigd te w
 """
 
 # Exchange (moet ondersteund worden door ccxt: https://github.com/ccxt/ccxt#supported-cryptocurrency-exchanges)
-EXCHANGE = "binance"
+EXCHANGE = "kraken"
 
 # Coins/pairs die gemonitord worden.
 # Optie A: handmatige lijst invullen hieronder in COINS
@@ -22,7 +22,7 @@ COINS = [
 # in plaats van de handmatige COINS-lijst hierboven.
 USE_TOP_N_BY_VOLUME = True
 TOP_N = 100
-QUOTE_CURRENCY = "USDT"  # alleen pairs tegen deze quote-munt meenemen
+QUOTE_CURRENCY = "USD"  # alleen pairs tegen deze quote-munt meenemen
 
 # Timeframes die gemonitord worden (moeten geldige ccxt-timeframes zijn)
 TIMEFRAMES = ["5m", "15m", "1h", "4h", "1d"]
