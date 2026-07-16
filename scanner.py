@@ -119,6 +119,20 @@ def main():
 
                 result = compute_signal(df, cfg)
 
+                # Tijdelijke debug-info voor BTC/USD, om te vergelijken met TradingView
+                if symbol == "BTC/USD":
+                    print(
+                        f"DEBUG {symbol}:{timeframe} -> "
+                        f"price_line={result['price_line']:.2f}, "
+                        f"upper_band={result['upper_band']:.2f}, "
+                        f"lower_band={result['lower_band']:.2f}, "
+                        f"rci_short={result['rci_short']:.2f}, "
+                        f"tdi_above_band={result['tdi_above_band']}, "
+                        f"tdi_below_band={result['tdi_below_band']}, "
+                        f"rci_above_level={result['rci_above_level']}, "
+                        f"rci_below_level={result['rci_below_level']}"
+                    )
+
                 previous_long = state.get(key_long, False)
                 current_long = result["both_true_long"]
                 if current_long and not previous_long:
