@@ -16,13 +16,13 @@ def rsi(series: pd.Series, length: int) -> pd.Series:
     avg_loss = loss.ewm(alpha=1 / length, min_periods=length).mean()
     rs = avg_gain / avg_loss.replace(0, np.nan)
     result = 100 - (100 / (1 + rs))
-    result = result.fillna(100)  # als avg_loss 0 is -> RSI 100
+    result = result.fillna(100)
     return result
 
 
 def compute_tdi(close: pd.Series, rsi_len: int, signal_len: int, band_len: int, band_mult: float):
     rsi_val = rsi(close, rsi_len)
-    signal_line = rsi_val.rolling(signal_len).mean()          # gele lijn
+    signal_line = rsi_val.rolling(signal_len).mean()
     basis = rsi_val.rolling(band_len).mean()
     dev = band_mult * rsi_val.rolling(band_len).std(ddof=0)
     upper_band = basis + dev
@@ -37,9 +37,8 @@ def compute_tdi(close: pd.Series, rsi_len: int, signal_len: int, band_len: int, 
 
 def _rci_window(window: np.ndarray) -> float:
     n = len(window)
-    # Prijs-rank: hoogste prijs = rank 1 (zelfde conventie als de klassieke RCI)
     price_rank = pd.Series(window).rank(method="min", ascending=False).values
-    time_rank = np.arange(1, n + 1)  # oudste candle in window = rank 1
+    time_rank = np.arange(n, 0, -1)
     d = time_rank - price_rank
     d2sum = np.sum(d ** 2)
     return 100 * (1 - (6 * d2sum) / (n * (n ** 2 - 1)))
@@ -50,16 +49,12 @@ def rci(close: pd.Series, length: int) -> pd.Series:
 
 
 def compute_signal(df: pd.DataFrame, cfg) -> dict:
-    """
-    df moet een 'close' kolom bevatten, oplopend gesorteerd op tijd (oudste eerst).
-    Retourneert de laatste waarden + of de combo-conditie nu waar is.
-    """
     close = df["close"]
 
     tdi = compute_tdi(close, cfg.TDI_RSI_LEN, cfg.TDI_SIGNAL_LEN, cfg.TDI_BAND_LEN, cfg.TDI_BAND_MULT)
     rci_short = rci(close, cfg.RCI_SHORT_LEN)
 
-    price_line_last = tdi["price_line"].iloc[-1]     # groene lijn: ruwe RSI, snelste
+    price_line_last = tdi["price_line"].iloc[-1]
     upper_band_last = tdi["upper_band"].iloc[-1]
     lower_band_last = tdi["lower_band"].iloc[-1]
     rci_short_last = rci_short.iloc[-1]
