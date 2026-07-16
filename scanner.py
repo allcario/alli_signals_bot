@@ -98,6 +98,8 @@ def main():
     exchange_class = getattr(ccxt, cfg.EXCHANGE)
     exchange = exchange_class({"enableRateLimit": True})
 
+    send_telegram_message("✅ Testbericht: de scanner draait en Telegram werkt!")
+
     if cfg.USE_TOP_N_BY_VOLUME:
         coins = get_top_n_symbols(exchange, cfg.QUOTE_CURRENCY, cfg.TOP_N)
         print(f"Top {cfg.TOP_N} op volume opgehaald: {len(coins)} pairs.")
