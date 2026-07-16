@@ -1,4 +1,4 @@
-python"""
+"""
 Hoofdscript: haalt candle-data op voor elke coin/timeframe, berekent TDI + RCI3Lines,
 en stuurt een Telegram-bericht zodra de combinatie-conditie van "niet waar" naar "waar" gaat.
 
