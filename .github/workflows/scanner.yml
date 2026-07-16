@@ -5,6 +5,10 @@ on:
     - cron: "*/5 * * * *"   # elke 5 minuten
   workflow_dispatch:          # laat je ook handmatig runnen via de GitHub-website
 
+concurrency:
+  group: crypto-scanner
+  cancel-in-progress: false   # wacht tot de vorige run klaar is, start niet parallel
+
 permissions:
   contents: write   # nodig om state.json terug te committen
 
