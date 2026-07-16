@@ -1,11 +1,10 @@
-"""
+python"""
 Hoofdscript: haalt candle-data op voor elke coin/timeframe, berekent TDI + RCI3Lines,
 en stuurt een Telegram-bericht zodra de combinatie-conditie van "niet waar" naar "waar" gaat.
 
 Wordt periodiek uitgevoerd (bijv. elke 5 min via GitHub Actions cron).
-Elke timeframe wordt alleen daadwerkelijk gecheckt op het moment dat de candle
-van die timeframe net gesloten is (dus 1u alleen elk heel uur, 1d alleen om
-middernacht UTC, etc.) - dat scheelt veel onnodige API-calls.
+Elke run wordt elke timeframe gecheckt, op basis van de laatst AFGESLOTEN candle
+(een nog lopende/onvolledige candle wordt altijd genegeerd).
 
 Status wordt bijgehouden in STATE_FILE zodat er geen dubbele alerts komen
 zolang de conditie aanhoudt.
@@ -23,8 +22,6 @@ import config as cfg
 from indicators import compute_signal
 from telegram import send_telegram_message
 
-# Lengte van elke timeframe in minuten - gebruikt om te bepalen wanneer een
-# candle van die timeframe daadwerkelijk sluit.
 TIMEFRAME_MINUTES = {
     "5m": 5,
     "15m": 15,
@@ -46,22 +43,7 @@ def save_state(state: dict):
         json.dump(state, f, indent=2)
 
 
-def should_check_timeframe(timeframe: str, now: datetime) -> bool:
-    """
-    True als deze timeframe nu net een candle heeft gesloten (uitgaande van
-    een cron die elke 5 minuten draait, op UTC-tijd).
-    """
-    tf_minutes = TIMEFRAME_MINUTES[timeframe]
-    minutes_since_midnight = now.hour * 60 + now.minute
-    return minutes_since_midnight % tf_minutes == 0
-
-
 def fetch_closed_ohlcv(exchange, symbol: str, timeframe: str, limit: int) -> pd.DataFrame:
-    """
-    Haalt candles op en verwijdert de laatste candle als die nog niet
-    volledig gesloten is (exchanges geven vaak de 'live' candle-in-wording
-    mee als laatste rij).
-    """
     raw = exchange.fetch_ohlcv(symbol, timeframe=timeframe, limit=limit)
     df = pd.DataFrame(raw, columns=["timestamp", "open", "high", "low", "close", "volume"])
 
@@ -71,7 +53,7 @@ def fetch_closed_ohlcv(exchange, symbol: str, timeframe: str, limit: int) -> pd.
     if len(df) > 0:
         last_close_time = df["timestamp"].iloc[-1] + tf_ms
         if last_close_time > now_ms:
-            df = df.iloc[:-1]  # laatste candle is nog niet gesloten, weggooien
+            df = df.iloc[:-1]
 
     return df
 
@@ -96,7 +78,6 @@ def format_message(symbol: str, timeframe: str, result: dict, direction: str) ->
 
 
 def get_top_n_symbols(exchange, quote: str, n: int) -> list:
-    """Haalt de top N USDT-pairs op basis van 24u-handelsvolume op."""
     markets = exchange.load_markets()
     tickers = exchange.fetch_tickers()
 
@@ -123,15 +104,10 @@ def main():
     else:
         coins = cfg.COINS
 
-    now = datetime.now(timezone.utc)
     state = load_state()
     new_alerts = []
 
     for timeframe in cfg.TIMEFRAMES:
-        if not should_check_timeframe(timeframe, now):
-            print(f"{timeframe}: candle nog niet gesloten, sla over.")
-            continue
-
         for symbol in coins:
             key_long = f"{symbol}:{timeframe}:long"
             key_short = f"{symbol}:{timeframe}:short"
@@ -143,7 +119,6 @@ def main():
 
                 result = compute_signal(df, cfg)
 
-                # LONG
                 previous_long = state.get(key_long, False)
                 current_long = result["both_true_long"]
                 if current_long and not previous_long:
@@ -152,7 +127,6 @@ def main():
                     print(f"SIGNAAL: {key_long}")
                 state[key_long] = current_long
 
-                # SHORT
                 previous_short = state.get(key_short, False)
                 current_short = result["both_true_short"]
                 if current_short and not previous_short:
@@ -164,14 +138,10 @@ def main():
             except Exception as e:
                 print(f"Fout bij {symbol}:{timeframe}: {e}")
 
-            time.sleep(exchange.rateLimit / 1000)  # netjes binnen exchange rate limit blijven
+            time.sleep(exchange.rateLimit / 1000)
 
     save_state(state)
     print(f"Klaar. {len(new_alerts)} nieuwe signalen: {new_alerts}")
-
-
-if __name__ == "__main__":
-    main()
 
 
 if __name__ == "__main__":
