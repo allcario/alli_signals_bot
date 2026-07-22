@@ -33,7 +33,7 @@
   "TAO/USD:1h:short": false,
   "NIGHT/USD:1h:long": false,
   "NIGHT/USD:1h:short": false,
-  "LTC/USD:1h:long": false,
+  "LTC/USD:1h:long": true,
   "LTC/USD:1h:short": false,
   "ESPORTS/USD:1h:long": false,
   "ESPORTS/USD:1h:short": false,
@@ -660,5 +660,9 @@
   "ZAMA/USD:30m:long": false,
   "ZAMA/USD:30m:short": false,
   "PENDLE/USD:30m:long": false,
-  "PENDLE/USD:30m:short": false
+  "PENDLE/USD:30m:short": false,
+  "ZAMA/USD:1h:long": false,
+  "ZAMA/USD:1h:short": false,
+  "LCAP/USD:1h:long": false,
+  "LCAP/USD:1h:short": false
 }
