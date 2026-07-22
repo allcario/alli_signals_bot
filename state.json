@@ -48,7 +48,7 @@
   "SYN/USD:1h:long": false,
   "SYN/USD:1h:short": false,
   "PUMP/USD:1h:long": false,
-  "PUMP/USD:1h:short": true,
+  "PUMP/USD:1h:short": false,
   "HBAR/USD:1h:long": false,
   "HBAR/USD:1h:short": false,
   "VVV/USD:1h:long": false,
@@ -678,5 +678,9 @@
   "LCAP/USD:30m:long": false,
   "LCAP/USD:30m:short": false,
   "XCN/USD:30m:long": false,
-  "XCN/USD:30m:short": false
+  "XCN/USD:30m:short": false,
+  "PENDLE/USD:1h:long": false,
+  "PENDLE/USD:1h:short": false,
+  "UAI/USD:1h:long": false,
+  "UAI/USD:1h:short": false
 }
