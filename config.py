@@ -18,14 +18,17 @@ COINS = [
     "ADA/USDT",
 ]
 
-# Zet op True om automatisch de top N USDT-pairs op 24u-handelsvolume te gebruiken
+# Zet op True om automatisch de top N pairs op 24u-handelsvolume te gebruiken
 # in plaats van de handmatige COINS-lijst hierboven.
 USE_TOP_N_BY_VOLUME = True
 TOP_N = 100
 QUOTE_CURRENCY = "USD"  # alleen pairs tegen deze quote-munt meenemen
 
-# Timeframes die gemonitord worden (moeten geldige ccxt-timeframes zijn)
-TIMEFRAMES = ["5m", "15m", "1h", "4h", "1d"]
+# Timeframes die gemonitord worden (moeten geldige ccxt-timeframes zijn).
+# Deze lijst wordt alleen gebruikt als scanner.py ZONDER argument wordt gestart
+# (dus bij een handmatige volledige run). De losse workflows in .github/workflows/
+# geven elk hun eigen timeframe mee als argument, bijv: python scanner.py 1h
+TIMEFRAMES = ["30m", "1h", "4h", "12h", "1d"]
 
 # Aantal historische candles dat opgehaald wordt om de indicatoren te berekenen
 # (moet ruim boven de langste indicator-lengte liggen, zie hieronder: RCI long = 52)
