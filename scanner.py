@@ -2,16 +2,18 @@
 Hoofdscript: haalt candle-data op voor elke coin/timeframe, berekent TDI + RCI3Lines,
 en stuurt een Telegram-bericht zodra de combinatie-conditie van "niet waar" naar "waar" gaat.
 
-Wordt periodiek uitgevoerd (bijv. elke 5 min via GitHub Actions cron).
-Elke run wordt elke timeframe gecheckt, op basis van de laatst AFGESLOTEN candle
-(een nog lopende/onvolledige candle wordt altijd genegeerd).
+Kan op 2 manieren aangeroepen worden:
+  python scanner.py          -> checkt ALLE timeframes uit config.py (oude gedrag)
+  python scanner.py 1h       -> checkt ALLEEN de opgegeven timeframe (voor losse workflows)
 
-Status wordt bijgehouden in STATE_FILE zodat er geen dubbele alerts komen
-zolang de conditie aanhoudt.
+Gebruikt de laatst AFGESLOTEN candle (een nog lopende/onvolledige candle wordt genegeerd).
+Status wordt bijgehouden in STATE_FILE zodat er geen dubbele alerts komen zolang de
+conditie aanhoudt.
 """
 
 import json
 import os
+import sys
 import time
 from datetime import datetime, timezone
 
@@ -25,8 +27,10 @@ from telegram import send_telegram_message
 TIMEFRAME_MINUTES = {
     "5m": 5,
     "15m": 15,
+    "30m": 30,
     "1h": 60,
     "4h": 240,
+    "12h": 720,
     "1d": 1440,
 }
 
@@ -95,6 +99,14 @@ def get_top_n_symbols(exchange, quote: str, n: int) -> list:
 
 
 def main():
+    # Timeframe(s) bepalen: via CLI-argument (losse workflow) of alles uit config.py
+    if len(sys.argv) > 1:
+        timeframes_to_check = [sys.argv[1]]
+        print(f"Alleen timeframe {sys.argv[1]} wordt gecheckt (via CLI-argument).")
+    else:
+        timeframes_to_check = cfg.TIMEFRAMES
+        print(f"Alle timeframes uit config.py worden gecheckt: {timeframes_to_check}")
+
     exchange_class = getattr(ccxt, cfg.EXCHANGE)
     exchange = exchange_class({"enableRateLimit": True})
 
@@ -107,7 +119,7 @@ def main():
     state = load_state()
     new_alerts = []
 
-    for timeframe in cfg.TIMEFRAMES:
+    for timeframe in timeframes_to_check:
         for symbol in coins:
             key_long = f"{symbol}:{timeframe}:long"
             key_short = f"{symbol}:{timeframe}:short"
@@ -118,20 +130,6 @@ def main():
                     continue
 
                 result = compute_signal(df, cfg)
-
-                # Tijdelijke debug-info voor BTC/USD, om te vergelijken met TradingView
-                if symbol == "BTC/USD":
-                    print(
-                        f"DEBUG {symbol}:{timeframe} -> "
-                        f"price_line={result['price_line']:.2f}, "
-                        f"upper_band={result['upper_band']:.2f}, "
-                        f"lower_band={result['lower_band']:.2f}, "
-                        f"rci_short={result['rci_short']:.2f}, "
-                        f"tdi_above_band={result['tdi_above_band']}, "
-                        f"tdi_below_band={result['tdi_below_band']}, "
-                        f"rci_above_level={result['rci_above_level']}, "
-                        f"rci_below_level={result['rci_below_level']}"
-                    )
 
                 previous_long = state.get(key_long, False)
                 current_long = result["both_true_long"]
