@@ -446,7 +446,7 @@
   "PUMP/USD:4h:long": false,
   "PUMP/USD:4h:short": false,
   "SYN/USD:4h:long": false,
-  "SYN/USD:4h:short": true,
+  "SYN/USD:4h:short": false,
   "VVV/USD:4h:long": false,
   "VVV/USD:4h:short": false,
   "BILL/USD:4h:long": false,
@@ -942,5 +942,13 @@
   "XAUT/USD:30m:long": false,
   "XAUT/USD:30m:short": false,
   "DAI/USD:1h:long": false,
-  "DAI/USD:1h:short": false
+  "DAI/USD:1h:short": false,
+  "ADI/USD:4h:long": true,
+  "ADI/USD:4h:short": false,
+  "DAI/USD:4h:long": false,
+  "DAI/USD:4h:short": false,
+  "CAP/USD:4h:long": true,
+  "CAP/USD:4h:short": false,
+  "XAUT/USD:4h:long": false,
+  "XAUT/USD:4h:short": false
 }
