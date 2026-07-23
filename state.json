@@ -940,5 +940,7 @@
   "CAP/USD:30m:long": false,
   "CAP/USD:30m:short": false,
   "XAUT/USD:30m:long": false,
-  "XAUT/USD:30m:short": false
+  "XAUT/USD:30m:short": false,
+  "DAI/USD:1h:long": false,
+  "DAI/USD:1h:short": false
 }
