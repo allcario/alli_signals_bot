@@ -1006,5 +1006,7 @@
   "DCR/USD:4h:long": false,
   "DCR/USD:4h:short": false,
   "CXT/USD:4h:long": false,
-  "CXT/USD:4h:short": false
+  "CXT/USD:4h:short": false,
+  "CXT/USD:30m:long": false,
+  "CXT/USD:30m:short": false
 }
