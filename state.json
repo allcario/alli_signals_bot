@@ -641,7 +641,7 @@
   "BLESS/USD:4h:short": true,
   "BLUR/USD:4h:long": false,
   "BLUR/USD:4h:short": false,
-  "SLX/USD:4h:long": true,
+  "SLX/USD:4h:long": false,
   "SLX/USD:4h:short": false,
   "SNX/USD:4h:long": false,
   "SNX/USD:4h:short": false,
@@ -1010,5 +1010,7 @@
   "CXT/USD:30m:long": false,
   "CXT/USD:30m:short": false,
   "CXT/USD:1h:long": false,
-  "CXT/USD:1h:short": false
+  "CXT/USD:1h:short": false,
+  "POPCAT/USD:4h:long": false,
+  "POPCAT/USD:4h:short": false
 }
