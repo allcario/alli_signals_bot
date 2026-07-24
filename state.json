@@ -1018,5 +1018,7 @@
   "M/USD:30m:long": false,
   "M/USD:30m:short": false,
   "M/USD:4h:long": false,
-  "M/USD:4h:short": false
+  "M/USD:4h:short": false,
+  "GIGA/USD:30m:long": false,
+  "GIGA/USD:30m:short": false
 }
