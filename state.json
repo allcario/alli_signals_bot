@@ -934,7 +934,7 @@
   "ADI/USD:30m:long": false,
   "ADI/USD:30m:short": false,
   "KTA/USD:30m:long": false,
-  "KTA/USD:30m:short": false,
+  "KTA/USD:30m:short": true,
   "DAI/USD:30m:long": false,
   "DAI/USD:30m:short": false,
   "CAP/USD:30m:long": false,
