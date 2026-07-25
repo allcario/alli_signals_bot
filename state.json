@@ -297,7 +297,7 @@
   "EURC/USD:30m:short": false,
   "FLR/USD:30m:long": false,
   "FLR/USD:30m:short": false,
-  "FIL/USD:30m:long": false,
+  "FIL/USD:30m:long": true,
   "FIL/USD:30m:short": false,
   "BNB/USD:30m:long": false,
   "BNB/USD:30m:short": false,
