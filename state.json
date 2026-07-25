@@ -866,7 +866,7 @@
   "ZRO/USD:1d:long": false,
   "ZRO/USD:1d:short": false,
   "ATOM/USD:1d:long": false,
-  "ATOM/USD:1d:short": false,
+  "ATOM/USD:1d:short": true,
   "UAI/USD:1d:long": false,
   "UAI/USD:1d:short": false,
   "SCRT/USD:1d:long": false,
@@ -1072,5 +1072,9 @@
   "SEI/USD:1h:long": false,
   "SEI/USD:1h:short": true,
   "SEI/USD:30m:long": false,
-  "SEI/USD:30m:short": false
+  "SEI/USD:30m:short": false,
+  "SEI/USD:1d:long": false,
+  "SEI/USD:1d:short": true,
+  "DCR/USD:1d:long": false,
+  "DCR/USD:1d:short": false
 }
