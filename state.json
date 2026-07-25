@@ -1086,5 +1086,7 @@
   "US/USD:1h:long": false,
   "US/USD:1h:short": false,
   "US/USD:30m:long": false,
-  "US/USD:30m:short": true
+  "US/USD:30m:short": true,
+  "CVX/USD:1h:long": false,
+  "CVX/USD:1h:short": false
 }
