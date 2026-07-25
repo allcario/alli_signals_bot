@@ -249,7 +249,7 @@
   "HBAR/USD:30m:short": false,
   "PUMP/USD:30m:long": false,
   "PUMP/USD:30m:short": false,
-  "VVV/USD:30m:long": true,
+  "VVV/USD:30m:long": false,
   "VVV/USD:30m:short": false,
   "PAXG/USD:30m:long": false,
   "PAXG/USD:30m:short": false,
