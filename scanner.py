@@ -35,15 +35,17 @@ TIMEFRAME_MINUTES = {
 }
 
 
-def load_state() -> dict:
-    if os.path.exists(cfg.STATE_FILE):
-        with open(cfg.STATE_FILE, "r") as f:
+def load_state(timeframe: str) -> dict:
+    state_file = cfg.STATE_FILE_TEMPLATE.format(timeframe=timeframe)
+    if os.path.exists(state_file):
+        with open(state_file, "r") as f:
             return json.load(f)
     return {}
 
 
-def save_state(state: dict):
-    with open(cfg.STATE_FILE, "w") as f:
+def save_state(state: dict, timeframe: str):
+    state_file = cfg.STATE_FILE_TEMPLATE.format(timeframe=timeframe)
+    with open(state_file, "w") as f:
         json.dump(state, f, indent=2)
 
 
@@ -116,7 +118,7 @@ def main():
     else:
         coins = cfg.COINS
 
-    state = load_state()
+    state = load_state(timeframes_to_check[0])
     new_alerts = []
 
     for timeframe in timeframes_to_check:
@@ -152,7 +154,7 @@ def main():
 
             time.sleep(exchange.rateLimit / 1000)
 
-    save_state(state)
+    save_state(state, timeframes_to_check[0])
     print(f"Klaar. {len(new_alerts)} nieuwe signalen: {new_alerts}")
 
 
