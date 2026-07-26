@@ -63,7 +63,7 @@
   "RE/USD:30m:short": false,
   "LINK/USD:30m:long": false,
   "LINK/USD:30m:short": false,
-  "ONDO/USD:30m:long": true,
+  "ONDO/USD:30m:long": false,
   "ONDO/USD:30m:short": false,
   "AAVE/USD:30m:long": false,
   "AAVE/USD:30m:short": false,
@@ -186,7 +186,7 @@
   "MANA/USD:30m:long": false,
   "MANA/USD:30m:short": false,
   "M/USD:30m:long": false,
-  "M/USD:30m:short": true,
+  "M/USD:30m:short": false,
   "POPCAT/USD:30m:long": false,
   "POPCAT/USD:30m:short": true,
   "DASH/USD:30m:long": false,
@@ -228,7 +228,7 @@
   "ASSET/USD:30m:long": false,
   "ASSET/USD:30m:short": false,
   "MINA/USD:30m:long": false,
-  "MINA/USD:30m:short": false,
+  "MINA/USD:30m:short": true,
   "APT/USD:30m:long": false,
   "APT/USD:30m:short": false
 }
