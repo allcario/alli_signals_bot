@@ -148,7 +148,7 @@
   "PUMP/USD:30m:long": false,
   "PUMP/USD:30m:short": false,
   "ENA/USD:30m:long": false,
-  "ENA/USD:30m:short": true,
+  "ENA/USD:30m:short": false,
   "BCH/USD:30m:long": false,
   "BCH/USD:30m:short": false,
   "PTB/USD:30m:long": false,
@@ -210,5 +210,7 @@
   "NANO/USD:30m:long": false,
   "NANO/USD:30m:short": false,
   "EURC/USD:30m:long": false,
-  "EURC/USD:30m:short": false
+  "EURC/USD:30m:short": false,
+  "PIEVERSE/USD:30m:long": false,
+  "PIEVERSE/USD:30m:short": false
 }
