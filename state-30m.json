@@ -178,7 +178,7 @@
   "XCN/USD:30m:long": false,
   "XCN/USD:30m:short": false,
   "FIL/USD:30m:long": false,
-  "FIL/USD:30m:short": true,
+  "FIL/USD:30m:short": false,
   "OXT/USD:30m:long": false,
   "OXT/USD:30m:short": false,
   "SKY/USD:30m:long": false,
