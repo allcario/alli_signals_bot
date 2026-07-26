@@ -1,8 +1,6 @@
 name: Scanner 30m
 
 on:
-  schedule:
-    - cron: "2,32 * * * *"   # 2 min na elke halfuur-sluiting (xx:02 en xx:32 UTC)
   workflow_dispatch:
 
 concurrency:
