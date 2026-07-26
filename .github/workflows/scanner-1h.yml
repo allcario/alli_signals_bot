@@ -1,8 +1,6 @@
 name: Scanner 1h
 
 on:
-  schedule:
-    - cron: "2 * * * *"   # 2 min na elk heel uur (xx:02 UTC)
   workflow_dispatch:
 
 concurrency:
