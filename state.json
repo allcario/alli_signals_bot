@@ -1150,5 +1150,9 @@
   "US/USD:1d:long": false,
   "US/USD:1d:short": false,
   "PTB/USD:1h:long": false,
-  "PTB/USD:1h:short": false
+  "PTB/USD:1h:short": false,
+  "DAI/USD:1d:long": false,
+  "DAI/USD:1d:short": false,
+  "PTB/USD:1d:long": false,
+  "PTB/USD:1d:short": false
 }
