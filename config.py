@@ -48,4 +48,4 @@ RCI_LEVEL = 80
 
 # Bestand waarin de laatste bekende signaal-status wordt bijgehouden
 # (zodat je niet elke run opnieuw een alert krijgt zolang de conditie aanhoudt)
-STATE_FILE = "state.json"
+STATE_FILE_TEMPLATE = "state-{timeframe}.json"
