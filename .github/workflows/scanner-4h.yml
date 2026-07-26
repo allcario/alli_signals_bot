@@ -1,8 +1,6 @@
 name: Scanner 4h
 
 on:
-  schedule:
-    - cron: "2 0,4,8,12,16,20 * * *"   # 2 min na elke 4u-sluiting (00:02, 04:02, ... UTC)
   workflow_dispatch:
 
 concurrency:
