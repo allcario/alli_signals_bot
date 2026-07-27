@@ -31,12 +31,12 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scanner.py 1d
 
-     - name: Commit updated state
+      - name: Commit updated state
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add state-12h.json
-          git diff --quiet --cached || git commit -m "Update signal state (12h) [skip ci]"
+          git add state-1d.json
+          git diff --quiet --cached || git commit -m "Update signal state (1d) [skip ci]"
           for i in 1 2 3 4 5; do
             git pull --rebase && git push && break
             echo "Push mislukt, poging $i, probeer opnieuw over 5 seconden..."
