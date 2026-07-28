@@ -159,7 +159,7 @@
   "LCX/USD:1h:short": false,
   "STX/USD:1h:long": false,
   "STX/USD:1h:short": false,
-  "PROS/USD:1h:long": false,
+  "PROS/USD:1h:long": true,
   "PROS/USD:1h:short": false,
   "ZBCN/USD:1h:long": false,
   "ZBCN/USD:1h:short": false,
