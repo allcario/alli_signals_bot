@@ -45,7 +45,7 @@
   "PLAY/USD:1h:short": false,
   "TAO/USD:1h:long": false,
   "TAO/USD:1h:short": false,
-  "LTC/USD:1h:long": false,
+  "LTC/USD:1h:long": true,
   "LTC/USD:1h:short": false,
   "GBP/USD:1h:long": false,
   "GBP/USD:1h:short": false,
@@ -84,7 +84,7 @@
   "HBAR/USD:1h:long": false,
   "HBAR/USD:1h:short": false,
   "WEMIX/USD:1h:long": false,
-  "WEMIX/USD:1h:short": false,
+  "WEMIX/USD:1h:short": true,
   "STRK/USD:1h:long": false,
   "STRK/USD:1h:short": false,
   "DAI/USD:1h:long": false,
@@ -139,7 +139,7 @@
   "AERO/USD:1h:short": false,
   "PENDLE/USD:1h:long": false,
   "PENDLE/USD:1h:short": false,
-  "MON/USD:1h:long": true,
+  "MON/USD:1h:long": false,
   "MON/USD:1h:short": false,
   "EVAA/USD:1h:long": false,
   "EVAA/USD:1h:short": true,
@@ -274,5 +274,9 @@
   "EIGEN/USD:1h:long": false,
   "EIGEN/USD:1h:short": false,
   "REZ/USD:1h:long": false,
-  "REZ/USD:1h:short": false
+  "REZ/USD:1h:short": false,
+  "TRAC/USD:1h:long": false,
+  "TRAC/USD:1h:short": false,
+  "ACH/USD:1h:long": false,
+  "ACH/USD:1h:short": false
 }
