@@ -1,6 +1,6 @@
 {
   "USDT/USD:1h:long": false,
-  "USDT/USD:1h:short": true,
+  "USDT/USD:1h:short": false,
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
   "USDC/USD:1h:long": false,
@@ -139,7 +139,7 @@
   "AERO/USD:1h:short": false,
   "PENDLE/USD:1h:long": false,
   "PENDLE/USD:1h:short": false,
-  "MON/USD:1h:long": false,
+  "MON/USD:1h:long": true,
   "MON/USD:1h:short": false,
   "EVAA/USD:1h:long": false,
   "EVAA/USD:1h:short": false,
