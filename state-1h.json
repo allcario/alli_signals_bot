@@ -84,7 +84,7 @@
   "HBAR/USD:1h:long": false,
   "HBAR/USD:1h:short": false,
   "WEMIX/USD:1h:long": false,
-  "WEMIX/USD:1h:short": true,
+  "WEMIX/USD:1h:short": false,
   "STRK/USD:1h:long": false,
   "STRK/USD:1h:short": false,
   "DAI/USD:1h:long": false,
@@ -284,5 +284,7 @@
   "REKT/USD:1h:long": false,
   "REKT/USD:1h:short": false,
   "SOON/USD:1h:long": false,
-  "SOON/USD:1h:short": false
+  "SOON/USD:1h:short": false,
+  "OP/USD:1h:long": false,
+  "OP/USD:1h:short": false
 }
