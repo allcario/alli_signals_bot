@@ -80,3 +80,17 @@ def compute_signal(df: pd.DataFrame, cfg) -> dict:
         "rci_short": float(rci_short_last),
         "close": float(close.iloc[-1]),
     }
+def compute_signal_series(df: pd.DataFrame, cfg) -> dict:
+    """
+    Zelfde als compute_signal, maar geeft de VOLLEDIGE tijdreeksen terug
+    (niet alleen de laatste waarde) - nodig om een chart te tekenen.
+    """
+    close = df["close"]
+    tdi = compute_tdi(close, cfg.TDI_RSI_LEN, cfg.TDI_SIGNAL_LEN, cfg.TDI_BAND_LEN, cfg.TDI_BAND_MULT)
+    rci_short = rci(close, cfg.RCI_SHORT_LEN)
+    return {
+        "price_line": tdi["price_line"],
+        "upper_band": tdi["upper_band"],
+        "lower_band": tdi["lower_band"],
+        "rci_short": rci_short,
+    }
