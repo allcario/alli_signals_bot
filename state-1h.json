@@ -43,7 +43,7 @@
   "XMR/USD:1h:short": false,
   "PLAY/USD:1h:long": false,
   "PLAY/USD:1h:short": false,
-  "TAO/USD:1h:long": false,
+  "TAO/USD:1h:long": true,
   "TAO/USD:1h:short": false,
   "LTC/USD:1h:long": false,
   "LTC/USD:1h:short": false,
