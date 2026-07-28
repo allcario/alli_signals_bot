@@ -1,14 +1,15 @@
 """
 Hoofdscript: haalt candle-data op voor elke coin/timeframe, berekent TDI + RCI3Lines,
-en stuurt een Telegram-bericht zodra de combinatie-conditie van "niet waar" naar "waar" gaat.
+en stuurt een Telegram-bericht (+ optioneel een chart-afbeelding) zodra de combinatie-
+conditie van "niet waar" naar "waar" gaat.
 
 Kan op 2 manieren aangeroepen worden:
   python scanner.py          -> checkt ALLE timeframes uit config.py (oude gedrag)
   python scanner.py 1h       -> checkt ALLEEN de opgegeven timeframe (voor losse workflows)
 
 Gebruikt de laatst AFGESLOTEN candle (een nog lopende/onvolledige candle wordt genegeerd).
-Status wordt bijgehouden in STATE_FILE zodat er geen dubbele alerts komen zolang de
-conditie aanhoudt.
+Status wordt per timeframe apart bijgehouden (state-<timeframe>.json) zodat de losse
+workflows elkaar nooit in de weg zitten.
 """
 
 import json
@@ -22,7 +23,7 @@ import pandas as pd
 
 import config as cfg
 from indicators import compute_signal
-from telegram import send_telegram_message
+from telegram import send_telegram_message, send_telegram_photo
 
 TIMEFRAME_MINUTES = {
     "5m": 5,
@@ -100,8 +101,26 @@ def get_top_n_symbols(exchange, quote: str, n: int) -> list:
     return [symbol for symbol, _ in candidates[:n]]
 
 
+def send_signal(symbol: str, timeframe: str, result: dict, direction: str, df: pd.DataFrame):
+    """Stuurt het tekstbericht, en (indien ingeschakeld) een chart-afbeelding erbij."""
+    message = format_message(symbol, timeframe, result, direction)
+
+    if not cfg.SEND_CHART_IMAGE:
+        send_telegram_message(message)
+        return
+
+    try:
+        from chart import generate_chart
+        image_path = f"/tmp/chart_{symbol.replace('/', '_')}_{timeframe}_{direction}.png"
+        generate_chart(df, cfg, symbol, timeframe, direction, image_path, lookback=cfg.CHART_LOOKBACK)
+        send_telegram_photo(image_path, caption=message)
+        os.remove(image_path)
+    except Exception as e:
+        print(f"Chart-generatie mislukt voor {symbol}:{timeframe} ({e}), val terug op tekstbericht.")
+        send_telegram_message(message)
+
+
 def main():
-    # Timeframe(s) bepalen: via CLI-argument (losse workflow) of alles uit config.py
     if len(sys.argv) > 1:
         timeframes_to_check = [sys.argv[1]]
         print(f"Alleen timeframe {sys.argv[1]} wordt gecheckt (via CLI-argument).")
@@ -118,10 +137,11 @@ def main():
     else:
         coins = cfg.COINS
 
-    state = load_state(timeframes_to_check[0])
     new_alerts = []
 
     for timeframe in timeframes_to_check:
+        state = load_state(timeframe)
+
         for symbol in coins:
             key_long = f"{symbol}:{timeframe}:long"
             key_short = f"{symbol}:{timeframe}:short"
@@ -136,7 +156,7 @@ def main():
                 previous_long = state.get(key_long, False)
                 current_long = result["both_true_long"]
                 if current_long and not previous_long:
-                    send_telegram_message(format_message(symbol, timeframe, result, "LONG"))
+                    send_signal(symbol, timeframe, result, "LONG", df)
                     new_alerts.append(key_long)
                     print(f"SIGNAAL: {key_long}")
                 state[key_long] = current_long
@@ -144,7 +164,7 @@ def main():
                 previous_short = state.get(key_short, False)
                 current_short = result["both_true_short"]
                 if current_short and not previous_short:
-                    send_telegram_message(format_message(symbol, timeframe, result, "SHORT"))
+                    send_signal(symbol, timeframe, result, "SHORT", df)
                     new_alerts.append(key_short)
                     print(f"SIGNAAL: {key_short}")
                 state[key_short] = current_short
@@ -154,7 +174,8 @@ def main():
 
             time.sleep(exchange.rateLimit / 1000)
 
-    save_state(state, timeframes_to_check[0])
+        save_state(state, timeframe)
+
     print(f"Klaar. {len(new_alerts)} nieuwe signalen: {new_alerts}")
 
 
