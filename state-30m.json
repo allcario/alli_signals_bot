@@ -141,7 +141,7 @@
   "PENDLE/USD:30m:short": false,
   "MON/USD:30m:long": false,
   "MON/USD:30m:short": false,
-  "EVAA/USD:30m:long": false,
+  "EVAA/USD:30m:long": true,
   "EVAA/USD:30m:short": false,
   "KAITO/USD:30m:long": false,
   "KAITO/USD:30m:short": false,
