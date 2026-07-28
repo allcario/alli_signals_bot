@@ -49,3 +49,6 @@ RCI_LEVEL = 80
 # Bestand waarin de laatste bekende signaal-status wordt bijgehouden
 # (zodat je niet elke run opnieuw een alert krijgt zolang de conditie aanhoudt)
 STATE_FILE_TEMPLATE = "state-{timeframe}.json"
+# ================= CHART-AFBEELDING SETTINGS =================
+SEND_CHART_IMAGE = True   # zet op False om alleen tekstberichten te versturen, geen plaatje
+CHART_LOOKBACK = 60       # aantal candles dat in de afbeelding getoond wordt
