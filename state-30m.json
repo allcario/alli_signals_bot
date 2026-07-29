@@ -99,7 +99,7 @@
   "LCAP/USD:30m:short": false,
   "JUP/USD:30m:long": false,
   "JUP/USD:30m:short": true,
-  "SYN/USD:30m:long": false,
+  "SYN/USD:30m:long": true,
   "SYN/USD:30m:short": false,
   "ICP/USD:30m:long": false,
   "ICP/USD:30m:short": false,
