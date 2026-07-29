@@ -1,12 +1,12 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": false,
+  "USDT/USD:30m:short": true,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
   "ETH/USD:30m:short": false,
   "USDC/USD:30m:long": false,
-  "USDC/USD:30m:short": false,
+  "USDC/USD:30m:short": true,
   "EUR/USD:30m:long": false,
   "EUR/USD:30m:short": false,
   "SOL/USD:30m:long": false,
@@ -62,7 +62,7 @@
   "VVV/USD:30m:long": false,
   "VVV/USD:30m:short": false,
   "DASH/USD:30m:long": false,
-  "DASH/USD:30m:short": true,
+  "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
   "USDG/USD:30m:short": false,
   "PLAY/USD:30m:long": false,
@@ -84,7 +84,7 @@
   "NIGHT/USD:30m:long": false,
   "NIGHT/USD:30m:short": false,
   "AUD/USD:30m:long": false,
-  "AUD/USD:30m:short": false,
+  "AUD/USD:30m:short": true,
   "PENGU/USD:30m:long": false,
   "PENGU/USD:30m:short": false,
   "PAXG/USD:30m:long": false,
@@ -228,5 +228,9 @@
   "ZEREBRO/USD:30m:long": false,
   "ZEREBRO/USD:30m:short": false,
   "DCR/USD:30m:long": false,
-  "DCR/USD:30m:short": false
+  "DCR/USD:30m:short": false,
+  "USDE/USD:30m:long": false,
+  "USDE/USD:30m:short": false,
+  "PYTH/USD:30m:long": false,
+  "PYTH/USD:30m:short": false
 }
