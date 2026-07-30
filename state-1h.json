@@ -277,7 +277,7 @@
   "REZ/USD:1h:short": false,
   "TRAC/USD:1h:long": false,
   "TRAC/USD:1h:short": false,
-  "ACH/USD:1h:long": true,
+  "ACH/USD:1h:long": false,
   "ACH/USD:1h:short": false,
   "TLM/USD:1h:long": false,
   "TLM/USD:1h:short": false,
@@ -314,5 +314,7 @@
   "ASTER/USD:1h:long": false,
   "ASTER/USD:1h:short": false,
   "XMN/USD:1h:long": false,
-  "XMN/USD:1h:short": false
+  "XMN/USD:1h:short": false,
+  "CSPR/USD:1h:long": false,
+  "CSPR/USD:1h:short": false
 }
