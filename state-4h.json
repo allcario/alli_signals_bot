@@ -4,7 +4,7 @@
   "BTC/USD:4h:long": false,
   "BTC/USD:4h:short": false,
   "USDC/USD:4h:long": false,
-  "USDC/USD:4h:short": false,
+  "USDC/USD:4h:short": true,
   "ETH/USD:4h:long": false,
   "ETH/USD:4h:short": false,
   "SOL/USD:4h:long": false,
@@ -291,7 +291,7 @@
   "KTA/USD:4h:short": true,
   "UAI/USD:4h:long": true,
   "UAI/USD:4h:short": false,
-  "FLOW/USD:4h:long": true,
+  "FLOW/USD:4h:long": false,
   "FLOW/USD:4h:short": false,
   "LMWR/USD:4h:long": false,
   "LMWR/USD:4h:short": false,
@@ -300,5 +300,7 @@
   "MNT/USD:4h:long": false,
   "MNT/USD:4h:short": false,
   "ASTER/USD:4h:long": false,
-  "ASTER/USD:4h:short": true
+  "ASTER/USD:4h:short": true,
+  "XMN/USD:4h:long": false,
+  "XMN/USD:4h:short": false
 }
