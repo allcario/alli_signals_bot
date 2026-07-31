@@ -320,5 +320,7 @@
   "CFX/USD:4h:long": false,
   "CFX/USD:4h:short": false,
   "RLC/USD:4h:long": false,
-  "RLC/USD:4h:short": false
+  "RLC/USD:4h:short": false,
+  "ICNT/USD:4h:long": false,
+  "ICNT/USD:4h:short": false
 }
