@@ -4,7 +4,7 @@
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
   "USDC/USD:1h:long": false,
-  "USDC/USD:1h:short": false,
+  "USDC/USD:1h:short": true,
   "ETH/USD:1h:long": false,
   "ETH/USD:1h:short": false,
   "SOL/USD:1h:long": false,
@@ -64,7 +64,7 @@
   "LINK/USD:1h:long": false,
   "LINK/USD:1h:short": false,
   "ONDO/USD:1h:long": false,
-  "ONDO/USD:1h:short": false,
+  "ONDO/USD:1h:short": true,
   "AAVE/USD:1h:long": false,
   "AAVE/USD:1h:short": false,
   "WLD/USD:1h:long": false,
@@ -141,7 +141,7 @@
   "PENDLE/USD:1h:short": false,
   "MON/USD:1h:long": false,
   "MON/USD:1h:short": false,
-  "EVAA/USD:1h:long": true,
+  "EVAA/USD:1h:long": false,
   "EVAA/USD:1h:short": false,
   "KAITO/USD:1h:long": false,
   "KAITO/USD:1h:short": false,
@@ -344,5 +344,7 @@
   "SAND/USD:1h:long": false,
   "SAND/USD:1h:short": false,
   "ZEUS/USD:1h:long": false,
-  "ZEUS/USD:1h:short": false
+  "ZEUS/USD:1h:short": false,
+  "BABY/USD:1h:long": false,
+  "BABY/USD:1h:short": false
 }
