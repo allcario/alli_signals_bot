@@ -62,9 +62,9 @@
   "LINK/USD:4h:long": false,
   "LINK/USD:4h:short": false,
   "ONDO/USD:4h:long": false,
-  "ONDO/USD:4h:short": false,
+  "ONDO/USD:4h:short": true,
   "AAVE/USD:4h:long": false,
-  "AAVE/USD:4h:short": false,
+  "AAVE/USD:4h:short": true,
   "WLD/USD:4h:long": false,
   "WLD/USD:4h:short": false,
   "PENGU/USD:4h:long": false,
@@ -315,7 +315,7 @@
   "PYUSD/USD:4h:short": false,
   "DRV/USD:4h:long": true,
   "DRV/USD:4h:short": false,
-  "RIZE/USD:4h:long": true,
+  "RIZE/USD:4h:long": false,
   "RIZE/USD:4h:short": false,
   "CFX/USD:4h:long": false,
   "CFX/USD:4h:short": false,
@@ -326,5 +326,7 @@
   "AUSD/USD:4h:long": false,
   "AUSD/USD:4h:short": false,
   "XNY/USD:4h:long": true,
-  "XNY/USD:4h:short": false
+  "XNY/USD:4h:short": false,
+  "WMTX/USD:4h:long": true,
+  "WMTX/USD:4h:short": false
 }
