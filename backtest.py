@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 
 # ================= INSTELLINGEN =================
-SYMBOL = "ADA/USD"
+SYMBOL = "ETH/USD"
 TIMEFRAME = "1h"
 YEARS_BACK = 2
 RISK_PCT = 0.01      # 1% stop-loss
