@@ -21,9 +21,9 @@ import pandas as pd
 
 # ================= INSTELLINGEN =================
 SYMBOL = "BTC/USD"
-TIMEFRAME = "4h"
+TIMEFRAME = "1h"
 YEARS_BACK = 2
-RISK_PCT = 0.01      # 1% stop-loss
+RISK_PCT = 0.015      # 1.5% stop-loss
 REWARD_PCT = 0.03    # 3% take-profit (R:R 1:1.3)
 MAX_HOLD_CANDLES = 200  # als na zoveel candles nog niks geraakt is: sluit op close (timeout)
 
