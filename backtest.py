@@ -8,7 +8,7 @@ Regels (simpel, zoals afgesproken):
     (puur ter info, voor dit simpele 1:1-testje wordt niet geoptimaliseerd,
     maar de opsplitsing laat wel zien of de resultaten consistent blijven)
 
-Haalt zelf 2 jaar aan historische 1h-candles op via ccxt/Kraken (gepagineerd,
+Haalt zelf 2 jaar aan historische 1h-candles op via ccxt/Coinbase (gepagineerd,
 want 1 API-call geeft maar een beperkt aantal candles terug).
 """
 
@@ -67,7 +67,7 @@ def fetch_historical_ohlcv(exchange, symbol, timeframe, years_back):
     all_candles = []
 
     while True:
-        candles = exchange.fetch_ohlcv(symbol, timeframe=timeframe, since=since, limit=720)
+        candles = exchange.fetch_ohlcv(symbol, timeframe=timeframe, since=since, limit=300)
         if not candles:
             break
         all_candles.extend(candles)
@@ -75,7 +75,7 @@ def fetch_historical_ohlcv(exchange, symbol, timeframe, years_back):
         if last_ts <= since:
             break
         since = last_ts + tf_ms
-        if last_ts >= exchange.milliseconds() - tf_ms:
+        if since >= exchange.milliseconds() - tf_ms:
             break
         time.sleep(exchange.rateLimit / 1000)
 
@@ -101,7 +101,6 @@ def compute_signals(df: pd.DataFrame) -> pd.DataFrame:
     both_long = tdi_above & rci_above
     both_short = tdi_below & rci_below
 
-    # Signaal = state gaat van False -> True (zelfde logica als de live bot)
     signal_long = both_long & ~both_long.shift(1).fillna(False)
     signal_short = both_short & ~both_short.shift(1).fillna(False)
 
@@ -124,7 +123,7 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
         if direction is None:
             continue
 
-        entry_idx = i + 1  # entry op open van volgende candle
+        entry_idx = i + 1
         if entry_idx >= n:
             continue
         entry_price = df["open"].iloc[entry_idx]
@@ -152,7 +151,6 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
                 hit_sl = high >= sl
 
             if hit_tp and hit_sl:
-                # Beide binnen dezelfde candle geraakt - conservatief: SL telt (worst case)
                 outcome = "LOSS"
                 exit_price = sl
                 exit_idx = j
@@ -169,7 +167,6 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
                 break
 
         if outcome is None:
-            # Timeout: sluit op de laatst beschikbare close
             exit_idx = min(entry_idx + MAX_HOLD_CANDLES, n) - 1
             exit_price = df["close"].iloc[exit_idx]
             if direction == "LONG":
@@ -216,7 +213,7 @@ def print_stats(trades: pd.DataFrame, label: str):
 
 def main():
     print(f"Historische data ophalen: {SYMBOL} {TIMEFRAME}, {YEARS_BACK} jaar terug...")
-    exchange = ccxt.kraken({"enableRateLimit": True})
+    exchange = ccxt.coinbase({"enableRateLimit": True})
     df = fetch_historical_ohlcv(exchange, SYMBOL, TIMEFRAME, YEARS_BACK)
     print(f"Opgehaald: {len(df)} candles, van {pd.to_datetime(df['timestamp'].iloc[0], unit='ms')} "
           f"tot {pd.to_datetime(df['timestamp'].iloc[-1], unit='ms')}")
@@ -226,16 +223,13 @@ def main():
 
     print_stats(trades, "ALLE DATA (2 jaar)")
 
-    # Opsplitsen in trainings- en testperiode (2/3 - 1/3), puur ter info
     split_idx = int(len(df) * 2 / 3)
-    split_time = df["timestamp"].iloc[split_idx]
     train_trades = trades[trades["entry_idx"] < split_idx]
     test_trades = trades[trades["entry_idx"] >= split_idx]
 
     print_stats(train_trades, "Eerste 2/3 (trainingsperiode)")
     print_stats(test_trades, "Laatste 1/3 (testperiode, 'ongezien')")
 
-    # Sla alle trades op als CSV voor eventuele verdere analyse
     trades.to_csv("backtest_trades.csv", index=False)
     print("\nAlle trades opgeslagen in backtest_trades.csv")
 
