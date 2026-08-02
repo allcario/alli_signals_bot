@@ -24,7 +24,7 @@ SYMBOL = "BTC/USD"
 TIMEFRAME = "1h"
 YEARS_BACK = 2
 RISK_PCT = 0.015      # 1.5% stop-loss
-REWARD_PCT = 0.03    # 3% take-profit (R:R 1:1.3)
+REWARD_PCT = 0.02    # 2% take-profit (R:R 1:1.2)
 MAX_HOLD_CANDLES = 200  # als na zoveel candles nog niks geraakt is: sluit op close (timeout)
 
 # TDI/RCI-instellingen (zelfde als de live bot)
