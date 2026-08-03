@@ -351,7 +351,7 @@
   "OOB/USD:30m:short": false,
   "HFT/USD:30m:long": false,
   "HFT/USD:30m:short": false,
-  "VANRY/USD:30m:long": true,
+  "VANRY/USD:30m:long": false,
   "VANRY/USD:30m:short": false,
   "AI3/USD:30m:long": false,
   "AI3/USD:30m:short": false,
