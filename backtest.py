@@ -21,7 +21,7 @@ import pandas as pd
 
 # ================= INSTELLINGEN =================
 SYMBOL = "BTC/USD"
-TIMEFRAME = "1h"
+TIMEFRAME = "6h"
 YEARS_BACK = 2
 RISK_PCT = 0.01      # 1% stop-loss
 REWARD_PCT = 0.015   # 1.5% take-profit (R:R 1:1.5)
