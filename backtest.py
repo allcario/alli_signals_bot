@@ -8,7 +8,7 @@ Regels (simpel, zoals afgesproken):
     (puur ter info, voor dit simpele 1:1-testje wordt niet geoptimaliseerd,
     maar de opsplitsing laat wel zien of de resultaten consistent blijven)
 
-Haalt zelf 2 jaar aan historische 1h-candles op via ccxt/Coinbase (gepagineerd,
+Haalt zelf 2 jaar aan historische 1h-candles op via ccxt/Kraken (gepagineerd,
 want 1 API-call geeft maar een beperkt aantal candles terug).
 """
 
@@ -23,9 +23,14 @@ import pandas as pd
 SYMBOL = "BTC/USD"
 TIMEFRAME = "1h"
 YEARS_BACK = 2
-RISK_PCT = 0.015      # 1.5% stop-loss
-REWARD_PCT = 0.02    # 2% take-profit (R:R 1:1.2)
+RISK_PCT = 0.01      # 1% stop-loss
+REWARD_PCT = 0.015   # 1.5% take-profit (R:R 1:1.5)
 MAX_HOLD_CANDLES = 200  # als na zoveel candles nog niks geraakt is: sluit op close (timeout)
+
+# Fee-instelling: kosten per kant van de trade (entry EN exit betalen elk deze fee).
+# 0.001 = 0.1% per kant, dus 0.2% totaal (round-trip) per trade.
+# Pas dit aan naar de exacte fee-structuur van je exchange indien bekend.
+FEE_PCT_PER_SIDE = 0.001
 
 # TDI/RCI-instellingen (zelfde als de live bot)
 TDI_RSI_LEN = 13
@@ -101,6 +106,7 @@ def compute_signals(df: pd.DataFrame) -> pd.DataFrame:
     both_long = tdi_above & rci_above
     both_short = tdi_below & rci_below
 
+    # Signaal = state gaat van False -> True (zelfde logica als de live bot)
     signal_long = both_long & ~both_long.shift(1).fillna(False)
     signal_short = both_short & ~both_short.shift(1).fillna(False)
 
@@ -123,7 +129,7 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
         if direction is None:
             continue
 
-        entry_idx = i + 1
+        entry_idx = i + 1  # entry op open van volgende candle
         if entry_idx >= n:
             continue
         entry_price = df["open"].iloc[entry_idx]
@@ -151,6 +157,7 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
                 hit_sl = high >= sl
 
             if hit_tp and hit_sl:
+                # Beide binnen dezelfde candle geraakt - conservatief: SL telt (worst case)
                 outcome = "LOSS"
                 exit_price = sl
                 exit_idx = j
@@ -167,6 +174,7 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
                 break
 
         if outcome is None:
+            # Timeout: sluit op de laatst beschikbare close
             exit_idx = min(entry_idx + MAX_HOLD_CANDLES, n) - 1
             exit_price = df["close"].iloc[exit_idx]
             if direction == "LONG":
@@ -180,6 +188,10 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
             else (entry_price - exit_price) / entry_price
         )
 
+        # Netto resultaat: bruto resultaat min de round-trip fee (entry + exit)
+        total_fee_pct = FEE_PCT_PER_SIDE * 2
+        pct_result_net = pct_result - total_fee_pct
+
         trades.append({
             "signal_idx": i,
             "entry_idx": entry_idx,
@@ -189,6 +201,7 @@ def simulate_trades(df: pd.DataFrame) -> pd.DataFrame:
             "exit_price": exit_price,
             "outcome": outcome,
             "pct_result": pct_result,
+            "pct_result_net": pct_result_net,
         })
 
     return pd.DataFrame(trades)
@@ -201,14 +214,25 @@ def print_stats(trades: pd.DataFrame, label: str):
     n = len(trades)
     wins = (trades["outcome"] == "WIN").sum()
     win_rate = wins / n * 100
-    total_pct = trades["pct_result"].sum() * 100
-    avg_pct = trades["pct_result"].mean() * 100
+
+    total_pct_gross = trades["pct_result"].sum() * 100
+    avg_pct_gross = trades["pct_result"].mean() * 100
+
+    total_pct_net = trades["pct_result_net"].sum() * 100
+    avg_pct_net = trades["pct_result_net"].mean() * 100
+
+    total_fees_pct = n * FEE_PCT_PER_SIDE * 2 * 100
 
     print(f"\n=== {label} ===")
     print(f"Aantal trades: {n}")
     print(f"Winrate: {win_rate:.1f}%  ({wins} win / {n - wins} loss)")
-    print(f"Totaal resultaat (som van alle trade-percentages): {total_pct:+.2f}%")
-    print(f"Gemiddeld resultaat per trade: {avg_pct:+.3f}%")
+    print(f"--- ZONDER fees (bruto) ---")
+    print(f"Totaal resultaat: {total_pct_gross:+.2f}%")
+    print(f"Gemiddeld per trade: {avg_pct_gross:+.3f}%")
+    print(f"--- MET fees ({FEE_PCT_PER_SIDE*100:.2f}% per kant, {FEE_PCT_PER_SIDE*200:.2f}% round-trip) ---")
+    print(f"Totale fees over alle trades: -{total_fees_pct:.2f}%")
+    print(f"Totaal resultaat NA fees (netto): {total_pct_net:+.2f}%")
+    print(f"Gemiddeld per trade NA fees: {avg_pct_net:+.3f}%")
 
 
 def main():
@@ -223,13 +247,16 @@ def main():
 
     print_stats(trades, "ALLE DATA (2 jaar)")
 
+    # Opsplitsen in trainings- en testperiode (2/3 - 1/3), puur ter info
     split_idx = int(len(df) * 2 / 3)
+    split_time = df["timestamp"].iloc[split_idx]
     train_trades = trades[trades["entry_idx"] < split_idx]
     test_trades = trades[trades["entry_idx"] >= split_idx]
 
     print_stats(train_trades, "Eerste 2/3 (trainingsperiode)")
     print_stats(test_trades, "Laatste 1/3 (testperiode, 'ongezien')")
 
+    # Sla alle trades op als CSV voor eventuele verdere analyse
     trades.to_csv("backtest_trades.csv", index=False)
     print("\nAlle trades opgeslagen in backtest_trades.csv")
 
