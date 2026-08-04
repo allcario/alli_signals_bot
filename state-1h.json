@@ -81,7 +81,7 @@
   "PENGU/USD:1h:short": false,
   "ALLO/USD:1h:long": false,
   "ALLO/USD:1h:short": false,
-  "HBAR/USD:1h:long": true,
+  "HBAR/USD:1h:long": false,
   "HBAR/USD:1h:short": false,
   "WEMIX/USD:1h:long": false,
   "WEMIX/USD:1h:short": false,
