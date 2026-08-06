@@ -73,7 +73,7 @@
   "ICP/USD:1h:short": false,
   "INJ/USD:1h:long": false,
   "INJ/USD:1h:short": true,
-  "NEAR/USD:1h:long": false,
+  "NEAR/USD:1h:long": true,
   "NEAR/USD:1h:short": false,
   "MORPHO/USD:1h:long": false,
   "MORPHO/USD:1h:short": false,
@@ -404,5 +404,7 @@
   "ZIG/USD:1h:long": false,
   "ZIG/USD:1h:short": false,
   "INX/USD:1h:long": false,
-  "INX/USD:1h:short": false
+  "INX/USD:1h:short": false,
+  "MYX/USD:1h:long": false,
+  "MYX/USD:1h:short": false
 }
