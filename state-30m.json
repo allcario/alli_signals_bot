@@ -62,9 +62,9 @@
   "VVV/USD:30m:long": false,
   "VVV/USD:30m:short": true,
   "DASH/USD:30m:long": false,
-  "DASH/USD:30m:short": false,
+  "DASH/USD:30m:short": true,
   "USDG/USD:30m:long": false,
-  "USDG/USD:30m:short": true,
+  "USDG/USD:30m:short": false,
   "PLAY/USD:30m:long": false,
   "PLAY/USD:30m:short": false,
   "FET/USD:30m:long": false,
@@ -408,7 +408,7 @@
   "VIRTUAL/USD:30m:long": false,
   "VIRTUAL/USD:30m:short": false,
   "SUSHI/USD:30m:long": false,
-  "SUSHI/USD:30m:short": true,
+  "SUSHI/USD:30m:short": false,
   "HPOS10I/USD:30m:long": false,
   "HPOS10I/USD:30m:short": false
 }
