@@ -432,5 +432,7 @@
   "QUID/USD:1h:long": false,
   "QUID/USD:1h:short": false,
   "SUSHI/USD:1h:long": false,
-  "SUSHI/USD:1h:short": false
+  "SUSHI/USD:1h:short": false,
+  "HPOS10I/USD:1h:long": false,
+  "HPOS10I/USD:1h:short": false
 }
