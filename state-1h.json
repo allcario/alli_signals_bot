@@ -49,7 +49,7 @@
   "LTC/USD:1h:short": false,
   "GBP/USD:1h:long": false,
   "GBP/USD:1h:short": false,
-  "VVV/USD:1h:long": false,
+  "VVV/USD:1h:long": true,
   "VVV/USD:1h:short": false,
   "ZAMA/USD:1h:long": false,
   "ZAMA/USD:1h:short": false,
@@ -424,5 +424,7 @@
   "REPPO/USD:1h:long": false,
   "REPPO/USD:1h:short": false,
   "GOMINING/USD:1h:long": false,
-  "GOMINING/USD:1h:short": false
+  "GOMINING/USD:1h:short": false,
+  "KMNO/USD:1h:long": false,
+  "KMNO/USD:1h:short": false
 }
