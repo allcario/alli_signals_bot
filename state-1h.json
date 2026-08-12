@@ -104,7 +104,7 @@
   "TON/USD:1h:long": false,
   "TON/USD:1h:short": false,
   "CRV/USD:1h:long": false,
-  "CRV/USD:1h:short": false,
+  "CRV/USD:1h:short": true,
   "USELESS/USD:1h:long": false,
   "USELESS/USD:1h:short": false,
   "FLOKI/USD:1h:long": false,
@@ -236,7 +236,7 @@
   "RIVER/USD:1h:long": false,
   "RIVER/USD:1h:short": false,
   "ATOM/USD:1h:long": false,
-  "ATOM/USD:1h:short": true,
+  "ATOM/USD:1h:short": false,
   "STORJ/USD:1h:long": false,
   "STORJ/USD:1h:short": false,
   "GIGA/USD:1h:long": false,
@@ -267,7 +267,7 @@
   "BOB/USD:1h:short": false,
   "LCAP/USD:1h:long": false,
   "LCAP/USD:1h:short": false,
-  "COTI/USD:1h:long": false,
+  "COTI/USD:1h:long": true,
   "COTI/USD:1h:short": false,
   "XPL/USD:1h:long": false,
   "XPL/USD:1h:short": false,
@@ -484,5 +484,7 @@
   "SCRT/USD:1h:long": false,
   "SCRT/USD:1h:short": false,
   "USDPT/USD:1h:long": false,
-  "USDPT/USD:1h:short": false
+  "USDPT/USD:1h:short": false,
+  "2Z/USD:1h:long": false,
+  "2Z/USD:1h:short": false
 }
