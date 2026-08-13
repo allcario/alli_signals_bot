@@ -413,7 +413,7 @@
   "REPPO/USD:4h:short": false,
   "KMNO/USD:4h:long": false,
   "KMNO/USD:4h:short": false,
-  "VIRTUAL/USD:4h:long": false,
+  "VIRTUAL/USD:4h:long": true,
   "VIRTUAL/USD:4h:short": false,
   "HPOS10I/USD:4h:long": false,
   "HPOS10I/USD:4h:short": false,
@@ -472,5 +472,7 @@
   "RARE/USD:4h:long": false,
   "RARE/USD:4h:short": false,
   "SCRT/USD:4h:long": false,
-  "SCRT/USD:4h:short": false
+  "SCRT/USD:4h:short": false,
+  "2Z/USD:4h:long": false,
+  "2Z/USD:4h:short": false
 }
