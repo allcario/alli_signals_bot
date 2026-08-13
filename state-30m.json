@@ -1,6 +1,6 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": true,
+  "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
@@ -29,7 +29,7 @@
   "NEAR/USD:30m:short": false,
   "TRX/USD:30m:long": false,
   "TRX/USD:30m:short": false,
-  "TAO/USD:30m:long": false,
+  "TAO/USD:30m:long": true,
   "TAO/USD:30m:short": false,
   "DOGE/USD:30m:long": false,
   "DOGE/USD:30m:short": false,
@@ -180,7 +180,7 @@
   "EURC/USD:30m:long": false,
   "EURC/USD:30m:short": false,
   "POL/USD:30m:long": false,
-  "POL/USD:30m:short": false,
+  "POL/USD:30m:short": true,
   "MORPHO/USD:30m:long": false,
   "MORPHO/USD:30m:short": false,
   "RE/USD:30m:long": false,
@@ -307,7 +307,7 @@
   "ZEUS/USD:30m:short": false,
   "SAND/USD:30m:long": false,
   "SAND/USD:30m:short": false,
-  "BABY/USD:30m:long": false,
+  "BABY/USD:30m:long": true,
   "BABY/USD:30m:short": false,
   "AVA/USD:30m:long": false,
   "AVA/USD:30m:short": false,
@@ -484,5 +484,7 @@
   "KNTQ/USD:30m:long": false,
   "KNTQ/USD:30m:short": false,
   "AVNT/USD:30m:long": false,
-  "AVNT/USD:30m:short": false
+  "AVNT/USD:30m:short": false,
+  "VSN/USD:30m:long": false,
+  "VSN/USD:30m:short": false
 }
