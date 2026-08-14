@@ -12,7 +12,7 @@
   "SOL/USD:30m:long": false,
   "SOL/USD:30m:short": false,
   "XRP/USD:30m:long": false,
-  "XRP/USD:30m:short": false,
+  "XRP/USD:30m:short": true,
   "HYPE/USD:30m:long": false,
   "HYPE/USD:30m:short": false,
   "SUI/USD:30m:long": false,
@@ -497,7 +497,7 @@
   "FIS/USD:30m:short": false,
   "HNT/USD:30m:long": false,
   "HNT/USD:30m:short": false,
-  "ROBO/USD:30m:long": false,
+  "ROBO/USD:30m:long": true,
   "ROBO/USD:30m:short": false,
   "ALICE/USD:30m:long": false,
   "ALICE/USD:30m:short": false
