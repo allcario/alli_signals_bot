@@ -17,7 +17,7 @@
   "ESPORTS/USD:4h:short": false,
   "HYPE/USD:4h:long": false,
   "HYPE/USD:4h:short": false,
-  "SHIB/USD:4h:long": true,
+  "SHIB/USD:4h:long": false,
   "SHIB/USD:4h:short": false,
   "AVAX/USD:4h:long": false,
   "AVAX/USD:4h:short": false,
@@ -70,7 +70,7 @@
   "PENGU/USD:4h:long": false,
   "PENGU/USD:4h:short": false,
   "INJ/USD:4h:long": false,
-  "INJ/USD:4h:short": false,
+  "INJ/USD:4h:short": true,
   "RE/USD:4h:long": false,
   "RE/USD:4h:short": false,
   "NEAR/USD:4h:long": false,
@@ -118,7 +118,7 @@
   "AUD/USD:4h:long": false,
   "AUD/USD:4h:short": false,
   "PUMP/USD:4h:long": false,
-  "PUMP/USD:4h:short": true,
+  "PUMP/USD:4h:short": false,
   "WIF/USD:4h:long": false,
   "WIF/USD:4h:short": false,
   "FARTCOIN/USD:4h:long": false,
@@ -498,5 +498,7 @@
   "ALICE/USD:4h:long": false,
   "ALICE/USD:4h:short": false,
   "OKB/USD:4h:long": false,
-  "OKB/USD:4h:short": false
+  "OKB/USD:4h:short": false,
+  "APT/USD:4h:long": false,
+  "APT/USD:4h:short": false
 }
