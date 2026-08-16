@@ -245,7 +245,7 @@
   "UAI/USD:30m:short": false,
   "MANTRA/USD:30m:long": false,
   "MANTRA/USD:30m:short": false,
-  "PLUME/USD:30m:long": true,
+  "PLUME/USD:30m:long": false,
   "PLUME/USD:30m:short": false,
   "ASSET/USD:30m:long": false,
   "ASSET/USD:30m:short": false,
@@ -437,7 +437,7 @@
   "ARC/USD:30m:short": false,
   "GLMR/USD:30m:long": false,
   "GLMR/USD:30m:short": false,
-  "BMT/USD:30m:long": true,
+  "BMT/USD:30m:long": false,
   "BMT/USD:30m:short": false,
   "ACU/USD:30m:long": false,
   "ACU/USD:30m:short": false,
@@ -497,7 +497,7 @@
   "FIS/USD:30m:short": false,
   "HNT/USD:30m:long": false,
   "HNT/USD:30m:short": false,
-  "ROBO/USD:30m:long": false,
+  "ROBO/USD:30m:long": true,
   "ROBO/USD:30m:short": false,
   "ALICE/USD:30m:long": false,
   "ALICE/USD:30m:short": false,
@@ -520,7 +520,9 @@
   "CAKE/USD:30m:long": true,
   "CAKE/USD:30m:short": false,
   "BASED/USD:30m:long": false,
-  "BASED/USD:30m:short": true,
+  "BASED/USD:30m:short": false,
   "SOMI/USD:30m:long": false,
-  "SOMI/USD:30m:short": false
+  "SOMI/USD:30m:short": false,
+  "AB/USD:30m:long": true,
+  "AB/USD:30m:short": false
 }
