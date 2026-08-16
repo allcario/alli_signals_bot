@@ -58,7 +58,7 @@
   "TRX/USD:4h:long": false,
   "TRX/USD:4h:short": false,
   "GWEI/USD:4h:long": false,
-  "GWEI/USD:4h:short": true,
+  "GWEI/USD:4h:short": false,
   "LINK/USD:4h:long": false,
   "LINK/USD:4h:short": false,
   "ONDO/USD:4h:long": false,
@@ -344,7 +344,7 @@
   "SHX/USD:4h:long": false,
   "SHX/USD:4h:short": false,
   "BLESS/USD:4h:long": false,
-  "BLESS/USD:4h:short": true,
+  "BLESS/USD:4h:short": false,
   "KSM/USD:4h:long": false,
   "KSM/USD:4h:short": false,
   "AEVO/USD:4h:long": false,
@@ -514,5 +514,7 @@
   "BASED/USD:4h:long": true,
   "BASED/USD:4h:short": false,
   "CAKE/USD:4h:long": false,
-  "CAKE/USD:4h:short": false
+  "CAKE/USD:4h:short": false,
+  "SOMI/USD:4h:long": false,
+  "SOMI/USD:4h:short": false
 }
