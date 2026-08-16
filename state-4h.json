@@ -289,7 +289,7 @@
   "PYTH/USD:4h:short": false,
   "KTA/USD:4h:long": false,
   "KTA/USD:4h:short": false,
-  "UAI/USD:4h:long": false,
+  "UAI/USD:4h:long": true,
   "UAI/USD:4h:short": false,
   "FLOW/USD:4h:long": false,
   "FLOW/USD:4h:short": false,
@@ -511,10 +511,12 @@
   "ENSO/USD:4h:short": false,
   "FUN/USD:4h:long": false,
   "FUN/USD:4h:short": false,
-  "BASED/USD:4h:long": true,
+  "BASED/USD:4h:long": false,
   "BASED/USD:4h:short": false,
   "CAKE/USD:4h:long": false,
   "CAKE/USD:4h:short": false,
   "SOMI/USD:4h:long": false,
-  "SOMI/USD:4h:short": false
+  "SOMI/USD:4h:short": false,
+  "PORTAL/USD:4h:long": false,
+  "PORTAL/USD:4h:short": false
 }
