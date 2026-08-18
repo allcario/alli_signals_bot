@@ -281,7 +281,7 @@
   "FLOKI/USD:30m:short": false,
   "DRV/USD:30m:long": false,
   "DRV/USD:30m:short": false,
-  "RIZE/USD:30m:long": true,
+  "RIZE/USD:30m:long": false,
   "RIZE/USD:30m:short": false,
   "CFX/USD:30m:long": false,
   "CFX/USD:30m:short": false,
