@@ -124,7 +124,7 @@
   "QNT/USD:1h:long": false,
   "QNT/USD:1h:short": false,
   "UNI/USD:1h:long": false,
-  "UNI/USD:1h:short": false,
+  "UNI/USD:1h:short": true,
   "AI/USD:1h:long": false,
   "AI/USD:1h:short": false,
   "SLX/USD:1h:long": false,
@@ -514,7 +514,7 @@
   "COW/USD:1h:long": false,
   "COW/USD:1h:short": false,
   "CHIP/USD:1h:long": false,
-  "CHIP/USD:1h:short": true,
+  "CHIP/USD:1h:short": false,
   "ENSO/USD:1h:long": false,
   "ENSO/USD:1h:short": false,
   "FUN/USD:1h:long": true,
@@ -534,5 +534,7 @@
   "SHAPE/USD:1h:long": false,
   "SHAPE/USD:1h:short": false,
   "PEAQ/USD:1h:long": false,
-  "PEAQ/USD:1h:short": false
+  "PEAQ/USD:1h:short": false,
+  "OCEAN/USD:1h:long": true,
+  "OCEAN/USD:1h:short": false
 }
