@@ -182,7 +182,7 @@
   "POL/USD:30m:long": false,
   "POL/USD:30m:short": false,
   "MORPHO/USD:30m:long": false,
-  "MORPHO/USD:30m:short": true,
+  "MORPHO/USD:30m:short": false,
   "RE/USD:30m:long": false,
   "RE/USD:30m:short": false,
   "ARB/USD:30m:long": false,
