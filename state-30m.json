@@ -264,7 +264,7 @@
   "XMN/USD:30m:long": false,
   "XMN/USD:30m:short": false,
   "CSPR/USD:30m:long": false,
-  "CSPR/USD:30m:short": true,
+  "CSPR/USD:30m:short": false,
   "M/USD:30m:long": false,
   "M/USD:30m:short": false,
   "SYRUP/USD:30m:long": false,
