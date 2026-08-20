@@ -558,7 +558,7 @@
   "LIGHTER/USD:30m:long": false,
   "LIGHTER/USD:30m:short": false,
   "MET/USD:30m:long": false,
-  "MET/USD:30m:short": false,
+  "MET/USD:30m:short": true,
   "GRT/USD:30m:long": false,
   "GRT/USD:30m:short": false
 }
