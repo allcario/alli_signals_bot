@@ -482,7 +482,7 @@
   "RARE/USD:1h:long": false,
   "RARE/USD:1h:short": false,
   "SCRT/USD:1h:long": false,
-  "SCRT/USD:1h:short": true,
+  "SCRT/USD:1h:short": false,
   "USDPT/USD:1h:long": false,
   "USDPT/USD:1h:short": false,
   "2Z/USD:1h:long": false,
