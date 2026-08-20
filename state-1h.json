@@ -114,7 +114,7 @@
   "ALGO/USD:1h:long": false,
   "ALGO/USD:1h:short": false,
   "AUD/USD:1h:long": false,
-  "AUD/USD:1h:short": false,
+  "AUD/USD:1h:short": true,
   "FARTCOIN/USD:1h:long": false,
   "FARTCOIN/USD:1h:short": false,
   "FET/USD:1h:long": false,
