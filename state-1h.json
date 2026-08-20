@@ -552,7 +552,7 @@
   "GNO/USD:1h:long": false,
   "GNO/USD:1h:short": false,
   "PEP/USD:1h:long": false,
-  "PEP/USD:1h:short": false,
+  "PEP/USD:1h:short": true,
   "BIO/USD:1h:long": false,
   "BIO/USD:1h:short": false,
   "TREE/USD:1h:long": false,
