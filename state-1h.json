@@ -38,7 +38,7 @@
   "SYN/USD:1h:long": false,
   "SYN/USD:1h:short": true,
   "AKE/USD:1h:long": false,
-  "AKE/USD:1h:short": false,
+  "AKE/USD:1h:short": true,
   "XMR/USD:1h:long": false,
   "XMR/USD:1h:short": false,
   "PLAY/USD:1h:long": false,
