@@ -170,7 +170,7 @@
   "EIGEN/USD:30m:long": false,
   "EIGEN/USD:30m:short": false,
   "XDC/USD:30m:long": false,
-  "XDC/USD:30m:short": true,
+  "XDC/USD:30m:short": false,
   "ATOM/USD:30m:long": false,
   "ATOM/USD:30m:short": false,
   "LUNC/USD:30m:long": false,
@@ -199,7 +199,7 @@
   "FIL/USD:30m:short": false,
   "RIVER/USD:30m:long": false,
   "RIVER/USD:30m:short": false,
-  "MON/USD:30m:long": true,
+  "MON/USD:30m:long": false,
   "MON/USD:30m:short": false,
   "PROS/USD:30m:long": false,
   "PROS/USD:30m:short": false,
@@ -556,5 +556,7 @@
   "TREE/USD:30m:long": false,
   "TREE/USD:30m:short": false,
   "LIGHTER/USD:30m:long": false,
-  "LIGHTER/USD:30m:short": false
+  "LIGHTER/USD:30m:short": false,
+  "MET/USD:30m:long": false,
+  "MET/USD:30m:short": false
 }
