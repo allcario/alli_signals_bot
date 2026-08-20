@@ -460,7 +460,7 @@
   "BMT/USD:1h:long": false,
   "BMT/USD:1h:short": false,
   "ACU/USD:1h:long": false,
-  "ACU/USD:1h:short": true,
+  "ACU/USD:1h:short": false,
   "COOKIE/USD:1h:long": false,
   "COOKIE/USD:1h:short": false,
   "MUBARAK/USD:1h:long": false,
