@@ -38,7 +38,7 @@
   "SYN/USD:1h:long": false,
   "SYN/USD:1h:short": true,
   "AKE/USD:1h:long": false,
-  "AKE/USD:1h:short": true,
+  "AKE/USD:1h:short": false,
   "XMR/USD:1h:long": false,
   "XMR/USD:1h:short": false,
   "PLAY/USD:1h:long": false,
@@ -139,7 +139,7 @@
   "AERO/USD:1h:short": false,
   "PENDLE/USD:1h:long": false,
   "PENDLE/USD:1h:short": false,
-  "MON/USD:1h:long": false,
+  "MON/USD:1h:long": true,
   "MON/USD:1h:short": false,
   "EVAA/USD:1h:long": false,
   "EVAA/USD:1h:short": false,
@@ -558,5 +558,7 @@
   "TREE/USD:1h:long": false,
   "TREE/USD:1h:short": false,
   "LIGHTER/USD:1h:long": false,
-  "LIGHTER/USD:1h:short": false
+  "LIGHTER/USD:1h:short": false,
+  "MET/USD:1h:long": false,
+  "MET/USD:1h:short": false
 }
