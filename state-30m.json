@@ -467,7 +467,7 @@
   "APR/USD:30m:short": false,
   "RARE/USD:30m:long": false,
   "RARE/USD:30m:short": false,
-  "SCRT/USD:30m:long": false,
+  "SCRT/USD:30m:long": true,
   "SCRT/USD:30m:short": false,
   "APE/USD:30m:long": false,
   "APE/USD:30m:short": true,
