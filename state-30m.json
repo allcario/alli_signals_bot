@@ -83,7 +83,7 @@
   "CRV/USD:30m:short": false,
   "NIGHT/USD:30m:long": false,
   "NIGHT/USD:30m:short": false,
-  "AUD/USD:30m:long": false,
+  "AUD/USD:30m:long": true,
   "AUD/USD:30m:short": false,
   "PENGU/USD:30m:long": false,
   "PENGU/USD:30m:short": false,
