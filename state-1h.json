@@ -147,7 +147,7 @@
   "KAITO/USD:1h:short": false,
   "PUMP/USD:1h:long": false,
   "PUMP/USD:1h:short": false,
-  "ENA/USD:1h:long": true,
+  "ENA/USD:1h:long": false,
   "ENA/USD:1h:short": false,
   "BCH/USD:1h:long": true,
   "BCH/USD:1h:short": false,
