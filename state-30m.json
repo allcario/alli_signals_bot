@@ -199,7 +199,7 @@
   "FIL/USD:30m:short": false,
   "RIVER/USD:30m:long": false,
   "RIVER/USD:30m:short": false,
-  "MON/USD:30m:long": true,
+  "MON/USD:30m:long": false,
   "MON/USD:30m:short": false,
   "PROS/USD:30m:long": false,
   "PROS/USD:30m:short": false,
