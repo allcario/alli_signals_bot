@@ -6,7 +6,7 @@
   "ETH/USD:30m:long": false,
   "ETH/USD:30m:short": false,
   "USDC/USD:30m:long": false,
-  "USDC/USD:30m:short": true,
+  "USDC/USD:30m:short": false,
   "EUR/USD:30m:long": false,
   "EUR/USD:30m:short": false,
   "SOL/USD:30m:long": false,
