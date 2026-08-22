@@ -499,7 +499,7 @@
   "ALICE/USD:4h:short": false,
   "OKB/USD:4h:long": false,
   "OKB/USD:4h:short": false,
-  "APT/USD:4h:long": true,
+  "APT/USD:4h:long": false,
   "APT/USD:4h:short": false,
   "WAL/USD:4h:long": false,
   "WAL/USD:4h:short": false,
