@@ -9,7 +9,7 @@
   "ETH/USD:1h:short": false,
   "SOL/USD:1h:long": false,
   "SOL/USD:1h:short": false,
-  "DOGE/USD:1h:long": true,
+  "DOGE/USD:1h:long": false,
   "DOGE/USD:1h:short": false,
   "XRP/USD:1h:long": false,
   "XRP/USD:1h:short": false,
@@ -61,7 +61,7 @@
   "TRX/USD:1h:short": false,
   "RE/USD:1h:long": false,
   "RE/USD:1h:short": false,
-  "LINK/USD:1h:long": true,
+  "LINK/USD:1h:long": false,
   "LINK/USD:1h:short": false,
   "ONDO/USD:1h:long": false,
   "ONDO/USD:1h:short": false,
@@ -317,7 +317,7 @@
   "XMN/USD:1h:short": false,
   "CSPR/USD:1h:long": false,
   "CSPR/USD:1h:short": false,
-  "SYRUP/USD:1h:long": true,
+  "SYRUP/USD:1h:long": false,
   "SYRUP/USD:1h:short": false,
   "FORTH/USD:1h:long": false,
   "FORTH/USD:1h:short": false,
@@ -570,5 +570,7 @@
   "NEIRO/USD:1h:long": false,
   "NEIRO/USD:1h:short": false,
   "PONKE/USD:1h:long": false,
-  "PONKE/USD:1h:short": false
+  "PONKE/USD:1h:short": false,
+  "BABYSHARK/USD:1h:long": true,
+  "BABYSHARK/USD:1h:short": false
 }
