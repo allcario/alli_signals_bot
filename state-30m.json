@@ -1,6 +1,6 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": false,
+  "USDT/USD:30m:short": true,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
@@ -64,7 +64,7 @@
   "DASH/USD:30m:long": false,
   "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
-  "USDG/USD:30m:short": true,
+  "USDG/USD:30m:short": false,
   "PLAY/USD:30m:long": false,
   "PLAY/USD:30m:short": false,
   "FET/USD:30m:long": false,
