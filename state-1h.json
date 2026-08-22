@@ -4,7 +4,7 @@
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
   "USDC/USD:1h:long": false,
-  "USDC/USD:1h:short": false,
+  "USDC/USD:1h:short": true,
   "ETH/USD:1h:long": false,
   "ETH/USD:1h:short": false,
   "SOL/USD:1h:long": false,
