@@ -127,7 +127,7 @@
   "KAS/USD:30m:short": false,
   "EUL/USD:30m:long": false,
   "EUL/USD:30m:short": false,
-  "WEMIX/USD:30m:long": false,
+  "WEMIX/USD:30m:long": true,
   "WEMIX/USD:30m:short": false,
   "XCN/USD:30m:long": false,
   "XCN/USD:30m:short": false,
