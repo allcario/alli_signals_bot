@@ -207,7 +207,7 @@
   "AI/USD:30m:short": false,
   "NANO/USD:30m:long": false,
   "NANO/USD:30m:short": false,
-  "TRAC/USD:30m:long": true,
+  "TRAC/USD:30m:long": false,
   "TRAC/USD:30m:short": false,
   "ACH/USD:30m:long": false,
   "ACH/USD:30m:short": false,
