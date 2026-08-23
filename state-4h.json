@@ -564,5 +564,7 @@
   "ETC/USD:4h:long": false,
   "ETC/USD:4h:short": false,
   "DENT/USD:4h:long": true,
-  "DENT/USD:4h:short": false
+  "DENT/USD:4h:short": false,
+  "NPC/USD:4h:long": false,
+  "NPC/USD:4h:short": false
 }
