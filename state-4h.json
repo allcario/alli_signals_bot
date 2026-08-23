@@ -14,7 +14,7 @@
   "XRP/USD:4h:long": false,
   "XRP/USD:4h:short": false,
   "ESPORTS/USD:4h:long": false,
-  "ESPORTS/USD:4h:short": false,
+  "ESPORTS/USD:4h:short": true,
   "HYPE/USD:4h:long": false,
   "HYPE/USD:4h:short": false,
   "SHIB/USD:4h:long": false,
