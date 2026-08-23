@@ -156,7 +156,7 @@
   "BILL/USD:1h:long": false,
   "BILL/USD:1h:short": true,
   "LCX/USD:1h:long": false,
-  "LCX/USD:1h:short": false,
+  "LCX/USD:1h:short": true,
   "STX/USD:1h:long": false,
   "STX/USD:1h:short": false,
   "PROS/USD:1h:long": false,
