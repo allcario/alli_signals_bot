@@ -247,7 +247,7 @@
   "NIL/USD:4h:short": false,
   "TIA/USD:4h:long": false,
   "TIA/USD:4h:short": false,
-  "XAUT/USD:4h:long": true,
+  "XAUT/USD:4h:long": false,
   "XAUT/USD:4h:short": false,
   "ZRO/USD:4h:long": false,
   "ZRO/USD:4h:short": false,
