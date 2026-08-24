@@ -310,7 +310,7 @@
   "FORTH/USD:4h:long": false,
   "FORTH/USD:4h:short": false,
   "CSPR/USD:4h:long": false,
-  "CSPR/USD:4h:short": false,
+  "CSPR/USD:4h:short": true,
   "PYUSD/USD:4h:long": false,
   "PYUSD/USD:4h:short": false,
   "DRV/USD:4h:long": true,
@@ -566,5 +566,9 @@
   "DENT/USD:4h:long": true,
   "DENT/USD:4h:short": false,
   "NPC/USD:4h:long": false,
-  "NPC/USD:4h:short": false
+  "NPC/USD:4h:short": false,
+  "KII/USD:4h:long": false,
+  "KII/USD:4h:short": false,
+  "SPK/USD:4h:long": false,
+  "SPK/USD:4h:short": false
 }
