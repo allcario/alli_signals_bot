@@ -37,7 +37,7 @@
   "PEPE/USD:1h:short": false,
   "SYN/USD:1h:long": false,
   "SYN/USD:1h:short": false,
-  "AKE/USD:1h:long": false,
+  "AKE/USD:1h:long": true,
   "AKE/USD:1h:short": false,
   "XMR/USD:1h:long": false,
   "XMR/USD:1h:short": false,
@@ -557,7 +557,7 @@
   "BIO/USD:1h:short": false,
   "TREE/USD:1h:long": false,
   "TREE/USD:1h:short": false,
-  "LIGHTER/USD:1h:long": true,
+  "LIGHTER/USD:1h:long": false,
   "LIGHTER/USD:1h:short": false,
   "MET/USD:1h:long": false,
   "MET/USD:1h:short": false,
@@ -580,11 +580,13 @@
   "ETC/USD:1h:long": false,
   "ETC/USD:1h:short": false,
   "DENT/USD:1h:long": false,
-  "DENT/USD:1h:short": false,
+  "DENT/USD:1h:short": true,
   "NPC/USD:1h:long": false,
   "NPC/USD:1h:short": false,
   "SPK/USD:1h:long": false,
   "SPK/USD:1h:short": false,
   "WFB/USD:1h:long": false,
-  "WFB/USD:1h:short": false
+  "WFB/USD:1h:short": false,
+  "ARX/USD:1h:long": false,
+  "ARX/USD:1h:short": false
 }
