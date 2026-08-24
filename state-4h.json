@@ -4,7 +4,7 @@
   "BTC/USD:4h:long": false,
   "BTC/USD:4h:short": false,
   "USDC/USD:4h:long": false,
-  "USDC/USD:4h:short": false,
+  "USDC/USD:4h:short": true,
   "ETH/USD:4h:long": false,
   "ETH/USD:4h:short": false,
   "SOL/USD:4h:long": false,
@@ -572,5 +572,7 @@
   "SPK/USD:4h:long": false,
   "SPK/USD:4h:short": false,
   "WFB/USD:4h:long": false,
-  "WFB/USD:4h:short": true
+  "WFB/USD:4h:short": true,
+  "ARX/USD:4h:long": false,
+  "ARX/USD:4h:short": false
 }
