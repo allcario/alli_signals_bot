@@ -288,7 +288,7 @@
   "OP/USD:1h:long": false,
   "OP/USD:1h:short": false,
   "FLR/USD:1h:long": false,
-  "FLR/USD:1h:short": false,
+  "FLR/USD:1h:short": true,
   "ZEREBRO/USD:1h:long": false,
   "ZEREBRO/USD:1h:short": false,
   "DCR/USD:1h:long": false,
@@ -592,5 +592,7 @@
   "SUPER/USD:1h:long": false,
   "SUPER/USD:1h:short": false,
   "PEPECOIN/USD:1h:long": false,
-  "PEPECOIN/USD:1h:short": false
+  "PEPECOIN/USD:1h:short": false,
+  "RAY/USD:1h:long": true,
+  "RAY/USD:1h:short": false
 }
