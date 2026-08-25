@@ -130,7 +130,7 @@
   "WEMIX/USD:30m:long": false,
   "WEMIX/USD:30m:short": false,
   "XCN/USD:30m:long": false,
-  "XCN/USD:30m:short": true,
+  "XCN/USD:30m:short": false,
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
   "USELESS/USD:30m:long": false,
