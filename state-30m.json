@@ -556,7 +556,7 @@
   "TREE/USD:30m:long": false,
   "TREE/USD:30m:short": false,
   "LIGHTER/USD:30m:long": false,
-  "LIGHTER/USD:30m:short": false,
+  "LIGHTER/USD:30m:short": true,
   "MET/USD:30m:long": false,
   "MET/USD:30m:short": false,
   "GRT/USD:30m:long": false,
