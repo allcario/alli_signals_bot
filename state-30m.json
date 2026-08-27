@@ -169,7 +169,7 @@
   "SPX/USD:30m:short": false,
   "EIGEN/USD:30m:long": false,
   "EIGEN/USD:30m:short": false,
-  "XDC/USD:30m:long": true,
+  "XDC/USD:30m:long": false,
   "XDC/USD:30m:short": false,
   "ATOM/USD:30m:long": false,
   "ATOM/USD:30m:short": false,
@@ -192,7 +192,7 @@
   "TRUMP/USD:30m:long": false,
   "TRUMP/USD:30m:short": false,
   "STX/USD:30m:long": false,
-  "STX/USD:30m:short": false,
+  "STX/USD:30m:short": true,
   "REZ/USD:30m:long": false,
   "REZ/USD:30m:short": false,
   "FIL/USD:30m:long": false,
@@ -610,7 +610,7 @@
   "TMX/USD:30m:long": false,
   "TMX/USD:30m:short": false,
   "TAC/USD:30m:long": false,
-  "TAC/USD:30m:short": true,
+  "TAC/USD:30m:short": false,
   "FOLD/USD:30m:long": false,
   "FOLD/USD:30m:short": false
 }
