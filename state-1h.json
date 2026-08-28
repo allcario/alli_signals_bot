@@ -608,7 +608,7 @@
   "PWT/USD:1h:long": false,
   "PWT/USD:1h:short": false,
   "VET/USD:1h:long": false,
-  "VET/USD:1h:short": true,
+  "VET/USD:1h:short": false,
   "RUNE/USD:1h:long": false,
   "RUNE/USD:1h:short": false,
   "BEAM/USD:1h:long": false,
