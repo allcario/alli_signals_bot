@@ -170,7 +170,7 @@
   "EIGEN/USD:30m:long": false,
   "EIGEN/USD:30m:short": false,
   "XDC/USD:30m:long": false,
-  "XDC/USD:30m:short": true,
+  "XDC/USD:30m:short": false,
   "ATOM/USD:30m:long": false,
   "ATOM/USD:30m:short": false,
   "LUNC/USD:30m:long": false,
@@ -620,5 +620,7 @@
   "BEAM/USD:30m:long": false,
   "BEAM/USD:30m:short": false,
   "TGBP/USD:30m:long": false,
-  "TGBP/USD:30m:short": false
+  "TGBP/USD:30m:short": false,
+  "GHST/USD:30m:long": false,
+  "GHST/USD:30m:short": false
 }
