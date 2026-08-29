@@ -291,7 +291,7 @@
   "FLR/USD:1h:short": false,
   "ZEREBRO/USD:1h:long": false,
   "ZEREBRO/USD:1h:short": false,
-  "DCR/USD:1h:long": false,
+  "DCR/USD:1h:long": true,
   "DCR/USD:1h:short": false,
   "USDE/USD:1h:long": false,
   "USDE/USD:1h:short": false,
