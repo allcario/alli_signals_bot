@@ -218,7 +218,7 @@
   "REKT/USD:30m:long": false,
   "REKT/USD:30m:short": false,
   "DAI/USD:30m:long": false,
-  "DAI/USD:30m:short": false,
+  "DAI/USD:30m:short": true,
   "SOON/USD:30m:long": false,
   "SOON/USD:30m:short": false,
   "OP/USD:30m:long": false,
