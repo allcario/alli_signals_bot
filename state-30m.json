@@ -326,7 +326,7 @@
   "AEVO/USD:30m:long": false,
   "AEVO/USD:30m:short": false,
   "BLESS/USD:30m:long": false,
-  "BLESS/USD:30m:short": false,
+  "BLESS/USD:30m:short": true,
   "WLFI/USD:30m:long": false,
   "WLFI/USD:30m:short": false,
   "TRU/USD:30m:long": false,
