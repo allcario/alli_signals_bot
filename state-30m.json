@@ -64,7 +64,7 @@
   "DASH/USD:30m:long": true,
   "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
-  "USDG/USD:30m:short": false,
+  "USDG/USD:30m:short": true,
   "PLAY/USD:30m:long": false,
   "PLAY/USD:30m:short": false,
   "FET/USD:30m:long": false,
@@ -73,7 +73,7 @@
   "ZAMA/USD:30m:short": false,
   "UNI/USD:30m:long": false,
   "UNI/USD:30m:short": false,
-  "BCH/USD:30m:long": true,
+  "BCH/USD:30m:long": false,
   "BCH/USD:30m:short": false,
   "ALGO/USD:30m:long": false,
   "ALGO/USD:30m:short": false,
@@ -638,5 +638,7 @@
   "POND/USD:30m:long": false,
   "POND/USD:30m:short": false,
   "ZORA/USD:30m:long": false,
-  "ZORA/USD:30m:short": false
+  "ZORA/USD:30m:short": false,
+  "DOGS/USD:30m:long": false,
+  "DOGS/USD:30m:short": false
 }
