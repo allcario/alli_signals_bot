@@ -180,7 +180,7 @@
   "EURC/USD:30m:long": false,
   "EURC/USD:30m:short": false,
   "POL/USD:30m:long": false,
-  "POL/USD:30m:short": true,
+  "POL/USD:30m:short": false,
   "MORPHO/USD:30m:long": false,
   "MORPHO/USD:30m:short": false,
   "RE/USD:30m:long": false,
