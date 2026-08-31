@@ -224,7 +224,7 @@
   "CAP/USD:1h:long": false,
   "CAP/USD:1h:short": false,
   "MINA/USD:1h:long": false,
-  "MINA/USD:1h:short": true,
+  "MINA/USD:1h:short": false,
   "ASSET/USD:1h:long": false,
   "ASSET/USD:1h:short": false,
   "JUP/USD:1h:long": false,
@@ -636,5 +636,5 @@
   "POND/USD:1h:long": false,
   "POND/USD:1h:short": false,
   "ZK/USD:1h:long": false,
-  "ZK/USD:1h:short": true
+  "ZK/USD:1h:short": false
 }
