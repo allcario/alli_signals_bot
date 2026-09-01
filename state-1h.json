@@ -324,7 +324,7 @@
   "QCAD/USD:1h:long": false,
   "QCAD/USD:1h:short": false,
   "PYUSD/USD:1h:long": false,
-  "PYUSD/USD:1h:short": false,
+  "PYUSD/USD:1h:short": true,
   "DRV/USD:1h:long": false,
   "DRV/USD:1h:short": false,
   "CFX/USD:1h:long": false,
@@ -638,5 +638,7 @@
   "ZK/USD:1h:long": false,
   "ZK/USD:1h:short": false,
   "DOGS/USD:1h:long": false,
-  "DOGS/USD:1h:short": false
+  "DOGS/USD:1h:short": false,
+  "SC/USD:1h:long": false,
+  "SC/USD:1h:short": false
 }
