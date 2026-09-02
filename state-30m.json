@@ -1,5 +1,5 @@
 {
-  "USDT/USD:30m:long": false,
+  "USDT/USD:30m:long": true,
   "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
@@ -47,7 +47,7 @@
   "AVAX/USD:30m:short": false,
   "ONDO/USD:30m:long": false,
   "ONDO/USD:30m:short": false,
-  "LTC/USD:30m:long": false,
+  "LTC/USD:30m:long": true,
   "LTC/USD:30m:short": false,
   "SHIB/USD:30m:long": false,
   "SHIB/USD:30m:short": false,
@@ -268,7 +268,7 @@
   "M/USD:30m:long": false,
   "M/USD:30m:short": false,
   "SYRUP/USD:30m:long": false,
-  "SYRUP/USD:30m:short": false,
+  "SYRUP/USD:30m:short": true,
   "FORTH/USD:30m:long": false,
   "FORTH/USD:30m:short": false,
   "US/USD:30m:long": false,
@@ -646,5 +646,7 @@
   "MLN/USD:30m:long": false,
   "MLN/USD:30m:short": false,
   "T/USD:30m:long": false,
-  "T/USD:30m:short": true
+  "T/USD:30m:short": true,
+  "EGLD/USD:30m:long": false,
+  "EGLD/USD:30m:short": false
 }
