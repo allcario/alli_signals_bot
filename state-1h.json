@@ -311,7 +311,7 @@
   "FLOW/USD:1h:short": false,
   "MNT/USD:1h:long": false,
   "MNT/USD:1h:short": false,
-  "ASTER/USD:1h:long": false,
+  "ASTER/USD:1h:long": true,
   "ASTER/USD:1h:short": false,
   "XMN/USD:1h:long": false,
   "XMN/USD:1h:short": false,
