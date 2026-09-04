@@ -301,7 +301,7 @@
   "KTA/USD:1h:short": false,
   "LMWR/USD:1h:long": false,
   "LMWR/USD:1h:short": false,
-  "UAI/USD:1h:long": true,
+  "UAI/USD:1h:long": false,
   "UAI/USD:1h:short": false,
   "MANTRA/USD:1h:long": false,
   "MANTRA/USD:1h:short": false,
