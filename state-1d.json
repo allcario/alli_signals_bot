@@ -32,7 +32,7 @@
   "ONDO/USD:1d:long": false,
   "ONDO/USD:1d:short": false,
   "GBP/USD:1d:long": false,
-  "GBP/USD:1d:short": true,
+  "GBP/USD:1d:short": false,
   "LINK/USD:1d:long": false,
   "LINK/USD:1d:short": false,
   "AAVE/USD:1d:long": false,
@@ -117,7 +117,7 @@
   "GWEI/USD:1d:short": false,
   "WLD/USD:1d:long": false,
   "WLD/USD:1d:short": false,
-  "USELESS/USD:1d:long": false,
+  "USELESS/USD:1d:long": true,
   "USELESS/USD:1d:short": false,
   "INJ/USD:1d:long": false,
   "INJ/USD:1d:short": false,
@@ -565,6 +565,6 @@
   "MLN/USD:1d:short": false,
   "T/USD:1d:long": false,
   "T/USD:1d:short": false,
-  "EGLD/USD:1d:long": true,
+  "EGLD/USD:1d:long": false,
   "EGLD/USD:1d:short": false
 }
