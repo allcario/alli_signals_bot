@@ -73,7 +73,7 @@
   "INJ/USD:4h:short": false,
   "RE/USD:4h:long": false,
   "RE/USD:4h:short": false,
-  "NEAR/USD:4h:long": false,
+  "NEAR/USD:4h:long": true,
   "NEAR/USD:4h:short": false,
   "STRK/USD:4h:long": false,
   "STRK/USD:4h:short": false,
