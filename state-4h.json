@@ -47,7 +47,7 @@
   "LTC/USD:4h:short": false,
   "TAO/USD:4h:long": false,
   "TAO/USD:4h:short": false,
-  "VVV/USD:4h:long": true,
+  "VVV/USD:4h:long": false,
   "VVV/USD:4h:short": false,
   "GBP/USD:4h:long": false,
   "GBP/USD:4h:short": false,
