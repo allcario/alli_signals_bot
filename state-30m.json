@@ -8,7 +8,7 @@
   "USDC/USD:30m:long": false,
   "USDC/USD:30m:short": false,
   "EUR/USD:30m:long": false,
-  "EUR/USD:30m:short": false,
+  "EUR/USD:30m:short": true,
   "SOL/USD:30m:long": false,
   "SOL/USD:30m:short": false,
   "XRP/USD:30m:long": false,
