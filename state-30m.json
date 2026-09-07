@@ -254,7 +254,7 @@
   "MNT/USD:30m:long": false,
   "MNT/USD:30m:short": false,
   "ASTER/USD:30m:long": false,
-  "ASTER/USD:30m:short": true,
+  "ASTER/USD:30m:short": false,
   "AUSD/USD:30m:long": false,
   "AUSD/USD:30m:short": false,
   "PENDLE/USD:30m:long": false,
