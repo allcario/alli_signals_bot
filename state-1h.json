@@ -1,6 +1,6 @@
 {
   "USDT/USD:1h:long": false,
-  "USDT/USD:1h:short": false,
+  "USDT/USD:1h:short": true,
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
   "USDC/USD:1h:long": false,
@@ -194,7 +194,7 @@
   "POL/USD:1h:long": false,
   "POL/USD:1h:short": false,
   "SPX/USD:1h:long": false,
-  "SPX/USD:1h:short": true,
+  "SPX/USD:1h:short": false,
   "RIZE/USD:1h:long": false,
   "RIZE/USD:1h:short": false,
   "ADI/USD:1h:long": false,
