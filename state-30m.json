@@ -1,6 +1,6 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": true,
+  "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
@@ -242,7 +242,7 @@
   "SKY/USD:30m:long": false,
   "SKY/USD:30m:short": false,
   "UAI/USD:30m:long": false,
-  "UAI/USD:30m:short": false,
+  "UAI/USD:30m:short": true,
   "MANTRA/USD:30m:long": false,
   "MANTRA/USD:30m:short": false,
   "PLUME/USD:30m:long": false,
