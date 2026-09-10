@@ -666,5 +666,7 @@
   "LRC/USD:30m:long": false,
   "LRC/USD:30m:short": false,
   "VTHO/USD:30m:long": false,
-  "VTHO/USD:30m:short": false
+  "VTHO/USD:30m:short": false,
+  "LAPTOP/USD:30m:long": false,
+  "LAPTOP/USD:30m:short": false
 }
