@@ -55,7 +55,7 @@
   "PEPE/USD:30m:short": false,
   "ESPORTS/USD:30m:long": false,
   "ESPORTS/USD:30m:short": false,
-  "DOT/USD:30m:long": false,
+  "DOT/USD:30m:long": true,
   "DOT/USD:30m:short": false,
   "KAITO/USD:30m:long": false,
   "KAITO/USD:30m:short": false,
@@ -97,7 +97,7 @@
   "XAUT/USD:30m:short": false,
   "LCAP/USD:30m:long": false,
   "LCAP/USD:30m:short": false,
-  "JUP/USD:30m:long": false,
+  "JUP/USD:30m:long": true,
   "JUP/USD:30m:short": false,
   "SYN/USD:30m:long": false,
   "SYN/USD:30m:short": false,
@@ -555,7 +555,7 @@
   "BIO/USD:30m:short": false,
   "TREE/USD:30m:long": false,
   "TREE/USD:30m:short": false,
-  "LIGHTER/USD:30m:long": false,
+  "LIGHTER/USD:30m:long": true,
   "LIGHTER/USD:30m:short": false,
   "MET/USD:30m:long": false,
   "MET/USD:30m:short": false,
@@ -668,5 +668,7 @@
   "VTHO/USD:30m:long": false,
   "VTHO/USD:30m:short": false,
   "LAPTOP/USD:30m:long": false,
-  "LAPTOP/USD:30m:short": false
+  "LAPTOP/USD:30m:short": false,
+  "DYDX/USD:30m:long": false,
+  "DYDX/USD:30m:short": false
 }
