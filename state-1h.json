@@ -96,7 +96,7 @@
   "VELVET/USD:1h:long": false,
   "VELVET/USD:1h:short": false,
   "KAS/USD:1h:long": false,
-  "KAS/USD:1h:short": true,
+  "KAS/USD:1h:short": false,
   "BNB/USD:1h:long": false,
   "BNB/USD:1h:short": false,
   "NIGHT/USD:1h:long": false,
