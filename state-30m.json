@@ -485,7 +485,7 @@
   "KNTQ/USD:30m:short": false,
   "AVNT/USD:30m:long": false,
   "AVNT/USD:30m:short": false,
-  "VSN/USD:30m:long": false,
+  "VSN/USD:30m:long": true,
   "VSN/USD:30m:short": false,
   "MINA/USD:30m:long": false,
   "MINA/USD:30m:short": false,
