@@ -26,8 +26,8 @@
   "ADA/USD:30m:long": false,
   "ADA/USD:30m:short": false,
   "NEAR/USD:30m:long": false,
-  "NEAR/USD:30m:short": false,
-  "TRX/USD:30m:long": true,
+  "NEAR/USD:30m:short": true,
+  "TRX/USD:30m:long": false,
   "TRX/USD:30m:short": false,
   "TAO/USD:30m:long": false,
   "TAO/USD:30m:short": false,
@@ -84,7 +84,7 @@
   "NIGHT/USD:30m:long": false,
   "NIGHT/USD:30m:short": false,
   "AUD/USD:30m:long": false,
-  "AUD/USD:30m:short": true,
+  "AUD/USD:30m:short": false,
   "PENGU/USD:30m:long": false,
   "PENGU/USD:30m:short": false,
   "PAXG/USD:30m:long": false,
@@ -129,7 +129,7 @@
   "EUL/USD:30m:short": false,
   "WEMIX/USD:30m:long": false,
   "WEMIX/USD:30m:short": false,
-  "XCN/USD:30m:long": false,
+  "XCN/USD:30m:long": true,
   "XCN/USD:30m:short": false,
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
@@ -674,5 +674,7 @@
   "GAIB/USD:30m:long": false,
   "GAIB/USD:30m:short": false,
   "SYND/USD:30m:long": false,
-  "SYND/USD:30m:short": false
+  "SYND/USD:30m:short": false,
+  "ANON/USD:30m:long": false,
+  "ANON/USD:30m:short": false
 }
