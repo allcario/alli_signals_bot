@@ -236,7 +236,7 @@
   "RIVER/USD:1h:long": false,
   "RIVER/USD:1h:short": false,
   "ATOM/USD:1h:long": false,
-  "ATOM/USD:1h:short": false,
+  "ATOM/USD:1h:short": true,
   "STORJ/USD:1h:long": false,
   "STORJ/USD:1h:short": false,
   "GIGA/USD:1h:long": false,
