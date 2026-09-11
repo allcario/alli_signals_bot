@@ -593,7 +593,7 @@
   "SUPER/USD:30m:short": false,
   "PEPECOIN/USD:30m:long": false,
   "PEPECOIN/USD:30m:short": false,
-  "RAY/USD:30m:long": true,
+  "RAY/USD:30m:long": false,
   "RAY/USD:30m:short": false,
   "DGAI/USD:30m:long": false,
   "DGAI/USD:30m:short": false,
