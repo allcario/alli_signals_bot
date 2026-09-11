@@ -670,7 +670,7 @@
   "DYDX/USD:1h:long": false,
   "DYDX/USD:1h:short": false,
   "GAIB/USD:1h:long": false,
-  "GAIB/USD:1h:short": false,
+  "GAIB/USD:1h:short": true,
   "SYND/USD:1h:long": false,
   "SYND/USD:1h:short": false
 }
