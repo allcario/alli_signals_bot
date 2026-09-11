@@ -129,7 +129,7 @@
   "EUL/USD:30m:short": false,
   "WEMIX/USD:30m:long": false,
   "WEMIX/USD:30m:short": false,
-  "XCN/USD:30m:long": true,
+  "XCN/USD:30m:long": false,
   "XCN/USD:30m:short": false,
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
