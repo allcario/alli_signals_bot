@@ -317,7 +317,7 @@
   "XMN/USD:1h:short": false,
   "CSPR/USD:1h:long": true,
   "CSPR/USD:1h:short": false,
-  "SYRUP/USD:1h:long": false,
+  "SYRUP/USD:1h:long": true,
   "SYRUP/USD:1h:short": false,
   "FORTH/USD:1h:long": false,
   "FORTH/USD:1h:short": false,
