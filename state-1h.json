@@ -258,7 +258,7 @@
   "XAUT/USD:1h:long": false,
   "XAUT/USD:1h:short": false,
   "ZRO/USD:1h:long": false,
-  "ZRO/USD:1h:short": false,
+  "ZRO/USD:1h:short": true,
   "ARB/USD:1h:long": false,
   "ARB/USD:1h:short": false,
   "COMP/USD:1h:long": false,
@@ -672,5 +672,9 @@
   "GAIB/USD:1h:long": false,
   "GAIB/USD:1h:short": true,
   "SYND/USD:1h:long": false,
-  "SYND/USD:1h:short": false
+  "SYND/USD:1h:short": false,
+  "LAPTOP/USD:1h:long": false,
+  "LAPTOP/USD:1h:short": false,
+  "ANON/USD:1h:long": false,
+  "ANON/USD:1h:short": false
 }
