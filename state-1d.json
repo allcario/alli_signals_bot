@@ -6,7 +6,7 @@
   "ETH/USD:1d:long": false,
   "ETH/USD:1d:short": false,
   "USDC/USD:1d:long": false,
-  "USDC/USD:1d:short": false,
+  "USDC/USD:1d:short": true,
   "EUR/USD:1d:long": false,
   "EUR/USD:1d:short": false,
   "XRP/USD:1d:long": false,
@@ -586,5 +586,7 @@
   "VTHO/USD:1d:long": true,
   "VTHO/USD:1d:short": false,
   "DYDX/USD:1d:long": false,
-  "DYDX/USD:1d:short": false
+  "DYDX/USD:1d:short": false,
+  "ANON/USD:1d:long": false,
+  "ANON/USD:1d:short": false
 }
