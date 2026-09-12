@@ -50,7 +50,7 @@
   "GBP/USD:1h:long": false,
   "GBP/USD:1h:short": false,
   "VVV/USD:1h:long": false,
-  "VVV/USD:1h:short": true,
+  "VVV/USD:1h:short": false,
   "ZAMA/USD:1h:long": false,
   "ZAMA/USD:1h:short": false,
   "XLM/USD:1h:long": false,
