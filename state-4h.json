@@ -217,7 +217,7 @@
   "LPT/USD:4h:short": false,
   "CAP/USD:4h:long": false,
   "CAP/USD:4h:short": false,
-  "MINA/USD:4h:long": true,
+  "MINA/USD:4h:long": false,
   "MINA/USD:4h:short": false,
   "ASSET/USD:4h:long": false,
   "ASSET/USD:4h:short": false,
@@ -225,7 +225,7 @@
   "JUP/USD:4h:short": false,
   "SAFE/USD:4h:long": false,
   "SAFE/USD:4h:short": false,
-  "RIVER/USD:4h:long": true,
+  "RIVER/USD:4h:long": false,
   "RIVER/USD:4h:short": false,
   "STORJ/USD:4h:long": true,
   "STORJ/USD:4h:short": false,
@@ -662,5 +662,7 @@
   "GAIB/USD:4h:long": false,
   "GAIB/USD:4h:short": false,
   "ANON/USD:4h:long": false,
-  "ANON/USD:4h:short": false
+  "ANON/USD:4h:short": false,
+  "CLOUD/USD:4h:long": false,
+  "CLOUD/USD:4h:short": false
 }
