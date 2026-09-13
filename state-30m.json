@@ -4,7 +4,7 @@
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
-  "ETH/USD:30m:short": true,
+  "ETH/USD:30m:short": false,
   "USDC/USD:30m:long": false,
   "USDC/USD:30m:short": false,
   "EUR/USD:30m:long": false,
@@ -40,7 +40,7 @@
   "LINK/USD:30m:long": false,
   "LINK/USD:30m:short": false,
   "AAVE/USD:30m:long": false,
-  "AAVE/USD:30m:short": true,
+  "AAVE/USD:30m:short": false,
   "XMR/USD:30m:long": false,
   "XMR/USD:30m:short": false,
   "AVAX/USD:30m:long": false,
@@ -115,7 +115,7 @@
   "BOB/USD:30m:short": false,
   "ESP/USD:30m:long": false,
   "ESP/USD:30m:short": false,
-  "STORJ/USD:30m:long": true,
+  "STORJ/USD:30m:long": false,
   "STORJ/USD:30m:short": false,
   "INJ/USD:30m:long": false,
   "INJ/USD:30m:short": false,
@@ -134,7 +134,7 @@
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
   "USELESS/USD:30m:long": false,
-  "USELESS/USD:30m:short": false,
+  "USELESS/USD:30m:short": true,
   "BNB/USD:30m:long": false,
   "BNB/USD:30m:short": false,
   "JTO/USD:30m:long": false,
@@ -688,5 +688,5 @@
   "POWR/USD:30m:long": false,
   "POWR/USD:30m:short": false,
   "KAVA/USD:30m:long": false,
-  "KAVA/USD:30m:short": true
+  "KAVA/USD:30m:short": false
 }
