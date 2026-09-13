@@ -547,7 +547,7 @@
   "TREE/USD:4h:short": false,
   "MET/USD:4h:long": false,
   "MET/USD:4h:short": false,
-  "XTZ/USD:4h:long": false,
+  "XTZ/USD:4h:long": true,
   "XTZ/USD:4h:short": false,
   "TURBO/USD:4h:long": false,
   "TURBO/USD:4h:short": false,
@@ -675,6 +675,6 @@
   "POWR/USD:4h:short": false,
   "KAVA/USD:4h:long": false,
   "KAVA/USD:4h:short": false,
-  "CVC/USD:4h:long": true,
+  "CVC/USD:4h:long": false,
   "CVC/USD:4h:short": false
 }
