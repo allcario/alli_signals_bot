@@ -1,6 +1,6 @@
 {
   "USDT/USD:4h:long": false,
-  "USDT/USD:4h:short": true,
+  "USDT/USD:4h:short": false,
   "BTC/USD:4h:long": false,
   "BTC/USD:4h:short": false,
   "USDC/USD:4h:long": false,
@@ -104,7 +104,7 @@
   "TON/USD:4h:long": false,
   "TON/USD:4h:short": false,
   "PAXG/USD:4h:long": false,
-  "PAXG/USD:4h:short": false,
+  "PAXG/USD:4h:short": true,
   "FLOKI/USD:4h:long": false,
   "FLOKI/USD:4h:short": false,
   "MORPHO/USD:4h:long": false,
@@ -405,7 +405,7 @@
   "BLUR/USD:4h:short": false,
   "PLUME/USD:4h:long": false,
   "PLUME/USD:4h:short": false,
-  "DOG/USD:4h:long": false,
+  "DOG/USD:4h:long": true,
   "DOG/USD:4h:short": false,
   "STG/USD:4h:long": false,
   "STG/USD:4h:short": false,
@@ -676,5 +676,7 @@
   "KAVA/USD:4h:long": false,
   "KAVA/USD:4h:short": true,
   "CVC/USD:4h:long": false,
-  "CVC/USD:4h:short": false
+  "CVC/USD:4h:short": false,
+  "CPOOL/USD:4h:long": false,
+  "CPOOL/USD:4h:short": false
 }
