@@ -162,7 +162,7 @@
   "THQ/USD:30m:long": false,
   "THQ/USD:30m:short": false,
   "CAP/USD:30m:long": false,
-  "CAP/USD:30m:short": true,
+  "CAP/USD:30m:short": false,
   "FARTCOIN/USD:30m:long": false,
   "FARTCOIN/USD:30m:short": false,
   "SPX/USD:30m:long": false,
