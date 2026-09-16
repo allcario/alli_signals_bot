@@ -101,7 +101,7 @@
   "JUP/USD:30m:short": false,
   "SYN/USD:30m:long": false,
   "SYN/USD:30m:short": false,
-  "ICP/USD:30m:long": true,
+  "ICP/USD:30m:long": false,
   "ICP/USD:30m:short": false,
   "MANA/USD:30m:long": false,
   "MANA/USD:30m:short": false,
