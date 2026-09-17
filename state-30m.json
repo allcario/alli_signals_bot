@@ -309,7 +309,7 @@
   "SAND/USD:30m:short": false,
   "BABY/USD:30m:long": false,
   "BABY/USD:30m:short": false,
-  "AVA/USD:30m:long": false,
+  "AVA/USD:30m:long": true,
   "AVA/USD:30m:short": false,
   "OXT/USD:30m:long": false,
   "OXT/USD:30m:short": false,
