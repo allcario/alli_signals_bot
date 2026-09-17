@@ -169,7 +169,7 @@
   "AKT/USD:1h:short": false,
   "B2/USD:1h:long": false,
   "B2/USD:1h:short": false,
-  "TRUMP/USD:1h:long": true,
+  "TRUMP/USD:1h:long": false,
   "TRUMP/USD:1h:short": false,
   "JTO/USD:1h:long": true,
   "JTO/USD:1h:short": false,
