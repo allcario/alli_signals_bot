@@ -1,5 +1,5 @@
 {
-  "USDT/USD:1h:long": true,
+  "USDT/USD:1h:long": false,
   "USDT/USD:1h:short": false,
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
@@ -15,7 +15,7 @@
   "XRP/USD:1h:short": false,
   "ESPORTS/USD:1h:long": false,
   "ESPORTS/USD:1h:short": false,
-  "HYPE/USD:1h:long": false,
+  "HYPE/USD:1h:long": true,
   "HYPE/USD:1h:short": false,
   "SHIB/USD:1h:long": false,
   "SHIB/USD:1h:short": false,
@@ -698,5 +698,7 @@
   "SENT/USD:1h:long": false,
   "SENT/USD:1h:short": false,
   "ALIGN/USD:1h:long": false,
-  "ALIGN/USD:1h:short": false
+  "ALIGN/USD:1h:short": false,
+  "GENIUS/USD:1h:long": false,
+  "GENIUS/USD:1h:short": false
 }
