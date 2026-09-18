@@ -279,7 +279,7 @@
   "PYUSD/USD:30m:short": false,
   "FLOKI/USD:30m:long": false,
   "FLOKI/USD:30m:short": false,
-  "DRV/USD:30m:long": true,
+  "DRV/USD:30m:long": false,
   "DRV/USD:30m:short": false,
   "RIZE/USD:30m:long": false,
   "RIZE/USD:30m:short": false,
@@ -697,7 +697,7 @@
   "AIN/USD:30m:short": false,
   "SENT/USD:30m:long": false,
   "SENT/USD:30m:short": false,
-  "TREAD/USD:30m:long": false,
+  "TREAD/USD:30m:long": true,
   "TREAD/USD:30m:short": false,
   "GENIUS/USD:30m:long": false,
   "GENIUS/USD:30m:short": false
