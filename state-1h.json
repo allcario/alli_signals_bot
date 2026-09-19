@@ -121,7 +121,7 @@
   "FET/USD:1h:short": false,
   "WIF/USD:1h:long": false,
   "WIF/USD:1h:short": false,
-  "QNT/USD:1h:long": false,
+  "QNT/USD:1h:long": true,
   "QNT/USD:1h:short": false,
   "UNI/USD:1h:long": false,
   "UNI/USD:1h:short": false,
