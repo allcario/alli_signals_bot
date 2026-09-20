@@ -19,7 +19,7 @@
   "HYPE/USD:4h:short": false,
   "SHIB/USD:4h:long": false,
   "SHIB/USD:4h:short": false,
-  "AVAX/USD:4h:long": true,
+  "AVAX/USD:4h:long": false,
   "AVAX/USD:4h:short": false,
   "SUI/USD:4h:long": false,
   "SUI/USD:4h:short": false,
@@ -413,7 +413,7 @@
   "REPPO/USD:4h:short": false,
   "KMNO/USD:4h:long": false,
   "KMNO/USD:4h:short": false,
-  "VIRTUAL/USD:4h:long": true,
+  "VIRTUAL/USD:4h:long": false,
   "VIRTUAL/USD:4h:short": false,
   "HPOS10I/USD:4h:long": false,
   "HPOS10I/USD:4h:short": false,
@@ -690,5 +690,7 @@
   "LAPTOP/USD:4h:long": false,
   "LAPTOP/USD:4h:short": false,
   "W/USD:4h:long": false,
-  "W/USD:4h:short": false
+  "W/USD:4h:short": false,
+  "CELR/USD:4h:long": true,
+  "CELR/USD:4h:short": false
 }
