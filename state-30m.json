@@ -134,7 +134,7 @@
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
   "USELESS/USD:30m:long": false,
-  "USELESS/USD:30m:short": true,
+  "USELESS/USD:30m:short": false,
   "BNB/USD:30m:long": false,
   "BNB/USD:30m:short": false,
   "JTO/USD:30m:long": false,
