@@ -72,7 +72,7 @@
   "ZAMA/USD:1d:long": false,
   "ZAMA/USD:1d:short": false,
   "USDG/USD:1d:long": false,
-  "USDG/USD:1d:short": true,
+  "USDG/USD:1d:short": false,
   "FET/USD:1d:long": false,
   "FET/USD:1d:short": false,
   "SYN/USD:1d:long": true,
@@ -442,7 +442,7 @@
   "FUN/USD:1d:long": false,
   "FUN/USD:1d:short": false,
   "CHIP/USD:1d:long": false,
-  "CHIP/USD:1d:short": true,
+  "CHIP/USD:1d:short": false,
   "OKB/USD:1d:long": false,
   "OKB/USD:1d:short": false,
   "COW/USD:1d:long": false,
@@ -612,5 +612,7 @@
   "GENIUS/USD:1d:long": false,
   "GENIUS/USD:1d:short": false,
   "G/USD:1d:long": true,
-  "G/USD:1d:short": false
+  "G/USD:1d:short": false,
+  "B2/USD:1d:long": false,
+  "B2/USD:1d:short": false
 }
