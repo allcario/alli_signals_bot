@@ -59,7 +59,7 @@
   "DOT/USD:30m:short": false,
   "KAITO/USD:30m:long": false,
   "KAITO/USD:30m:short": false,
-  "VVV/USD:30m:long": false,
+  "VVV/USD:30m:long": true,
   "VVV/USD:30m:short": false,
   "DASH/USD:30m:long": false,
   "DASH/USD:30m:short": false,
