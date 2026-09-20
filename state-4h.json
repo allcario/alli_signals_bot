@@ -460,7 +460,7 @@
   "MOVR/USD:4h:long": false,
   "MOVR/USD:4h:short": false,
   "LSK/USD:4h:long": false,
-  "LSK/USD:4h:short": true,
+  "LSK/USD:4h:short": false,
   "HOLO/USD:4h:long": false,
   "HOLO/USD:4h:short": false,
   "BONK/USD:4h:long": false,
@@ -691,6 +691,6 @@
   "LAPTOP/USD:4h:short": false,
   "W/USD:4h:long": false,
   "W/USD:4h:short": false,
-  "CELR/USD:4h:long": true,
+  "CELR/USD:4h:long": false,
   "CELR/USD:4h:short": false
 }
