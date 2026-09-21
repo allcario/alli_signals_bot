@@ -432,7 +432,7 @@
   "CAT/USD:30m:long": false,
   "CAT/USD:30m:short": false,
   "SAGA/USD:30m:long": false,
-  "SAGA/USD:30m:short": true,
+  "SAGA/USD:30m:short": false,
   "ARC/USD:30m:long": false,
   "ARC/USD:30m:short": false,
   "GLMR/USD:30m:long": false,
