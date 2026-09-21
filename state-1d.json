@@ -43,9 +43,9 @@
   "PUMP/USD:1d:short": false,
   "XMR/USD:1d:long": false,
   "XMR/USD:1d:short": false,
-  "AVAX/USD:1d:long": false,
+  "AVAX/USD:1d:long": true,
   "AVAX/USD:1d:short": false,
-  "NEAR/USD:1d:long": false,
+  "NEAR/USD:1d:long": true,
   "NEAR/USD:1d:short": false,
   "LTC/USD:1d:long": false,
   "LTC/USD:1d:short": false,
@@ -611,8 +611,12 @@
   "SENT/USD:1d:short": false,
   "GENIUS/USD:1d:long": false,
   "GENIUS/USD:1d:short": false,
-  "G/USD:1d:long": true,
+  "G/USD:1d:long": false,
   "G/USD:1d:short": false,
   "B2/USD:1d:long": false,
-  "B2/USD:1d:short": false
+  "B2/USD:1d:short": false,
+  "CELR/USD:1d:long": false,
+  "CELR/USD:1d:short": false,
+  "S/USD:1d:long": false,
+  "S/USD:1d:short": false
 }
