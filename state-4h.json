@@ -686,11 +686,13 @@
   "GENIUS/USD:4h:long": false,
   "GENIUS/USD:4h:short": false,
   "G/USD:4h:long": false,
-  "G/USD:4h:short": false,
+  "G/USD:4h:short": true,
   "LAPTOP/USD:4h:long": false,
   "LAPTOP/USD:4h:short": false,
   "W/USD:4h:long": false,
   "W/USD:4h:short": false,
   "CELR/USD:4h:long": false,
-  "CELR/USD:4h:short": false
+  "CELR/USD:4h:short": false,
+  "S/USD:4h:long": false,
+  "S/USD:4h:short": false
 }
