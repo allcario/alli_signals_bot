@@ -101,7 +101,7 @@
   "KAS/USD:4h:short": false,
   "USELESS/USD:4h:long": false,
   "USELESS/USD:4h:short": false,
-  "TON/USD:4h:long": true,
+  "TON/USD:4h:long": false,
   "TON/USD:4h:short": false,
   "PAXG/USD:4h:long": false,
   "PAXG/USD:4h:short": false,
@@ -696,5 +696,7 @@
   "S/USD:4h:long": false,
   "S/USD:4h:short": false,
   "ZETA/USD:4h:long": false,
-  "ZETA/USD:4h:short": false
+  "ZETA/USD:4h:short": false,
+  "GRASS/USD:4h:long": true,
+  "GRASS/USD:4h:short": false
 }
