@@ -1,5 +1,5 @@
 {
-  "USDT/USD:30m:long": true,
+  "USDT/USD:30m:long": false,
   "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
@@ -470,7 +470,7 @@
   "SCRT/USD:30m:long": false,
   "SCRT/USD:30m:short": false,
   "APE/USD:30m:long": false,
-  "APE/USD:30m:short": true,
+  "APE/USD:30m:short": false,
   "USDPT/USD:30m:long": false,
   "USDPT/USD:30m:short": false,
   "ZK/USD:30m:long": false,
