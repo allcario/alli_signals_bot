@@ -383,7 +383,7 @@
   "AI3/USD:1h:short": false,
   "MEGA/USD:1h:long": false,
   "MEGA/USD:1h:short": true,
-  "LSK/USD:1h:long": false,
+  "LSK/USD:1h:long": true,
   "LSK/USD:1h:short": false,
   "CASH/USD:1h:long": false,
   "CASH/USD:1h:short": false,
