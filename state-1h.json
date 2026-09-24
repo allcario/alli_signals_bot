@@ -63,7 +63,7 @@
   "RE/USD:1h:short": false,
   "LINK/USD:1h:long": false,
   "LINK/USD:1h:short": false,
-  "ONDO/USD:1h:long": false,
+  "ONDO/USD:1h:long": true,
   "ONDO/USD:1h:short": false,
   "AAVE/USD:1h:long": false,
   "AAVE/USD:1h:short": false,
