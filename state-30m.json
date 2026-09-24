@@ -108,7 +108,7 @@
   "NIL/USD:30m:long": false,
   "NIL/USD:30m:short": false,
   "COTI/USD:30m:long": false,
-  "COTI/USD:30m:short": false,
+  "COTI/USD:30m:short": true,
   "ADI/USD:30m:long": false,
   "ADI/USD:30m:short": false,
   "BOB/USD:30m:long": false,
