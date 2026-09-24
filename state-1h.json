@@ -111,7 +111,7 @@
   "FLOKI/USD:1h:short": false,
   "LUNC/USD:1h:long": false,
   "LUNC/USD:1h:short": false,
-  "ALGO/USD:1h:long": false,
+  "ALGO/USD:1h:long": true,
   "ALGO/USD:1h:short": false,
   "AUD/USD:1h:long": false,
   "AUD/USD:1h:short": false,
@@ -121,7 +121,7 @@
   "FET/USD:1h:short": false,
   "WIF/USD:1h:long": false,
   "WIF/USD:1h:short": false,
-  "QNT/USD:1h:long": false,
+  "QNT/USD:1h:long": true,
   "QNT/USD:1h:short": false,
   "UNI/USD:1h:long": false,
   "UNI/USD:1h:short": false,
@@ -223,7 +223,7 @@
   "ESP/USD:1h:short": false,
   "CAP/USD:1h:long": false,
   "CAP/USD:1h:short": false,
-  "MINA/USD:1h:long": true,
+  "MINA/USD:1h:long": false,
   "MINA/USD:1h:short": false,
   "ASSET/USD:1h:long": false,
   "ASSET/USD:1h:short": false,
@@ -718,5 +718,7 @@
   "APE/USD:1h:long": false,
   "APE/USD:1h:short": false,
   "GNOT/USD:1h:long": false,
-  "GNOT/USD:1h:short": false
+  "GNOT/USD:1h:short": false,
+  "ALEO/USD:1h:long": false,
+  "ALEO/USD:1h:short": false
 }
