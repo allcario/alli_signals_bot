@@ -119,7 +119,7 @@
   "FARTCOIN/USD:1h:short": false,
   "FET/USD:1h:long": false,
   "FET/USD:1h:short": false,
-  "WIF/USD:1h:long": true,
+  "WIF/USD:1h:long": false,
   "WIF/USD:1h:short": false,
   "QNT/USD:1h:long": false,
   "QNT/USD:1h:short": false,
