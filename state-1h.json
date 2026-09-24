@@ -261,7 +261,7 @@
   "ZRO/USD:1h:short": false,
   "ARB/USD:1h:long": false,
   "ARB/USD:1h:short": false,
-  "COMP/USD:1h:long": false,
+  "COMP/USD:1h:long": true,
   "COMP/USD:1h:short": false,
   "BOB/USD:1h:long": false,
   "BOB/USD:1h:short": false,
