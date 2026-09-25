@@ -125,7 +125,7 @@
   "FARTCOIN/USD:4h:short": false,
   "UNI/USD:4h:long": false,
   "UNI/USD:4h:short": false,
-  "QNT/USD:4h:long": false,
+  "QNT/USD:4h:long": true,
   "QNT/USD:4h:short": false,
   "SLX/USD:4h:long": false,
   "SLX/USD:4h:short": false,
