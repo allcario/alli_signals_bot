@@ -488,7 +488,7 @@
   "VSN/USD:30m:long": false,
   "VSN/USD:30m:short": false,
   "MINA/USD:30m:long": false,
-  "MINA/USD:30m:short": true,
+  "MINA/USD:30m:short": false,
   "ETHFI/USD:30m:long": false,
   "ETHFI/USD:30m:short": false,
   "RED/USD:30m:long": false,
