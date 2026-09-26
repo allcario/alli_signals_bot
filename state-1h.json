@@ -19,7 +19,7 @@
   "HYPE/USD:1h:short": false,
   "SHIB/USD:1h:long": false,
   "SHIB/USD:1h:short": false,
-  "AVAX/USD:1h:long": true,
+  "AVAX/USD:1h:long": false,
   "AVAX/USD:1h:short": false,
   "SUI/USD:1h:long": false,
   "SUI/USD:1h:short": false,
