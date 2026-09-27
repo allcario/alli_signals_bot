@@ -54,7 +54,7 @@
   "XLM/USD:4h:long": false,
   "XLM/USD:4h:short": false,
   "ZAMA/USD:4h:long": false,
-  "ZAMA/USD:4h:short": false,
+  "ZAMA/USD:4h:short": true,
   "TRX/USD:4h:long": false,
   "TRX/USD:4h:short": false,
   "GWEI/USD:4h:long": false,
