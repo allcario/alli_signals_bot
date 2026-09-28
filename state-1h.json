@@ -61,7 +61,7 @@
   "TRX/USD:1h:short": false,
   "RE/USD:1h:long": false,
   "RE/USD:1h:short": false,
-  "LINK/USD:1h:long": true,
+  "LINK/USD:1h:long": false,
   "LINK/USD:1h:short": false,
   "ONDO/USD:1h:long": false,
   "ONDO/USD:1h:short": false,
