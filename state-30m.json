@@ -698,7 +698,7 @@
   "SENT/USD:30m:long": false,
   "SENT/USD:30m:short": false,
   "TREAD/USD:30m:long": false,
-  "TREAD/USD:30m:short": true,
+  "TREAD/USD:30m:short": false,
   "GENIUS/USD:30m:long": false,
   "GENIUS/USD:30m:short": false,
   "DRIFT/USD:30m:long": false,
