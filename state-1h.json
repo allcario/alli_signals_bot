@@ -24,7 +24,7 @@
   "SUI/USD:1h:long": false,
   "SUI/USD:1h:short": false,
   "ZEC/USD:1h:long": false,
-  "ZEC/USD:1h:short": true,
+  "ZEC/USD:1h:short": false,
   "ADA/USD:1h:long": false,
   "ADA/USD:1h:short": false,
   "EUL/USD:1h:long": false,
