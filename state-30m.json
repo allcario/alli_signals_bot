@@ -231,7 +231,7 @@
   "DCR/USD:30m:short": false,
   "USDE/USD:30m:long": false,
   "USDE/USD:30m:short": false,
-  "PYTH/USD:30m:long": true,
+  "PYTH/USD:30m:long": false,
   "PYTH/USD:30m:short": false,
   "KTA/USD:30m:long": false,
   "KTA/USD:30m:short": false,
@@ -724,5 +724,7 @@
   "AXS/USD:30m:long": false,
   "AXS/USD:30m:short": true,
   "Q/USD:30m:long": false,
-  "Q/USD:30m:short": false
+  "Q/USD:30m:short": false,
+  "NMR/USD:30m:long": false,
+  "NMR/USD:30m:short": false
 }
