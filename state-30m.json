@@ -240,7 +240,7 @@
   "LMWR/USD:30m:long": true,
   "LMWR/USD:30m:short": false,
   "SKY/USD:30m:long": false,
-  "SKY/USD:30m:short": true,
+  "SKY/USD:30m:short": false,
   "UAI/USD:30m:long": false,
   "UAI/USD:30m:short": false,
   "MANTRA/USD:30m:long": false,
@@ -730,7 +730,7 @@
   "SN64/USD:30m:long": false,
   "SN64/USD:30m:short": false,
   "XDP/USD:30m:long": false,
-  "XDP/USD:30m:short": true,
+  "XDP/USD:30m:short": false,
   "PONS/USD:30m:long": false,
   "PONS/USD:30m:short": false
 }
