@@ -249,7 +249,7 @@
   "SNX/USD:1h:short": false,
   "THQ/USD:1h:long": false,
   "THQ/USD:1h:short": false,
-  "NIL/USD:1h:long": false,
+  "NIL/USD:1h:long": true,
   "NIL/USD:1h:short": false,
   "DOT/USD:1h:long": false,
   "DOT/USD:1h:short": false,
