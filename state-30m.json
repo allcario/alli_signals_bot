@@ -54,7 +54,7 @@
   "PEPE/USD:30m:long": false,
   "PEPE/USD:30m:short": false,
   "ESPORTS/USD:30m:long": false,
-  "ESPORTS/USD:30m:short": false,
+  "ESPORTS/USD:30m:short": true,
   "DOT/USD:30m:long": false,
   "DOT/USD:30m:short": false,
   "KAITO/USD:30m:long": false,
