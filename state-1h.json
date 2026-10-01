@@ -24,7 +24,7 @@
   "SUI/USD:1h:long": false,
   "SUI/USD:1h:short": false,
   "ZEC/USD:1h:long": false,
-  "ZEC/USD:1h:short": true,
+  "ZEC/USD:1h:short": false,
   "ADA/USD:1h:long": false,
   "ADA/USD:1h:short": false,
   "EUL/USD:1h:long": false,
@@ -100,8 +100,8 @@
   "BNB/USD:1h:long": false,
   "BNB/USD:1h:short": false,
   "NIGHT/USD:1h:long": false,
-  "NIGHT/USD:1h:short": true,
-  "TON/USD:1h:long": false,
+  "NIGHT/USD:1h:short": false,
+  "TON/USD:1h:long": true,
   "TON/USD:1h:short": false,
   "CRV/USD:1h:long": false,
   "CRV/USD:1h:short": false,
@@ -162,7 +162,7 @@
   "PROS/USD:1h:long": false,
   "PROS/USD:1h:short": false,
   "ZBCN/USD:1h:long": false,
-  "ZBCN/USD:1h:short": true,
+  "ZBCN/USD:1h:short": false,
   "CVX/USD:1h:long": false,
   "CVX/USD:1h:short": false,
   "AKT/USD:1h:long": false,
@@ -736,5 +736,7 @@
   "XDP/USD:1h:long": false,
   "XDP/USD:1h:short": false,
   "SWEAT/USD:1h:long": false,
-  "SWEAT/USD:1h:short": false
+  "SWEAT/USD:1h:short": false,
+  "RLUSD/USD:1h:long": false,
+  "RLUSD/USD:1h:short": false
 }
