@@ -199,7 +199,7 @@
   "RIZE/USD:1h:short": false,
   "ADI/USD:1h:long": false,
   "ADI/USD:1h:short": false,
-  "XDC/USD:1h:long": false,
+  "XDC/USD:1h:long": true,
   "XDC/USD:1h:short": false,
   "WLFI/USD:1h:long": false,
   "WLFI/USD:1h:short": false,
