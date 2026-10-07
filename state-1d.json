@@ -571,7 +571,7 @@
   "IDOS/USD:1d:short": false,
   "GRT/USD:1d:long": false,
   "GRT/USD:1d:short": false,
-  "SHX/USD:1d:long": true,
+  "SHX/USD:1d:long": false,
   "SHX/USD:1d:short": false,
   "AIOZ/USD:1d:long": true,
   "AIOZ/USD:1d:short": false,
@@ -647,6 +647,8 @@
   "AXS/USD:1d:short": false,
   "ZEUS/USD:1d:long": false,
   "ZEUS/USD:1d:short": false,
-  "ORCA/USD:1d:long": false,
-  "ORCA/USD:1d:short": false
+  "ORCA/USD:1d:long": true,
+  "ORCA/USD:1d:short": false,
+  "NMR/USD:1d:long": false,
+  "NMR/USD:1d:short": false
 }
