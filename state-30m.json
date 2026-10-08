@@ -18,7 +18,7 @@
   "SUI/USD:30m:long": false,
   "SUI/USD:30m:short": false,
   "ZEC/USD:30m:long": false,
-  "ZEC/USD:30m:short": false,
+  "ZEC/USD:30m:short": true,
   "XLM/USD:30m:long": false,
   "XLM/USD:30m:short": false,
   "AKE/USD:30m:long": false,
