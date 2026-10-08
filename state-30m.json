@@ -104,7 +104,7 @@
   "ICP/USD:30m:long": false,
   "ICP/USD:30m:short": false,
   "MANA/USD:30m:long": false,
-  "MANA/USD:30m:short": false,
+  "MANA/USD:30m:short": true,
   "NIL/USD:30m:long": false,
   "NIL/USD:30m:short": false,
   "COTI/USD:30m:long": false,
