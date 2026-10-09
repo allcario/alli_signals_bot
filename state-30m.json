@@ -475,7 +475,7 @@
   "USDPT/USD:30m:short": false,
   "ZK/USD:30m:long": false,
   "ZK/USD:30m:short": false,
-  "BAT/USD:30m:long": true,
+  "BAT/USD:30m:long": false,
   "BAT/USD:30m:short": false,
   "2Z/USD:30m:long": false,
   "2Z/USD:30m:short": false,
@@ -754,5 +754,5 @@
   "API3/USD:30m:long": false,
   "API3/USD:30m:short": false,
   "OGN/USD:30m:long": false,
-  "OGN/USD:30m:short": false
+  "OGN/USD:30m:short": true
 }
