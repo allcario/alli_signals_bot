@@ -36,7 +36,7 @@
   "GBP/USD:30m:long": false,
   "GBP/USD:30m:short": false,
   "PUMP/USD:30m:long": false,
-  "PUMP/USD:30m:short": true,
+  "PUMP/USD:30m:short": false,
   "LINK/USD:30m:long": false,
   "LINK/USD:30m:short": false,
   "AAVE/USD:30m:long": false,
@@ -60,7 +60,7 @@
   "KAITO/USD:30m:long": false,
   "KAITO/USD:30m:short": false,
   "VVV/USD:30m:long": false,
-  "VVV/USD:30m:short": true,
+  "VVV/USD:30m:short": false,
   "DASH/USD:30m:long": false,
   "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
@@ -192,7 +192,7 @@
   "TRUMP/USD:30m:long": false,
   "TRUMP/USD:30m:short": false,
   "STX/USD:30m:long": false,
-  "STX/USD:30m:short": true,
+  "STX/USD:30m:short": false,
   "REZ/USD:30m:long": false,
   "REZ/USD:30m:short": false,
   "FIL/USD:30m:long": false,
@@ -558,7 +558,7 @@
   "LIGHTER/USD:30m:long": false,
   "LIGHTER/USD:30m:short": false,
   "MET/USD:30m:long": false,
-  "MET/USD:30m:short": false,
+  "MET/USD:30m:short": true,
   "GRT/USD:30m:long": false,
   "GRT/USD:30m:short": false,
   "XTZ/USD:30m:long": false,
@@ -754,5 +754,5 @@
   "API3/USD:30m:long": false,
   "API3/USD:30m:short": false,
   "OGN/USD:30m:long": false,
-  "OGN/USD:30m:short": true
+  "OGN/USD:30m:short": false
 }
