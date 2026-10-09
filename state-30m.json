@@ -295,7 +295,7 @@
   "ICNT/USD:30m:short": false,
   "XNY/USD:30m:long": false,
   "XNY/USD:30m:short": false,
-  "BRL1/USD:30m:long": true,
+  "BRL1/USD:30m:long": false,
   "BRL1/USD:30m:short": false,
   "WMTX/USD:30m:long": false,
   "WMTX/USD:30m:short": false,
@@ -754,5 +754,5 @@
   "API3/USD:30m:long": false,
   "API3/USD:30m:short": false,
   "OGN/USD:30m:long": false,
-  "OGN/USD:30m:short": false
+  "OGN/USD:30m:short": true
 }
