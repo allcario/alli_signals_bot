@@ -67,7 +67,7 @@
   "ONDO/USD:1h:short": false,
   "AAVE/USD:1h:long": false,
   "AAVE/USD:1h:short": false,
-  "WLD/USD:1h:long": true,
+  "WLD/USD:1h:long": false,
   "WLD/USD:1h:short": false,
   "ICP/USD:1h:long": false,
   "ICP/USD:1h:short": false,
