@@ -192,7 +192,7 @@
   "TRUMP/USD:30m:long": false,
   "TRUMP/USD:30m:short": false,
   "STX/USD:30m:long": false,
-  "STX/USD:30m:short": false,
+  "STX/USD:30m:short": true,
   "REZ/USD:30m:long": false,
   "REZ/USD:30m:short": false,
   "FIL/USD:30m:long": false,
