@@ -693,7 +693,7 @@
   "W/USD:4h:short": false,
   "CELR/USD:4h:long": false,
   "CELR/USD:4h:short": false,
-  "S/USD:4h:long": true,
+  "S/USD:4h:long": false,
   "S/USD:4h:short": false,
   "ZETA/USD:4h:long": false,
   "ZETA/USD:4h:short": false,
