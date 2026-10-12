@@ -232,7 +232,7 @@
   "USDE/USD:30m:long": false,
   "USDE/USD:30m:short": false,
   "PYTH/USD:30m:long": false,
-  "PYTH/USD:30m:short": true,
+  "PYTH/USD:30m:short": false,
   "KTA/USD:30m:long": false,
   "KTA/USD:30m:short": false,
   "SNX/USD:30m:long": false,
