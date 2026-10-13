@@ -705,7 +705,7 @@
   "DRIFT/USD:30m:short": false,
   "G/USD:30m:long": false,
   "G/USD:30m:short": false,
-  "S/USD:30m:long": false,
+  "S/USD:30m:long": true,
   "S/USD:30m:short": false,
   "B2/USD:30m:long": false,
   "B2/USD:30m:short": false,
