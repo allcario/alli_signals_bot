@@ -157,7 +157,7 @@
   "QNT/USD:30m:short": true,
   "TON/USD:30m:long": false,
   "TON/USD:30m:short": false,
-  "STRK/USD:30m:long": false,
+  "STRK/USD:30m:long": true,
   "STRK/USD:30m:short": false,
   "THQ/USD:30m:long": false,
   "THQ/USD:30m:short": false,
@@ -764,5 +764,5 @@
   "RSR/USD:30m:long": false,
   "RSR/USD:30m:short": false,
   "OSMO/USD:30m:long": false,
-  "OSMO/USD:30m:short": false
+  "OSMO/USD:30m:short": true
 }
