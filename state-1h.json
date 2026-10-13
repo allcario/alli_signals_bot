@@ -203,7 +203,7 @@
   "XDC/USD:1h:short": false,
   "WLFI/USD:1h:long": true,
   "WLFI/USD:1h:short": false,
-  "BAT/USD:1h:long": false,
+  "BAT/USD:1h:long": true,
   "BAT/USD:1h:short": false,
   "SEI/USD:1h:long": false,
   "SEI/USD:1h:short": false,
