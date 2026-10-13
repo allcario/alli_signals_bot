@@ -91,7 +91,7 @@
   "PAXG/USD:30m:short": true,
   "HBAR/USD:30m:long": false,
   "HBAR/USD:30m:short": false,
-  "CC/USD:30m:long": true,
+  "CC/USD:30m:long": false,
   "CC/USD:30m:short": false,
   "XAUT/USD:30m:long": false,
   "XAUT/USD:30m:short": false,
@@ -710,7 +710,7 @@
   "B2/USD:30m:long": false,
   "B2/USD:30m:short": false,
   "W/USD:30m:long": false,
-  "W/USD:30m:short": false,
+  "W/USD:30m:short": true,
   "CELR/USD:30m:long": false,
   "CELR/USD:30m:short": false,
   "ZETA/USD:30m:long": false,
@@ -764,5 +764,5 @@
   "RSR/USD:30m:long": false,
   "RSR/USD:30m:short": false,
   "OSMO/USD:30m:long": false,
-  "OSMO/USD:30m:short": false
+  "OSMO/USD:30m:short": true
 }
