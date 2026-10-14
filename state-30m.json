@@ -306,7 +306,7 @@
   "ZEUS/USD:30m:long": false,
   "ZEUS/USD:30m:short": false,
   "SAND/USD:30m:long": false,
-  "SAND/USD:30m:short": false,
+  "SAND/USD:30m:short": true,
   "BABY/USD:30m:long": false,
   "BABY/USD:30m:short": false,
   "AVA/USD:30m:long": false,
