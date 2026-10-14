@@ -1,5 +1,5 @@
 {
-  "USDT/USD:4h:long": false,
+  "USDT/USD:4h:long": true,
   "USDT/USD:4h:short": false,
   "BTC/USD:4h:long": false,
   "BTC/USD:4h:short": false,
@@ -31,7 +31,7 @@
   "EUL/USD:4h:short": false,
   "USDG/USD:4h:long": false,
   "USDG/USD:4h:short": false,
-  "EUR/USD:4h:long": false,
+  "EUR/USD:4h:long": true,
   "EUR/USD:4h:short": false,
   "PEPE/USD:4h:long": false,
   "PEPE/USD:4h:short": false,
@@ -115,7 +115,7 @@
   "FET/USD:4h:short": false,
   "ALGO/USD:4h:long": false,
   "ALGO/USD:4h:short": false,
-  "AUD/USD:4h:long": false,
+  "AUD/USD:4h:long": true,
   "AUD/USD:4h:short": false,
   "PUMP/USD:4h:long": false,
   "PUMP/USD:4h:short": false,
@@ -580,7 +580,7 @@
   "PEPECOIN/USD:4h:long": false,
   "PEPECOIN/USD:4h:short": false,
   "RAY/USD:4h:long": false,
-  "RAY/USD:4h:short": true,
+  "RAY/USD:4h:short": false,
   "AR/USD:4h:long": false,
   "AR/USD:4h:short": false,
   "BILLY/USD:4h:long": false,
@@ -690,7 +690,7 @@
   "LAPTOP/USD:4h:long": false,
   "LAPTOP/USD:4h:short": false,
   "W/USD:4h:long": false,
-  "W/USD:4h:short": false,
+  "W/USD:4h:short": true,
   "CELR/USD:4h:long": false,
   "CELR/USD:4h:short": false,
   "S/USD:4h:long": false,
@@ -744,5 +744,7 @@
   "OSMO/USD:4h:long": false,
   "OSMO/USD:4h:short": false,
   "CT/USD:4h:long": false,
-  "CT/USD:4h:short": false
+  "CT/USD:4h:short": false,
+  "AZTEC/USD:4h:long": false,
+  "AZTEC/USD:4h:short": false
 }
