@@ -195,7 +195,7 @@
   "STX/USD:30m:short": false,
   "REZ/USD:30m:long": false,
   "REZ/USD:30m:short": false,
-  "FIL/USD:30m:long": true,
+  "FIL/USD:30m:long": false,
   "FIL/USD:30m:short": false,
   "RIVER/USD:30m:long": false,
   "RIVER/USD:30m:short": false,
