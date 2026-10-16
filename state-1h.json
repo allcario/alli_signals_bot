@@ -222,7 +222,7 @@
   "ESP/USD:1h:long": false,
   "ESP/USD:1h:short": false,
   "CAP/USD:1h:long": false,
-  "CAP/USD:1h:short": true,
+  "CAP/USD:1h:short": false,
   "MINA/USD:1h:long": false,
   "MINA/USD:1h:short": false,
   "ASSET/USD:1h:long": false,
