@@ -717,7 +717,7 @@
   "ZETA/USD:30m:short": false,
   "GNOT/USD:30m:long": false,
   "GNOT/USD:30m:short": false,
-  "ALEO/USD:30m:long": true,
+  "ALEO/USD:30m:long": false,
   "ALEO/USD:30m:short": false,
   "QI/USD:30m:long": false,
   "QI/USD:30m:short": false,
