@@ -564,7 +564,7 @@
   "XTZ/USD:30m:long": false,
   "XTZ/USD:30m:short": false,
   "GRASS/USD:30m:long": false,
-  "GRASS/USD:30m:short": true,
+  "GRASS/USD:30m:short": false,
   "NEIRO/USD:30m:long": false,
   "NEIRO/USD:30m:short": false,
   "PONKE/USD:30m:long": false,
