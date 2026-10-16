@@ -356,7 +356,7 @@
   "AI3/USD:30m:long": false,
   "AI3/USD:30m:short": false,
   "MEGA/USD:30m:long": false,
-  "MEGA/USD:30m:short": false,
+  "MEGA/USD:30m:short": true,
   "CASH/USD:30m:long": false,
   "CASH/USD:30m:short": false,
   "LSK/USD:30m:long": false,
