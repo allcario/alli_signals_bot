@@ -701,7 +701,7 @@
   "GRASS/USD:4h:short": false,
   "APE/USD:4h:long": false,
   "APE/USD:4h:short": false,
-  "ALEO/USD:4h:long": true,
+  "ALEO/USD:4h:long": false,
   "ALEO/USD:4h:short": false,
   "QI/USD:4h:long": false,
   "QI/USD:4h:short": false,
