@@ -747,6 +747,6 @@
   "CT/USD:4h:short": false,
   "AZTEC/USD:4h:long": false,
   "AZTEC/USD:4h:short": false,
-  "A/USD:4h:long": true,
+  "A/USD:4h:long": false,
   "A/USD:4h:short": false
 }
