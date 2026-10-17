@@ -510,7 +510,7 @@
   "ALICE/USD:1h:long": false,
   "ALICE/USD:1h:short": false,
   "WAL/USD:1h:long": false,
-  "WAL/USD:1h:short": true,
+  "WAL/USD:1h:short": false,
   "COW/USD:1h:long": false,
   "COW/USD:1h:short": false,
   "CHIP/USD:1h:long": false,
