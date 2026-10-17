@@ -167,7 +167,7 @@
   "FARTCOIN/USD:30m:short": false,
   "SPX/USD:30m:long": false,
   "SPX/USD:30m:short": false,
-  "EIGEN/USD:30m:long": false,
+  "EIGEN/USD:30m:long": true,
   "EIGEN/USD:30m:short": false,
   "XDC/USD:30m:long": false,
   "XDC/USD:30m:short": false,
