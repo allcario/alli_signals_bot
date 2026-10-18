@@ -37,7 +37,7 @@
   "PEPE/USD:1h:short": false,
   "SYN/USD:1h:long": false,
   "SYN/USD:1h:short": false,
-  "AKE/USD:1h:long": false,
+  "AKE/USD:1h:long": true,
   "AKE/USD:1h:short": false,
   "XMR/USD:1h:long": true,
   "XMR/USD:1h:short": false,
