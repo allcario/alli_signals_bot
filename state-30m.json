@@ -305,7 +305,7 @@
   "PTB/USD:30m:short": false,
   "ZEUS/USD:30m:long": false,
   "ZEUS/USD:30m:short": false,
-  "SAND/USD:30m:long": true,
+  "SAND/USD:30m:long": false,
   "SAND/USD:30m:short": false,
   "BABY/USD:30m:long": false,
   "BABY/USD:30m:short": false,
@@ -335,7 +335,7 @@
   "XAN/USD:30m:short": false,
   "FIGHT/USD:30m:long": false,
   "FIGHT/USD:30m:short": false,
-  "STBL/USD:30m:long": false,
+  "STBL/USD:30m:long": true,
   "STBL/USD:30m:short": false,
   "PIEVERSE/USD:30m:long": false,
   "PIEVERSE/USD:30m:short": false,
@@ -768,5 +768,5 @@
   "AZTEC/USD:30m:long": false,
   "AZTEC/USD:30m:short": false,
   "A/USD:30m:long": false,
-  "A/USD:30m:short": false
+  "A/USD:30m:short": true
 }
