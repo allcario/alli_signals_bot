@@ -331,7 +331,7 @@
   "WMTX/USD:4h:short": false,
   "JASMY/USD:4h:long": false,
   "JASMY/USD:4h:short": false,
-  "SAND/USD:4h:long": false,
+  "SAND/USD:4h:long": true,
   "SAND/USD:4h:short": false,
   "ZEUS/USD:4h:long": false,
   "ZEUS/USD:4h:short": false,
