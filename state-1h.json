@@ -496,7 +496,7 @@
   "AVNT/USD:1h:long": false,
   "AVNT/USD:1h:short": false,
   "VSN/USD:1h:long": false,
-  "VSN/USD:1h:short": false,
+  "VSN/USD:1h:short": true,
   "ETHFI/USD:1h:long": false,
   "ETHFI/USD:1h:short": false,
   "RED/USD:1h:long": false,
@@ -768,7 +768,7 @@
   "A/USD:1h:long": false,
   "A/USD:1h:short": false,
   "ALTHEA/USD:1h:long": false,
-  "ALTHEA/USD:1h:short": false,
+  "ALTHEA/USD:1h:short": true,
   "SN75/USD:1h:long": false,
   "SN75/USD:1h:short": false
 }
