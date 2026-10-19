@@ -770,5 +770,7 @@
   "A/USD:30m:long": false,
   "A/USD:30m:short": false,
   "ALTHEA/USD:30m:long": false,
-  "ALTHEA/USD:30m:short": false
+  "ALTHEA/USD:30m:short": true,
+  "SN75/USD:30m:long": false,
+  "SN75/USD:30m:short": false
 }
