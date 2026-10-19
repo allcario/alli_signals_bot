@@ -259,7 +259,7 @@
   "XAUT/USD:1h:short": false,
   "ZRO/USD:1h:long": false,
   "ZRO/USD:1h:short": false,
-  "ARB/USD:1h:long": true,
+  "ARB/USD:1h:long": false,
   "ARB/USD:1h:short": false,
   "COMP/USD:1h:long": false,
   "COMP/USD:1h:short": false,
