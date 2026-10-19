@@ -191,7 +191,7 @@
   "POPCAT/USD:1h:short": false,
   "DASH/USD:1h:long": false,
   "DASH/USD:1h:short": false,
-  "POL/USD:1h:long": true,
+  "POL/USD:1h:long": false,
   "POL/USD:1h:short": false,
   "SPX/USD:1h:long": false,
   "SPX/USD:1h:short": false,
