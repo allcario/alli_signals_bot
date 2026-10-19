@@ -22,7 +22,7 @@
   "XLM/USD:30m:long": false,
   "XLM/USD:30m:short": false,
   "AKE/USD:30m:long": false,
-  "AKE/USD:30m:short": true,
+  "AKE/USD:30m:short": false,
   "ADA/USD:30m:long": false,
   "ADA/USD:30m:short": false,
   "NEAR/USD:30m:long": false,
