@@ -204,7 +204,7 @@
   "WLFI/USD:1h:long": false,
   "WLFI/USD:1h:short": false,
   "BAT/USD:1h:long": false,
-  "BAT/USD:1h:short": false,
+  "BAT/USD:1h:short": true,
   "SEI/USD:1h:long": false,
   "SEI/USD:1h:short": false,
   "NANO/USD:1h:long": false,
