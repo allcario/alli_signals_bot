@@ -1,6 +1,6 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": true,
+  "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
@@ -61,7 +61,7 @@
   "KAITO/USD:30m:short": false,
   "VVV/USD:30m:long": false,
   "VVV/USD:30m:short": false,
-  "DASH/USD:30m:long": false,
+  "DASH/USD:30m:long": true,
   "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
   "USDG/USD:30m:short": false,
@@ -106,7 +106,7 @@
   "MANA/USD:30m:long": false,
   "MANA/USD:30m:short": false,
   "NIL/USD:30m:long": false,
-  "NIL/USD:30m:short": true,
+  "NIL/USD:30m:short": false,
   "COTI/USD:30m:long": false,
   "COTI/USD:30m:short": true,
   "ADI/USD:30m:long": false,
@@ -181,7 +181,7 @@
   "EURC/USD:30m:short": false,
   "POL/USD:30m:long": false,
   "POL/USD:30m:short": false,
-  "MORPHO/USD:30m:long": false,
+  "MORPHO/USD:30m:long": true,
   "MORPHO/USD:30m:short": false,
   "RE/USD:30m:long": false,
   "RE/USD:30m:short": false,
@@ -774,7 +774,7 @@
   "SN75/USD:30m:long": false,
   "SN75/USD:30m:short": false,
   "DNA/USD:30m:long": false,
-  "DNA/USD:30m:short": true,
+  "DNA/USD:30m:short": false,
   "MEW/USD:30m:long": false,
   "MEW/USD:30m:short": false
 }
