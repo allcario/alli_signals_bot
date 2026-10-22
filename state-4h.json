@@ -200,7 +200,7 @@
   "ADI/USD:4h:long": false,
   "ADI/USD:4h:short": false,
   "BAT/USD:4h:long": false,
-  "BAT/USD:4h:short": false,
+  "BAT/USD:4h:short": true,
   "PIEVERSE/USD:4h:long": false,
   "PIEVERSE/USD:4h:short": false,
   "EURC/USD:4h:long": false,
@@ -760,5 +760,7 @@
   "MEW/USD:4h:long": false,
   "MEW/USD:4h:short": false,
   "ALT/USD:4h:long": false,
-  "ALT/USD:4h:short": false
+  "ALT/USD:4h:short": false,
+  "ARKM/USD:4h:long": false,
+  "ARKM/USD:4h:short": false
 }
