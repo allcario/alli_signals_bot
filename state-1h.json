@@ -312,7 +312,7 @@
   "MNT/USD:1h:long": false,
   "MNT/USD:1h:short": false,
   "ASTER/USD:1h:long": false,
-  "ASTER/USD:1h:short": false,
+  "ASTER/USD:1h:short": true,
   "XMN/USD:1h:long": false,
   "XMN/USD:1h:short": false,
   "CSPR/USD:1h:long": true,
