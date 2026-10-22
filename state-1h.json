@@ -771,7 +771,7 @@
   "ALTHEA/USD:1h:short": true,
   "SN75/USD:1h:long": false,
   "SN75/USD:1h:short": false,
-  "MEW/USD:1h:long": false,
+  "MEW/USD:1h:long": true,
   "MEW/USD:1h:short": false,
   "DNA/USD:1h:long": false,
   "DNA/USD:1h:short": false,
