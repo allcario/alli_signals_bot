@@ -48,7 +48,7 @@
   "LTC/USD:1h:long": false,
   "LTC/USD:1h:short": false,
   "GBP/USD:1h:long": false,
-  "GBP/USD:1h:short": true,
+  "GBP/USD:1h:short": false,
   "VVV/USD:1h:long": false,
   "VVV/USD:1h:short": false,
   "ZAMA/USD:1h:long": false,
@@ -114,7 +114,7 @@
   "ALGO/USD:1h:long": false,
   "ALGO/USD:1h:short": false,
   "AUD/USD:1h:long": false,
-  "AUD/USD:1h:short": true,
+  "AUD/USD:1h:short": false,
   "FARTCOIN/USD:1h:long": false,
   "FARTCOIN/USD:1h:short": false,
   "FET/USD:1h:long": false,
@@ -158,7 +158,7 @@
   "LCX/USD:1h:long": false,
   "LCX/USD:1h:short": false,
   "STX/USD:1h:long": false,
-  "STX/USD:1h:short": true,
+  "STX/USD:1h:short": false,
   "PROS/USD:1h:long": false,
   "PROS/USD:1h:short": false,
   "ZBCN/USD:1h:long": false,
@@ -786,5 +786,7 @@
   "UP/USD:1h:long": false,
   "UP/USD:1h:short": false,
   "IN/USD:1h:long": false,
-  "IN/USD:1h:short": false
+  "IN/USD:1h:short": false,
+  "ORDER/USD:1h:long": false,
+  "ORDER/USD:1h:short": false
 }
