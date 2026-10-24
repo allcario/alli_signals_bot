@@ -457,7 +457,7 @@
   "ARC/USD:1h:short": false,
   "GLMR/USD:1h:long": false,
   "GLMR/USD:1h:short": false,
-  "BMT/USD:1h:long": false,
+  "BMT/USD:1h:long": true,
   "BMT/USD:1h:short": false,
   "ACU/USD:1h:long": false,
   "ACU/USD:1h:short": false,
@@ -726,7 +726,7 @@
   "AXS/USD:1h:long": false,
   "AXS/USD:1h:short": false,
   "Q/USD:1h:long": false,
-  "Q/USD:1h:short": false,
+  "Q/USD:1h:short": true,
   "NMR/USD:1h:long": false,
   "NMR/USD:1h:short": false,
   "SN64/USD:1h:long": false,
@@ -782,7 +782,7 @@
   "MASK/USD:1h:long": false,
   "MASK/USD:1h:short": false,
   "INIT/USD:1h:long": false,
-  "INIT/USD:1h:short": false,
+  "INIT/USD:1h:short": true,
   "UP/USD:1h:long": false,
   "UP/USD:1h:short": false
 }
