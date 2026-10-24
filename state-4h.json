@@ -708,7 +708,7 @@
   "TREAD/USD:4h:long": false,
   "TREAD/USD:4h:short": false,
   "Q/USD:4h:long": false,
-  "Q/USD:4h:short": false,
+  "Q/USD:4h:short": true,
   "NMR/USD:4h:long": false,
   "NMR/USD:4h:short": false,
   "SN64/USD:4h:long": false,
@@ -764,5 +764,7 @@
   "ARKM/USD:4h:long": false,
   "ARKM/USD:4h:short": false,
   "MASK/USD:4h:long": false,
-  "MASK/USD:4h:short": false
+  "MASK/USD:4h:short": false,
+  "INIT/USD:4h:long": false,
+  "INIT/USD:4h:short": false
 }
