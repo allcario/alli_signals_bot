@@ -252,7 +252,7 @@
   "PYUSD/USD:1d:long": false,
   "PYUSD/USD:1d:short": false,
   "OP/USD:1d:long": false,
-  "OP/USD:1d:short": false,
+  "OP/USD:1d:short": true,
   "ASSET/USD:1d:long": false,
   "ASSET/USD:1d:short": true,
   "RIZE/USD:1d:long": false,
