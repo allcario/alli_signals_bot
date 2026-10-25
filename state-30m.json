@@ -175,7 +175,7 @@
   "ATOM/USD:30m:short": false,
   "LUNC/USD:30m:long": false,
   "LUNC/USD:30m:short": false,
-  "BILL/USD:30m:long": true,
+  "BILL/USD:30m:long": false,
   "BILL/USD:30m:short": false,
   "EURC/USD:30m:long": false,
   "EURC/USD:30m:short": false,
@@ -556,7 +556,7 @@
   "TREE/USD:30m:long": false,
   "TREE/USD:30m:short": false,
   "LIGHTER/USD:30m:long": false,
-  "LIGHTER/USD:30m:short": true,
+  "LIGHTER/USD:30m:short": false,
   "MET/USD:30m:long": false,
   "MET/USD:30m:short": false,
   "GRT/USD:30m:long": false,
@@ -791,6 +791,6 @@
   "IN/USD:30m:short": false,
   "ORDER/USD:30m:long": false,
   "ORDER/USD:30m:short": false,
-  "MEZO/USD:30m:long": true,
+  "MEZO/USD:30m:long": false,
   "MEZO/USD:30m:short": false
 }
