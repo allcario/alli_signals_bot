@@ -106,7 +106,7 @@
   "CRV/USD:1h:long": false,
   "CRV/USD:1h:short": false,
   "USELESS/USD:1h:long": false,
-  "USELESS/USD:1h:short": false,
+  "USELESS/USD:1h:short": true,
   "FLOKI/USD:1h:long": false,
   "FLOKI/USD:1h:short": false,
   "LUNC/USD:1h:long": false,
@@ -345,7 +345,7 @@
   "SAND/USD:1h:short": false,
   "ZEUS/USD:1h:long": false,
   "ZEUS/USD:1h:short": false,
-  "BABY/USD:1h:long": true,
+  "BABY/USD:1h:long": false,
   "BABY/USD:1h:short": false,
   "AVA/USD:1h:long": false,
   "AVA/USD:1h:short": false,
@@ -790,7 +790,7 @@
   "ORDER/USD:1h:long": false,
   "ORDER/USD:1h:short": false,
   "MEZO/USD:1h:long": false,
-  "MEZO/USD:1h:short": true,
+  "MEZO/USD:1h:short": false,
   "RLS/USD:1h:long": false,
   "RLS/USD:1h:short": false
 }
