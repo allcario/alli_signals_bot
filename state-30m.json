@@ -51,7 +51,7 @@
   "LTC/USD:30m:short": false,
   "SHIB/USD:30m:long": false,
   "SHIB/USD:30m:short": false,
-  "PEPE/USD:30m:long": false,
+  "PEPE/USD:30m:long": true,
   "PEPE/USD:30m:short": false,
   "ESPORTS/USD:30m:long": false,
   "ESPORTS/USD:30m:short": false,
@@ -203,7 +203,7 @@
   "MON/USD:30m:short": false,
   "PROS/USD:30m:long": true,
   "PROS/USD:30m:short": false,
-  "AI/USD:30m:long": false,
+  "AI/USD:30m:long": true,
   "AI/USD:30m:short": false,
   "NANO/USD:30m:long": false,
   "NANO/USD:30m:short": false,
@@ -793,6 +793,6 @@
   "ORDER/USD:30m:short": false,
   "MEZO/USD:30m:long": false,
   "MEZO/USD:30m:short": false,
-  "RLS/USD:30m:long": true,
+  "RLS/USD:30m:long": false,
   "RLS/USD:30m:short": false
 }
