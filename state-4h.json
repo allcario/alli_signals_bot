@@ -107,7 +107,7 @@
   "PAXG/USD:4h:short": false,
   "FLOKI/USD:4h:long": false,
   "FLOKI/USD:4h:short": false,
-  "MORPHO/USD:4h:long": true,
+  "MORPHO/USD:4h:long": false,
   "MORPHO/USD:4h:short": false,
   "LUNC/USD:4h:long": false,
   "LUNC/USD:4h:short": false,
@@ -681,7 +681,7 @@
   "CPOOL/USD:4h:short": false,
   "AIN/USD:4h:long": true,
   "AIN/USD:4h:short": false,
-  "SENT/USD:4h:long": true,
+  "SENT/USD:4h:long": false,
   "SENT/USD:4h:short": false,
   "GENIUS/USD:4h:long": false,
   "GENIUS/USD:4h:short": false,
@@ -743,7 +743,7 @@
   "IP/USD:4h:short": false,
   "OSMO/USD:4h:long": false,
   "OSMO/USD:4h:short": false,
-  "CT/USD:4h:long": false,
+  "CT/USD:4h:long": true,
   "CT/USD:4h:short": false,
   "AZTEC/USD:4h:long": false,
   "AZTEC/USD:4h:short": false,
@@ -778,5 +778,7 @@
   "RLS/USD:4h:long": false,
   "RLS/USD:4h:short": false,
   "OUSD/USD:4h:long": false,
-  "OUSD/USD:4h:short": false
+  "OUSD/USD:4h:short": false,
+  "VELO/USD:4h:long": false,
+  "VELO/USD:4h:short": false
 }
