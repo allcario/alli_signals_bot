@@ -66,7 +66,7 @@
   "ONDO/USD:1h:long": false,
   "ONDO/USD:1h:short": false,
   "AAVE/USD:1h:long": false,
-  "AAVE/USD:1h:short": false,
+  "AAVE/USD:1h:short": true,
   "WLD/USD:1h:long": false,
   "WLD/USD:1h:short": false,
   "ICP/USD:1h:long": false,
@@ -98,7 +98,7 @@
   "KAS/USD:1h:long": false,
   "KAS/USD:1h:short": false,
   "BNB/USD:1h:long": false,
-  "BNB/USD:1h:short": true,
+  "BNB/USD:1h:short": false,
   "NIGHT/USD:1h:long": false,
   "NIGHT/USD:1h:short": false,
   "TON/USD:1h:long": false,
@@ -792,7 +792,7 @@
   "MEZO/USD:1h:long": false,
   "MEZO/USD:1h:short": false,
   "RLS/USD:1h:long": false,
-  "RLS/USD:1h:short": true,
+  "RLS/USD:1h:short": false,
   "OUSD/USD:1h:long": false,
   "OUSD/USD:1h:short": false
 }
