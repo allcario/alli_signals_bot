@@ -331,7 +331,7 @@
   "CFX/USD:1h:short": false,
   "RLC/USD:1h:long": false,
   "RLC/USD:1h:short": false,
-  "ICNT/USD:1h:long": false,
+  "ICNT/USD:1h:long": true,
   "ICNT/USD:1h:short": false,
   "AUSD/USD:1h:long": false,
   "AUSD/USD:1h:short": false,
