@@ -780,5 +780,7 @@
   "OUSD/USD:4h:long": false,
   "OUSD/USD:4h:short": false,
   "VELO/USD:4h:long": false,
-  "VELO/USD:4h:short": false
+  "VELO/USD:4h:short": false,
+  "PARTI/USD:4h:long": false,
+  "PARTI/USD:4h:short": false
 }
