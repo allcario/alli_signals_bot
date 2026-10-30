@@ -1,5 +1,5 @@
 {
-  "USDT/USD:30m:long": true,
+  "USDT/USD:30m:long": false,
   "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
