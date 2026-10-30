@@ -492,7 +492,7 @@
   "TRUST/USD:1h:long": false,
   "TRUST/USD:1h:short": false,
   "KNTQ/USD:1h:long": false,
-  "KNTQ/USD:1h:short": false,
+  "KNTQ/USD:1h:short": true,
   "AVNT/USD:1h:long": false,
   "AVNT/USD:1h:short": false,
   "VSN/USD:1h:long": false,
