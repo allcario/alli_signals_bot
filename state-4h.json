@@ -591,7 +591,7 @@
   "TAC/USD:4h:short": false,
   "VET/USD:4h:long": false,
   "VET/USD:4h:short": false,
-  "BEAM/USD:4h:long": true,
+  "BEAM/USD:4h:long": false,
   "BEAM/USD:4h:short": false,
   "RUNE/USD:4h:long": false,
   "RUNE/USD:4h:short": false,
@@ -782,5 +782,7 @@
   "VELO/USD:4h:long": false,
   "VELO/USD:4h:short": false,
   "PARTI/USD:4h:long": false,
-  "PARTI/USD:4h:short": false
+  "PARTI/USD:4h:short": false,
+  "SOFID/USD:4h:long": false,
+  "SOFID/USD:4h:short": false
 }
