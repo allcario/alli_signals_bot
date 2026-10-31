@@ -70,7 +70,7 @@
   "PENGU/USD:4h:long": false,
   "PENGU/USD:4h:short": false,
   "INJ/USD:4h:long": false,
-  "INJ/USD:4h:short": true,
+  "INJ/USD:4h:short": false,
   "RE/USD:4h:long": false,
   "RE/USD:4h:short": false,
   "NEAR/USD:4h:long": false,
