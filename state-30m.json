@@ -133,9 +133,9 @@
   "XCN/USD:30m:short": false,
   "GWEI/USD:30m:long": false,
   "GWEI/USD:30m:short": false,
-  "USELESS/USD:30m:long": true,
+  "USELESS/USD:30m:long": false,
   "USELESS/USD:30m:short": false,
-  "BNB/USD:30m:long": false,
+  "BNB/USD:30m:long": true,
   "BNB/USD:30m:short": false,
   "JTO/USD:30m:long": false,
   "JTO/USD:30m:short": false,
@@ -802,5 +802,7 @@
   "PARTI/USD:30m:long": false,
   "PARTI/USD:30m:short": false,
   "SOFID/USD:30m:long": false,
-  "SOFID/USD:30m:short": false
+  "SOFID/USD:30m:short": false,
+  "ME/USD:30m:long": false,
+  "ME/USD:30m:short": false
 }
