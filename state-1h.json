@@ -478,7 +478,7 @@
   "HOLO/USD:1h:long": false,
   "HOLO/USD:1h:short": false,
   "APR/USD:1h:long": false,
-  "APR/USD:1h:short": false,
+  "APR/USD:1h:short": true,
   "RARE/USD:1h:long": false,
   "RARE/USD:1h:short": false,
   "SCRT/USD:1h:long": false,
