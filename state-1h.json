@@ -705,7 +705,7 @@
   "DRIFT/USD:1h:short": false,
   "G/USD:1h:long": false,
   "G/USD:1h:short": false,
-  "TREAD/USD:1h:long": false,
+  "TREAD/USD:1h:long": true,
   "TREAD/USD:1h:short": false,
   "W/USD:1h:long": false,
   "W/USD:1h:short": false,
