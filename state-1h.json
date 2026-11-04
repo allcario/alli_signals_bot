@@ -50,7 +50,7 @@
   "GBP/USD:1h:long": false,
   "GBP/USD:1h:short": false,
   "VVV/USD:1h:long": false,
-  "VVV/USD:1h:short": false,
+  "VVV/USD:1h:short": true,
   "ZAMA/USD:1h:long": false,
   "ZAMA/USD:1h:short": false,
   "XLM/USD:1h:long": false,
@@ -258,7 +258,7 @@
   "XAUT/USD:1h:long": false,
   "XAUT/USD:1h:short": false,
   "ZRO/USD:1h:long": false,
-  "ZRO/USD:1h:short": false,
+  "ZRO/USD:1h:short": true,
   "ARB/USD:1h:long": false,
   "ARB/USD:1h:short": false,
   "COMP/USD:1h:long": true,
@@ -804,5 +804,7 @@
   "ME/USD:1h:long": false,
   "ME/USD:1h:short": false,
   "EUROP/USD:1h:long": false,
-  "EUROP/USD:1h:short": false
+  "EUROP/USD:1h:short": false,
+  "CLANKER/USD:1h:long": false,
+  "CLANKER/USD:1h:short": false
 }
