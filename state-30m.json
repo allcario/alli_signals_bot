@@ -740,7 +740,7 @@
   "WOJAK/USD:30m:long": false,
   "WOJAK/USD:30m:short": false,
   "RLUSD/USD:30m:long": false,
-  "RLUSD/USD:30m:short": true,
+  "RLUSD/USD:30m:short": false,
   "GTC/USD:30m:long": false,
   "GTC/USD:30m:short": false,
   "ATH/USD:30m:long": false,
