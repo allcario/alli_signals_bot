@@ -136,7 +136,7 @@
   "USELESS/USD:30m:long": false,
   "USELESS/USD:30m:short": false,
   "BNB/USD:30m:long": false,
-  "BNB/USD:30m:short": true,
+  "BNB/USD:30m:short": false,
   "JTO/USD:30m:long": false,
   "JTO/USD:30m:short": false,
   "SEI/USD:30m:long": false,
