@@ -14,7 +14,7 @@
   "XRP/USD:1h:long": false,
   "XRP/USD:1h:short": false,
   "ESPORTS/USD:1h:long": false,
-  "ESPORTS/USD:1h:short": true,
+  "ESPORTS/USD:1h:short": false,
   "HYPE/USD:1h:long": false,
   "HYPE/USD:1h:short": false,
   "SHIB/USD:1h:long": false,
@@ -302,7 +302,7 @@
   "LMWR/USD:1h:long": false,
   "LMWR/USD:1h:short": false,
   "UAI/USD:1h:long": false,
-  "UAI/USD:1h:short": true,
+  "UAI/USD:1h:short": false,
   "MANTRA/USD:1h:long": false,
   "MANTRA/USD:1h:short": false,
   "PLUME/USD:1h:long": false,
@@ -806,5 +806,5 @@
   "EUROP/USD:1h:long": false,
   "EUROP/USD:1h:short": false,
   "CLANKER/USD:1h:long": false,
-  "CLANKER/USD:1h:short": false
+  "CLANKER/USD:1h:short": true
 }
