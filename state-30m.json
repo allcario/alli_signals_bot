@@ -807,7 +807,7 @@
   "ME/USD:30m:short": false,
   "EUROP/USD:30m:long": false,
   "EUROP/USD:30m:short": false,
-  "CLANKER/USD:30m:long": false,
+  "CLANKER/USD:30m:long": true,
   "CLANKER/USD:30m:short": false,
   "CCD/USD:30m:long": true,
   "CCD/USD:30m:short": false,
