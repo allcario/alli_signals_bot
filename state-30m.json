@@ -300,7 +300,7 @@
   "WMTX/USD:30m:long": false,
   "WMTX/USD:30m:short": false,
   "JASMY/USD:30m:long": false,
-  "JASMY/USD:30m:short": false,
+  "JASMY/USD:30m:short": true,
   "PTB/USD:30m:long": false,
   "PTB/USD:30m:short": false,
   "ZEUS/USD:30m:long": false,
