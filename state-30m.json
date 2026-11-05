@@ -32,7 +32,7 @@
   "TAO/USD:30m:long": false,
   "TAO/USD:30m:short": false,
   "DOGE/USD:30m:long": false,
-  "DOGE/USD:30m:short": false,
+  "DOGE/USD:30m:short": true,
   "GBP/USD:30m:long": false,
   "GBP/USD:30m:short": false,
   "PUMP/USD:30m:long": false,
