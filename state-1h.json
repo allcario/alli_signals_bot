@@ -165,7 +165,7 @@
   "ZBCN/USD:1h:short": false,
   "CVX/USD:1h:long": false,
   "CVX/USD:1h:short": false,
-  "AKT/USD:1h:long": false,
+  "AKT/USD:1h:long": true,
   "AKT/USD:1h:short": false,
   "B2/USD:1h:long": false,
   "B2/USD:1h:short": false,
