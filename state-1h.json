@@ -726,7 +726,7 @@
   "AXS/USD:1h:long": false,
   "AXS/USD:1h:short": false,
   "Q/USD:1h:long": false,
-  "Q/USD:1h:short": true,
+  "Q/USD:1h:short": false,
   "NMR/USD:1h:long": false,
   "NMR/USD:1h:short": false,
   "SN64/USD:1h:long": false,
