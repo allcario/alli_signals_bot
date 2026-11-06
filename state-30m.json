@@ -1,5 +1,5 @@
 {
-  "USDT/USD:30m:long": false,
+  "USDT/USD:30m:long": true,
   "USDT/USD:30m:short": false,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
@@ -64,7 +64,7 @@
   "DASH/USD:30m:long": false,
   "DASH/USD:30m:short": false,
   "USDG/USD:30m:long": false,
-  "USDG/USD:30m:short": true,
+  "USDG/USD:30m:short": false,
   "PLAY/USD:30m:long": false,
   "PLAY/USD:30m:short": false,
   "FET/USD:30m:long": false,
@@ -476,7 +476,7 @@
   "ZK/USD:30m:long": false,
   "ZK/USD:30m:short": false,
   "BAT/USD:30m:long": false,
-  "BAT/USD:30m:short": true,
+  "BAT/USD:30m:short": false,
   "2Z/USD:30m:long": false,
   "2Z/USD:30m:short": false,
   "TRUST/USD:30m:long": false,
@@ -812,5 +812,7 @@
   "CCD/USD:30m:long": false,
   "CCD/USD:30m:short": false,
   "KOR/USD:30m:long": false,
-  "KOR/USD:30m:short": true
+  "KOR/USD:30m:short": true,
+  "TEL/USD:30m:long": false,
+  "TEL/USD:30m:short": false
 }
