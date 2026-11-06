@@ -811,6 +811,6 @@
   "CLANKER/USD:30m:short": false,
   "CCD/USD:30m:long": true,
   "CCD/USD:30m:short": false,
-  "KOR/USD:30m:long": false,
+  "KOR/USD:30m:long": true,
   "KOR/USD:30m:short": false
 }
