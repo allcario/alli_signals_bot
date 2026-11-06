@@ -750,7 +750,7 @@
   "A/USD:4h:long": false,
   "A/USD:4h:short": false,
   "ZCHF/USD:4h:long": false,
-  "ZCHF/USD:4h:short": false,
+  "ZCHF/USD:4h:short": true,
   "ALTHEA/USD:4h:long": false,
   "ALTHEA/USD:4h:short": false,
   "ALIGN/USD:4h:long": false,
@@ -790,5 +790,7 @@
   "EUROP/USD:4h:long": false,
   "EUROP/USD:4h:short": false,
   "CLANKER/USD:4h:long": false,
-  "CLANKER/USD:4h:short": false
+  "CLANKER/USD:4h:short": false,
+  "TEL/USD:4h:long": false,
+  "TEL/USD:4h:short": false
 }
