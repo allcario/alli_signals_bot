@@ -52,7 +52,7 @@
   "VVV/USD:1h:long": false,
   "VVV/USD:1h:short": false,
   "ZAMA/USD:1h:long": false,
-  "ZAMA/USD:1h:short": true,
+  "ZAMA/USD:1h:short": false,
   "XLM/USD:1h:long": false,
   "XLM/USD:1h:short": false,
   "GWEI/USD:1h:long": false,
