@@ -34,7 +34,7 @@
   "DOGE/USD:30m:long": false,
   "DOGE/USD:30m:short": false,
   "GBP/USD:30m:long": false,
-  "GBP/USD:30m:short": false,
+  "GBP/USD:30m:short": true,
   "PUMP/USD:30m:long": false,
   "PUMP/USD:30m:short": false,
   "LINK/USD:30m:long": false,
@@ -820,5 +820,7 @@
   "CYBER/USD:30m:long": false,
   "CYBER/USD:30m:short": false,
   "DEGEN/USD:30m:long": false,
-  "DEGEN/USD:30m:short": false
+  "DEGEN/USD:30m:short": false,
+  "ACT/USD:30m:long": false,
+  "ACT/USD:30m:short": false
 }
