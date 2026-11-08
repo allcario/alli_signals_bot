@@ -73,7 +73,7 @@
   "ZAMA/USD:30m:short": false,
   "UNI/USD:30m:long": false,
   "UNI/USD:30m:short": false,
-  "BCH/USD:30m:long": true,
+  "BCH/USD:30m:long": false,
   "BCH/USD:30m:short": false,
   "ALGO/USD:30m:long": false,
   "ALGO/USD:30m:short": false,
