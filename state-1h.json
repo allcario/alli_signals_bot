@@ -498,7 +498,7 @@
   "VSN/USD:1h:long": true,
   "VSN/USD:1h:short": false,
   "ETHFI/USD:1h:long": false,
-  "ETHFI/USD:1h:short": false,
+  "ETHFI/USD:1h:short": true,
   "RED/USD:1h:long": false,
   "RED/USD:1h:short": false,
   "FIS/USD:1h:long": false,
