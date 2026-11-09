@@ -58,7 +58,7 @@
   "GWEI/USD:1h:long": false,
   "GWEI/USD:1h:short": false,
   "TRX/USD:1h:long": false,
-  "TRX/USD:1h:short": false,
+  "TRX/USD:1h:short": true,
   "RE/USD:1h:long": false,
   "RE/USD:1h:short": false,
   "LINK/USD:1h:long": false,
