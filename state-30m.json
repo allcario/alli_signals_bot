@@ -784,7 +784,7 @@
   "MASK/USD:30m:long": false,
   "MASK/USD:30m:short": false,
   "INIT/USD:30m:long": false,
-  "INIT/USD:30m:short": true,
+  "INIT/USD:30m:short": false,
   "UP/USD:30m:long": false,
   "UP/USD:30m:short": false,
   "IN/USD:30m:long": false,
