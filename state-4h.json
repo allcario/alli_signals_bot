@@ -1,5 +1,5 @@
 {
-  "USDT/USD:4h:long": true,
+  "USDT/USD:4h:long": false,
   "USDT/USD:4h:short": false,
   "BTC/USD:4h:long": false,
   "BTC/USD:4h:short": false,
@@ -304,7 +304,7 @@
   "XMN/USD:4h:long": false,
   "XMN/USD:4h:short": false,
   "SYRUP/USD:4h:long": false,
-  "SYRUP/USD:4h:short": false,
+  "SYRUP/USD:4h:short": true,
   "QCAD/USD:4h:long": false,
   "QCAD/USD:4h:short": false,
   "FORTH/USD:4h:long": true,
