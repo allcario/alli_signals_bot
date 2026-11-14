@@ -102,7 +102,7 @@
   "NIGHT/USD:1h:long": false,
   "NIGHT/USD:1h:short": false,
   "TON/USD:1h:long": false,
-  "TON/USD:1h:short": false,
+  "TON/USD:1h:short": true,
   "CRV/USD:1h:long": false,
   "CRV/USD:1h:short": false,
   "USELESS/USD:1h:long": false,
@@ -254,7 +254,7 @@
   "DOT/USD:1h:long": false,
   "DOT/USD:1h:short": false,
   "TIA/USD:1h:long": false,
-  "TIA/USD:1h:short": false,
+  "TIA/USD:1h:short": true,
   "XAUT/USD:1h:long": false,
   "XAUT/USD:1h:short": false,
   "ZRO/USD:1h:long": false,
@@ -822,5 +822,7 @@
   "ACT/USD:1h:long": false,
   "ACT/USD:1h:short": false,
   "STABLE/USD:1h:long": false,
-  "STABLE/USD:1h:short": false
+  "STABLE/USD:1h:short": false,
+  "IMX/USD:1h:long": false,
+  "IMX/USD:1h:short": true
 }
