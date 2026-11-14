@@ -254,7 +254,7 @@
   "DOT/USD:1h:long": false,
   "DOT/USD:1h:short": false,
   "TIA/USD:1h:long": false,
-  "TIA/USD:1h:short": true,
+  "TIA/USD:1h:short": false,
   "XAUT/USD:1h:long": false,
   "XAUT/USD:1h:short": false,
   "ZRO/USD:1h:long": false,
