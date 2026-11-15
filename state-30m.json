@@ -67,7 +67,7 @@
   "USDG/USD:30m:short": false,
   "PLAY/USD:30m:long": false,
   "PLAY/USD:30m:short": false,
-  "FET/USD:30m:long": false,
+  "FET/USD:30m:long": true,
   "FET/USD:30m:short": false,
   "ZAMA/USD:30m:long": false,
   "ZAMA/USD:30m:short": false,
