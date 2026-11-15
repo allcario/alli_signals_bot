@@ -97,7 +97,7 @@
   "XAUT/USD:30m:short": false,
   "LCAP/USD:30m:long": false,
   "LCAP/USD:30m:short": false,
-  "JUP/USD:30m:long": true,
+  "JUP/USD:30m:long": false,
   "JUP/USD:30m:short": false,
   "SYN/USD:30m:long": false,
   "SYN/USD:30m:short": false,
