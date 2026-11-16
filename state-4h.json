@@ -141,7 +141,7 @@
   "BRL1/USD:4h:short": false,
   "KAITO/USD:4h:long": false,
   "KAITO/USD:4h:short": false,
-  "EVAA/USD:4h:long": true,
+  "EVAA/USD:4h:long": false,
   "EVAA/USD:4h:short": false,
   "ENA/USD:4h:long": false,
   "ENA/USD:4h:short": false,
@@ -804,5 +804,7 @@
   "IMX/USD:4h:long": false,
   "IMX/USD:4h:short": true,
   "VINE/USD:4h:long": false,
-  "VINE/USD:4h:short": false
+  "VINE/USD:4h:short": false,
+  "SPACE/USD:4h:long": true,
+  "SPACE/USD:4h:short": false
 }
