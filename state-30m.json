@@ -1,6 +1,6 @@
 {
   "USDT/USD:30m:long": false,
-  "USDT/USD:30m:short": false,
+  "USDT/USD:30m:short": true,
   "BTC/USD:30m:long": false,
   "BTC/USD:30m:short": false,
   "ETH/USD:30m:long": false,
@@ -280,7 +280,7 @@
   "FLOKI/USD:30m:long": false,
   "FLOKI/USD:30m:short": false,
   "DRV/USD:30m:long": false,
-  "DRV/USD:30m:short": true,
+  "DRV/USD:30m:short": false,
   "RIZE/USD:30m:long": false,
   "RIZE/USD:30m:short": false,
   "CFX/USD:30m:long": false,
@@ -830,5 +830,5 @@
   "PEARL/USD:30m:long": false,
   "PEARL/USD:30m:short": false,
   "VINE/USD:30m:long": false,
-  "VINE/USD:30m:short": false
+  "VINE/USD:30m:short": true
 }
