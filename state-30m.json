@@ -370,7 +370,7 @@
   "TURBO/USD:30m:long": false,
   "TURBO/USD:30m:short": false,
   "SKR/USD:30m:long": false,
-  "SKR/USD:30m:short": true,
+  "SKR/USD:30m:short": false,
   "LIT/USD:30m:long": false,
   "LIT/USD:30m:short": false,
   "GALA/USD:30m:long": false,
