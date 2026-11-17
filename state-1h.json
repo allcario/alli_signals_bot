@@ -827,10 +827,12 @@
   "IMX/USD:1h:short": true,
   "VINE/USD:1h:long": false,
   "VINE/USD:1h:short": false,
-  "PEARL/USD:1h:long": false,
+  "PEARL/USD:1h:long": true,
   "PEARL/USD:1h:short": false,
   "SPACE/USD:1h:long": false,
   "SPACE/USD:1h:short": false,
   "UMXM/USD:1h:long": false,
-  "UMXM/USD:1h:short": false
+  "UMXM/USD:1h:short": false,
+  "FIDD/USD:1h:long": false,
+  "FIDD/USD:1h:short": false
 }
