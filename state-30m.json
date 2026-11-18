@@ -386,7 +386,7 @@
   "MYX/USD:30m:long": false,
   "MYX/USD:30m:short": true,
   "WINGS/USD:30m:long": false,
-  "WINGS/USD:30m:short": true,
+  "WINGS/USD:30m:short": false,
   "ZBT/USD:30m:long": false,
   "ZBT/USD:30m:short": false,
   "CTSI/USD:30m:long": false,
