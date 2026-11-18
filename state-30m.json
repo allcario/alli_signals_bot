@@ -296,7 +296,7 @@
   "XNY/USD:30m:long": false,
   "XNY/USD:30m:short": false,
   "BRL1/USD:30m:long": false,
-  "BRL1/USD:30m:short": false,
+  "BRL1/USD:30m:short": true,
   "WMTX/USD:30m:long": true,
   "WMTX/USD:30m:short": false,
   "JASMY/USD:30m:long": false,
