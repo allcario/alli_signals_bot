@@ -142,12 +142,12 @@
   "SEI/USD:30m:long": false,
   "SEI/USD:30m:short": false,
   "RENDER/USD:30m:long": false,
-  "RENDER/USD:30m:short": false,
+  "RENDER/USD:30m:short": true,
   "ENA/USD:30m:long": false,
   "ENA/USD:30m:short": false,
   "AKT/USD:30m:long": false,
   "AKT/USD:30m:short": false,
-  "ZRO/USD:30m:long": false,
+  "ZRO/USD:30m:long": true,
   "ZRO/USD:30m:short": false,
   "LCX/USD:30m:long": false,
   "LCX/USD:30m:short": false,
@@ -173,7 +173,7 @@
   "XDC/USD:30m:short": false,
   "ATOM/USD:30m:long": false,
   "ATOM/USD:30m:short": false,
-  "LUNC/USD:30m:long": false,
+  "LUNC/USD:30m:long": true,
   "LUNC/USD:30m:short": false,
   "BILL/USD:30m:long": false,
   "BILL/USD:30m:short": false,
@@ -838,5 +838,7 @@
   "FIDD/USD:30m:long": false,
   "FIDD/USD:30m:short": false,
   "BREV/USD:30m:long": false,
-  "BREV/USD:30m:short": false
+  "BREV/USD:30m:short": false,
+  "INFI/USD:30m:long": false,
+  "INFI/USD:30m:short": false
 }
