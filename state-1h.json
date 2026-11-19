@@ -695,7 +695,7 @@
   "CPOOL/USD:1h:short": false,
   "AIN/USD:1h:long": false,
   "AIN/USD:1h:short": false,
-  "SENT/USD:1h:long": false,
+  "SENT/USD:1h:long": true,
   "SENT/USD:1h:short": false,
   "ALIGN/USD:1h:long": false,
   "ALIGN/USD:1h:short": false,
