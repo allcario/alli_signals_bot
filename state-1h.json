@@ -1,5 +1,5 @@
 {
-  "USDT/USD:1h:long": false,
+  "USDT/USD:1h:long": true,
   "USDT/USD:1h:short": false,
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
@@ -382,7 +382,7 @@
   "AI3/USD:1h:long": false,
   "AI3/USD:1h:short": false,
   "MEGA/USD:1h:long": false,
-  "MEGA/USD:1h:short": true,
+  "MEGA/USD:1h:short": false,
   "LSK/USD:1h:long": false,
   "LSK/USD:1h:short": false,
   "CASH/USD:1h:long": false,
