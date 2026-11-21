@@ -211,7 +211,7 @@
   "TRAC/USD:30m:short": false,
   "ACH/USD:30m:long": false,
   "ACH/USD:30m:short": false,
-  "ZBCN/USD:30m:long": false,
+  "ZBCN/USD:30m:long": true,
   "ZBCN/USD:30m:short": false,
   "TLM/USD:30m:long": false,
   "TLM/USD:30m:short": false,
