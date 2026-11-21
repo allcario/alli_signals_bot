@@ -337,7 +337,7 @@
   "FIGHT/USD:30m:short": false,
   "STBL/USD:30m:long": false,
   "STBL/USD:30m:short": false,
-  "PIEVERSE/USD:30m:long": false,
+  "PIEVERSE/USD:30m:long": true,
   "PIEVERSE/USD:30m:short": false,
   "BICO/USD:30m:long": false,
   "BICO/USD:30m:short": false,
