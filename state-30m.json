@@ -27,14 +27,14 @@
   "ADA/USD:30m:short": false,
   "NEAR/USD:30m:long": false,
   "NEAR/USD:30m:short": false,
-  "TRX/USD:30m:long": true,
+  "TRX/USD:30m:long": false,
   "TRX/USD:30m:short": false,
   "TAO/USD:30m:long": false,
   "TAO/USD:30m:short": false,
   "DOGE/USD:30m:long": false,
   "DOGE/USD:30m:short": false,
   "GBP/USD:30m:long": false,
-  "GBP/USD:30m:short": true,
+  "GBP/USD:30m:short": false,
   "PUMP/USD:30m:long": false,
   "PUMP/USD:30m:short": false,
   "LINK/USD:30m:long": false,
@@ -844,5 +844,7 @@
   "YB/USD:30m:long": false,
   "YB/USD:30m:short": false,
   "LINEA/USD:30m:long": false,
-  "LINEA/USD:30m:short": false
+  "LINEA/USD:30m:short": false,
+  "USTABLES/USD:30m:long": false,
+  "USTABLES/USD:30m:short": false
 }
