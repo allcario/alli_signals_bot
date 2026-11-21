@@ -321,7 +321,7 @@
   "SYRUP/USD:1h:short": false,
   "FORTH/USD:1h:long": false,
   "FORTH/USD:1h:short": false,
-  "QCAD/USD:1h:long": true,
+  "QCAD/USD:1h:long": false,
   "QCAD/USD:1h:short": false,
   "PYUSD/USD:1h:long": false,
   "PYUSD/USD:1h:short": false,
