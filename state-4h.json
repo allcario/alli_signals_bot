@@ -236,7 +236,7 @@
   "THQ/USD:4h:long": false,
   "THQ/USD:4h:short": false,
   "ATOM/USD:4h:long": false,
-  "ATOM/USD:4h:short": true,
+  "ATOM/USD:4h:short": false,
   "SXT/USD:4h:long": false,
   "SXT/USD:4h:short": false,
   "SNX/USD:4h:long": false,
@@ -820,5 +820,7 @@
   "USTABLES/USD:4h:long": false,
   "USTABLES/USD:4h:short": false,
   "USDGO/USD:4h:long": false,
-  "USDGO/USD:4h:short": false
+  "USDGO/USD:4h:short": false,
+  "CCD/USD:4h:long": false,
+  "CCD/USD:4h:short": false
 }
