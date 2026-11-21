@@ -23,7 +23,7 @@
   "AVAX/USD:1h:short": false,
   "SUI/USD:1h:long": false,
   "SUI/USD:1h:short": false,
-  "ZEC/USD:1h:long": false,
+  "ZEC/USD:1h:long": true,
   "ZEC/USD:1h:short": false,
   "ADA/USD:1h:long": false,
   "ADA/USD:1h:short": false,
