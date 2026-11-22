@@ -161,7 +161,7 @@
   "STX/USD:1h:short": false,
   "PROS/USD:1h:long": false,
   "PROS/USD:1h:short": false,
-  "ZBCN/USD:1h:long": true,
+  "ZBCN/USD:1h:long": false,
   "ZBCN/USD:1h:short": false,
   "CVX/USD:1h:long": false,
   "CVX/USD:1h:short": false,
@@ -844,5 +844,7 @@
   "USTABLES/USD:1h:long": false,
   "USTABLES/USD:1h:short": false,
   "USDGO/USD:1h:long": false,
-  "USDGO/USD:1h:short": false
+  "USDGO/USD:1h:short": false,
+  "WCT/USD:1h:long": false,
+  "WCT/USD:1h:short": false
 }
