@@ -528,7 +528,7 @@
   "SOMI/USD:1h:long": false,
   "SOMI/USD:1h:short": false,
   "AB/USD:1h:long": false,
-  "AB/USD:1h:short": true,
+  "AB/USD:1h:short": false,
   "WBTC/USD:1h:long": true,
   "WBTC/USD:1h:short": false,
   "SHAPE/USD:1h:long": false,
