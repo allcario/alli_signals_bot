@@ -483,7 +483,7 @@
   "KNTQ/USD:4h:short": false,
   "VSN/USD:4h:long": false,
   "VSN/USD:4h:short": false,
-  "ETHFI/USD:4h:long": true,
+  "ETHFI/USD:4h:long": false,
   "ETHFI/USD:4h:short": false,
   "QUID/USD:4h:long": false,
   "QUID/USD:4h:short": false,
@@ -678,7 +678,7 @@
   "CVC/USD:4h:long": false,
   "CVC/USD:4h:short": false,
   "CPOOL/USD:4h:long": false,
-  "CPOOL/USD:4h:short": false,
+  "CPOOL/USD:4h:short": true,
   "AIN/USD:4h:long": false,
   "AIN/USD:4h:short": false,
   "SENT/USD:4h:long": false,
@@ -824,5 +824,7 @@
   "CCD/USD:4h:long": false,
   "CCD/USD:4h:short": false,
   "WCT/USD:4h:long": false,
-  "WCT/USD:4h:short": false
+  "WCT/USD:4h:short": false,
+  "PEARL/USD:4h:long": false,
+  "PEARL/USD:4h:short": false
 }
