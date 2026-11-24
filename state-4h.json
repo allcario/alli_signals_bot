@@ -678,7 +678,7 @@
   "CVC/USD:4h:long": false,
   "CVC/USD:4h:short": false,
   "CPOOL/USD:4h:long": false,
-  "CPOOL/USD:4h:short": true,
+  "CPOOL/USD:4h:short": false,
   "AIN/USD:4h:long": false,
   "AIN/USD:4h:short": false,
   "SENT/USD:4h:long": false,
@@ -828,5 +828,7 @@
   "PEARL/USD:4h:long": false,
   "PEARL/USD:4h:short": false,
   "LINEA/USD:4h:long": false,
-  "LINEA/USD:4h:short": false
+  "LINEA/USD:4h:short": false,
+  "DBR/USD:4h:long": false,
+  "DBR/USD:4h:short": false
 }
