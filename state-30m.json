@@ -94,7 +94,7 @@
   "CC/USD:30m:long": false,
   "CC/USD:30m:short": false,
   "XAUT/USD:30m:long": false,
-  "XAUT/USD:30m:short": false,
+  "XAUT/USD:30m:short": true,
   "LCAP/USD:30m:long": false,
   "LCAP/USD:30m:short": false,
   "JUP/USD:30m:long": false,
@@ -570,7 +570,7 @@
   "PONKE/USD:30m:long": false,
   "PONKE/USD:30m:short": false,
   "ALIGN/USD:30m:long": false,
-  "ALIGN/USD:30m:short": true,
+  "ALIGN/USD:30m:short": false,
   "BABYSHARK/USD:30m:long": false,
   "BABYSHARK/USD:30m:short": false,
   "ENS/USD:30m:long": false,
@@ -739,7 +739,7 @@
   "SWEAT/USD:30m:short": false,
   "WOJAK/USD:30m:long": false,
   "WOJAK/USD:30m:short": false,
-  "RLUSD/USD:30m:long": false,
+  "RLUSD/USD:30m:long": true,
   "RLUSD/USD:30m:short": false,
   "GTC/USD:30m:long": false,
   "GTC/USD:30m:short": false,
@@ -828,7 +828,7 @@
   "REQ/USD:30m:long": false,
   "REQ/USD:30m:short": false,
   "PEARL/USD:30m:long": false,
-  "PEARL/USD:30m:short": true,
+  "PEARL/USD:30m:short": false,
   "VINE/USD:30m:long": false,
   "VINE/USD:30m:short": false,
   "SPACE/USD:30m:long": false,
@@ -852,5 +852,5 @@
   "WCT/USD:30m:long": false,
   "WCT/USD:30m:short": false,
   "DBR/USD:30m:long": false,
-  "DBR/USD:30m:short": true
+  "DBR/USD:30m:short": false
 }
