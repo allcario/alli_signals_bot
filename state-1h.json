@@ -181,7 +181,7 @@
   "FIL/USD:1h:short": false,
   "OXT/USD:1h:long": false,
   "OXT/USD:1h:short": false,
-  "SKY/USD:1h:long": false,
+  "SKY/USD:1h:long": true,
   "SKY/USD:1h:short": false,
   "MANA/USD:1h:long": false,
   "MANA/USD:1h:short": false,
@@ -236,7 +236,7 @@
   "RIVER/USD:1h:long": false,
   "RIVER/USD:1h:short": false,
   "ATOM/USD:1h:long": false,
-  "ATOM/USD:1h:short": true,
+  "ATOM/USD:1h:short": false,
   "STORJ/USD:1h:long": false,
   "STORJ/USD:1h:short": false,
   "GIGA/USD:1h:long": false,
@@ -318,7 +318,7 @@
   "CSPR/USD:1h:long": false,
   "CSPR/USD:1h:short": false,
   "SYRUP/USD:1h:long": false,
-  "SYRUP/USD:1h:short": true,
+  "SYRUP/USD:1h:short": false,
   "FORTH/USD:1h:long": false,
   "FORTH/USD:1h:short": false,
   "QCAD/USD:1h:long": false,
@@ -488,7 +488,7 @@
   "2Z/USD:1h:long": false,
   "2Z/USD:1h:short": false,
   "DOS/USD:1h:long": false,
-  "DOS/USD:1h:short": false,
+  "DOS/USD:1h:short": true,
   "TRUST/USD:1h:long": false,
   "TRUST/USD:1h:short": false,
   "KNTQ/USD:1h:long": false,
@@ -848,5 +848,5 @@
   "WCT/USD:1h:long": false,
   "WCT/USD:1h:short": false,
   "DBR/USD:1h:long": false,
-  "DBR/USD:1h:short": true
+  "DBR/USD:1h:short": false
 }
