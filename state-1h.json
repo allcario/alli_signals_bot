@@ -1,6 +1,6 @@
 {
   "USDT/USD:1h:long": false,
-  "USDT/USD:1h:short": true,
+  "USDT/USD:1h:short": false,
   "BTC/USD:1h:long": false,
   "BTC/USD:1h:short": false,
   "USDC/USD:1h:long": false,
