@@ -145,7 +145,7 @@
   "RENDER/USD:30m:short": false,
   "ENA/USD:30m:long": false,
   "ENA/USD:30m:short": false,
-  "AKT/USD:30m:long": true,
+  "AKT/USD:30m:long": false,
   "AKT/USD:30m:short": false,
   "ZRO/USD:30m:long": false,
   "ZRO/USD:30m:short": false,
