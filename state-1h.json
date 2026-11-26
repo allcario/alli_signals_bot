@@ -304,7 +304,7 @@
   "UAI/USD:1h:long": false,
   "UAI/USD:1h:short": false,
   "MANTRA/USD:1h:long": false,
-  "MANTRA/USD:1h:short": true,
+  "MANTRA/USD:1h:short": false,
   "PLUME/USD:1h:long": false,
   "PLUME/USD:1h:short": false,
   "FLOW/USD:1h:long": false,
