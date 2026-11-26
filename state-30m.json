@@ -158,7 +158,7 @@
   "TON/USD:30m:long": false,
   "TON/USD:30m:short": false,
   "STRK/USD:30m:long": false,
-  "STRK/USD:30m:short": true,
+  "STRK/USD:30m:short": false,
   "THQ/USD:30m:long": false,
   "THQ/USD:30m:short": false,
   "CAP/USD:30m:long": false,
@@ -180,7 +180,7 @@
   "EURC/USD:30m:long": false,
   "EURC/USD:30m:short": false,
   "POL/USD:30m:long": false,
-  "POL/USD:30m:short": false,
+  "POL/USD:30m:short": true,
   "MORPHO/USD:30m:long": false,
   "MORPHO/USD:30m:short": false,
   "RE/USD:30m:long": false,
@@ -325,7 +325,7 @@
   "KSM/USD:30m:short": false,
   "AEVO/USD:30m:long": false,
   "AEVO/USD:30m:short": false,
-  "BLESS/USD:30m:long": true,
+  "BLESS/USD:30m:long": false,
   "BLESS/USD:30m:short": false,
   "WLFI/USD:30m:long": false,
   "WLFI/USD:30m:short": false,
@@ -854,5 +854,5 @@
   "DBR/USD:30m:long": false,
   "DBR/USD:30m:short": false,
   "BIGTIME/USD:30m:long": false,
-  "BIGTIME/USD:30m:short": true
+  "BIGTIME/USD:30m:short": false
 }
