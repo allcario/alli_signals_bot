@@ -854,5 +854,5 @@
   "DBR/USD:30m:long": false,
   "DBR/USD:30m:short": false,
   "BIGTIME/USD:30m:long": false,
-  "BIGTIME/USD:30m:short": true
+  "BIGTIME/USD:30m:short": false
 }
