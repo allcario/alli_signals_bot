@@ -809,7 +809,7 @@
   "CLANKER/USD:1h:short": false,
   "CCD/USD:1h:long": false,
   "CCD/USD:1h:short": true,
-  "TEL/USD:1h:long": false,
+  "TEL/USD:1h:long": true,
   "TEL/USD:1h:short": false,
   "KOR/USD:1h:long": false,
   "KOR/USD:1h:short": false,
@@ -850,5 +850,5 @@
   "DBR/USD:1h:long": false,
   "DBR/USD:1h:short": false,
   "BIGTIME/USD:1h:long": false,
-  "BIGTIME/USD:1h:short": true
+  "BIGTIME/USD:1h:short": false
 }
