@@ -140,7 +140,7 @@
   "PENDLE/USD:1h:long": true,
   "PENDLE/USD:1h:short": false,
   "MON/USD:1h:long": false,
-  "MON/USD:1h:short": true,
+  "MON/USD:1h:short": false,
   "EVAA/USD:1h:long": false,
   "EVAA/USD:1h:short": false,
   "KAITO/USD:1h:long": false,
@@ -852,5 +852,7 @@
   "BIGTIME/USD:1h:long": false,
   "BIGTIME/USD:1h:short": false,
   "SSV/USD:1h:long": false,
-  "SSV/USD:1h:short": false
+  "SSV/USD:1h:short": false,
+  "EURCV/USD:1h:long": false,
+  "EURCV/USD:1h:short": false
 }
