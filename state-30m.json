@@ -814,7 +814,7 @@
   "KOR/USD:30m:long": false,
   "KOR/USD:30m:short": false,
   "TEL/USD:30m:long": false,
-  "TEL/USD:30m:short": false,
+  "TEL/USD:30m:short": true,
   "AUDX/USD:30m:long": false,
   "AUDX/USD:30m:short": false,
   "CYBER/USD:30m:long": false,
