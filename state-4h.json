@@ -826,7 +826,7 @@
   "WCT/USD:4h:long": false,
   "WCT/USD:4h:short": false,
   "PEARL/USD:4h:long": false,
-  "PEARL/USD:4h:short": false,
+  "PEARL/USD:4h:short": true,
   "LINEA/USD:4h:long": false,
   "LINEA/USD:4h:short": false,
   "DBR/USD:4h:long": false,
