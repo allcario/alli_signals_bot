@@ -606,7 +606,7 @@
   "BILLY/USD:30m:long": false,
   "BILLY/USD:30m:short": false,
   "HONEY/USD:30m:long": false,
-  "HONEY/USD:30m:short": false,
+  "HONEY/USD:30m:short": true,
   "TMX/USD:30m:long": false,
   "TMX/USD:30m:short": false,
   "TAC/USD:30m:long": false,
