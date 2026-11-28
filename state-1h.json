@@ -112,7 +112,7 @@
   "LUNC/USD:1h:long": false,
   "LUNC/USD:1h:short": false,
   "ALGO/USD:1h:long": false,
-  "ALGO/USD:1h:short": false,
+  "ALGO/USD:1h:short": true,
   "AUD/USD:1h:long": false,
   "AUD/USD:1h:short": false,
   "FARTCOIN/USD:1h:long": false,
